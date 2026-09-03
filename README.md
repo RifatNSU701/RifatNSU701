@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Rifat Khan</h1>
+<h1 align="center">Hi 👋, I'm  Rifat Khan</h1>
 <h3 align="center">Cyber Security Analyst</h3>
 
 <p align="left"> <a href="https://twitter.com/mrkhan24154476" target="blank"><img src="https://img.shields.io/twitter/follow/mrkhan24154476?logo=twitter&style=for-the-badge" alt="mrkhan24154476" /></a> </p>
