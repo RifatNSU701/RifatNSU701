@@ -1,0 +1,30 @@
+name: Generate profile analytics
+
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/profile-cards.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Render profile cards
+        uses: seijikohara/profile-cards-action@v0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: RifatNSU701
+          cards: overview,contributions,languages,rhythm
+          output-dir: assets/profile
+          themes: dark
+          commit: true
+          commit-message: 'chore(profile): refresh GitHub analytics [skip ci]'
