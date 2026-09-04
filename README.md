@@ -6,55 +6,38 @@
 
 **Cybersecurity · Network Security · IT Infrastructure · Systems · Automation**
 
-[**🌐 Portfolio**](https://www.rifatkhan.tech/) · [**💼 LinkedIn**](https://www.linkedin.com/in/rifatcrs/) · [**🐙 GitHub**](https://github.com/RifatNSU701) · [**✉️ Email**](mailto:corps.rifat@outlook.com) · [**🏢 Orion Tech**](https://www.linkedin.com/company/oriontechbd) · [**𝕏 X**](https://x.com/MRKhan24154476)
+[🌐 Portfolio](https://www.rifatkhan.tech/) · [💼 LinkedIn](https://www.linkedin.com/in/rifatcrs/) · [🐙 GitHub](https://github.com/RifatNSU701) · [✉️ Email](mailto:corps.rifat@outlook.com) · [🏢 Orion Tech](https://www.linkedin.com/company/oriontechbd) · [𝕏 X](https://x.com/MRKhan24154476)
 
 </div>
 
 ---
 
-<table width="100%">
-<tr>
-<td width="24%" align="center" valign="top">
+<div align="center">
 
-<img src="https://github.com/RifatNSU701.png?size=320" width="170" alt="Rifat Khan" />
-
-### `@RifatNSU701`
-
-**CEO & Founder**  
-[Orion Tech](https://www.linkedin.com/company/oriontechbd)
-
-📍 **Dhaka, Bangladesh**  
-🎓 **North South University**  
-BSc in Computer Science & Engineering
-
-**Focus**  
-`Cybersecurity` · `Network Security`  
-`IT Infrastructure` · `Systems` · `Automation`
-
-</td>
-<td width="76%" valign="top">
-
-## Welcome to my GitHub
+### ABOUT
 
 **Myself ..**
 
-### GitHub Overview
+**CEO & Founder · Orion Tech**  
+Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/overview.dark.svg" />
-  <img src="./assets/profile/overview.dark.svg" width="100%" alt="GitHub overview statistics" />
-</picture>
+</div>
 
-### Contributions
+## GitHub Overview
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/contributions.dark.svg" />
-  <img src="./assets/profile/contributions.dark.svg" width="100%" alt="GitHub contributions and streaks" />
-</picture>
+<div align="center">
 
-</td>
-</tr>
-</table>
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/overview.dark.svg" width="100%" alt="Live GitHub overview statistics" />
+
+</div>
+
+## Contributions
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/contributions.dark.svg" width="100%" alt="Live GitHub contribution activity" />
+
+</div>
 
 ## Core Technologies
 
@@ -71,11 +54,11 @@ BSc in Computer Science & Engineering
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Network Security & Infrastructure
+### 🌐 Network Security
 
 `TCP/IP` · `DNS` · `DHCP` · `Routing` · `Switching`  
 `Network Security` · `pfSense` · `Linux` · `Ubuntu`  
-`Kali Linux` · `Git` · `GitHub` · `Docker`
+`Kali Linux` · `Git` · `GitHub`
 
 </td>
 </tr>
@@ -103,20 +86,14 @@ BSc in Computer Science & Engineering
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/languages.dark.svg" />
-  <img src="./assets/profile/languages.dark.svg" width="100%" alt="Top languages" />
-</picture>
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/languages.dark.svg" width="100%" alt="Live language statistics" />
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/rhythm.dark.svg" />
-  <img src="./assets/profile/rhythm.dark.svg" width="100%" alt="Contribution rhythm" />
-</picture>
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/rhythm.dark.svg" width="100%" alt="Live contribution rhythm" />
 
 </td>
 </tr>
@@ -126,7 +103,7 @@ BSc in Computer Science & Engineering
 
 <div align="center">
 
-<img src="./assets/projects/notable-projects.svg" width="100%" alt="Notable GitHub projects with live repository metadata" />
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/projects/notable-projects.svg" width="100%" alt="Live GitHub project cards" />
 
 </div>
 
@@ -194,24 +171,16 @@ Cisco Networking Academy · 2027 · 🟡 **IN PROGRESS**
 </tr>
 </table>
 
-## Contribution Activity
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake" />
-
-</div>
-
 ## Connect
 
 <div align="center">
 
-[**🌐 Visit Portfolio**](https://www.rifatkhan.tech/) · [**💼 Connect on LinkedIn**](https://www.linkedin.com/in/rifatcrs/) · [**🏢 Orion Tech**](https://www.linkedin.com/company/oriontechbd) · [**✉️ Contact Me**](mailto:corps.rifat@outlook.com) · [**𝕏 X / Twitter**](https://x.com/MRKhan24154476)
+[**🌐 VISIT PORTFOLIO**](https://www.rifatkhan.tech/) · [**💼 CONNECT ON LINKEDIN**](https://www.linkedin.com/in/rifatcrs/) · [**🏢 ORION TECH**](https://www.linkedin.com/company/oriontechbd) · [**✉️ CONTACT ME**](mailto:corps.rifat@outlook.com) · [**𝕏 X / TWITTER**](https://x.com/MRKhan24154476)
 
-<br /><br />
+<br />
 
 **Building secure systems. Strengthening networks. Learning continuously.**
 
-<sub>Analytics and project metadata are generated from GitHub data and refreshed automatically by GitHub Actions.</sub>
+<sub>GitHub metrics, contribution data, language analytics and project metadata are generated from live GitHub data and refreshed automatically.</sub>
 
 </div>
