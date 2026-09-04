@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - 'README.md'
       - '.github/workflows/profile-cards.yml'
       - 'scripts/generate_projects.py'
 
