@@ -1,0 +1,1 @@
+Profile generation scripts. Generated analytics are committed by GitHub Actions.
