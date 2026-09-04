@@ -14,13 +14,9 @@
 
 </div>
 
-<br />
-
 <table width="100%">
 <tr>
-<td width="22%" align="center" valign="middle">
-<img src="https://github.com/RifatNSU701.png?size=320" width="150" alt="Rifat Khan" />
-</td>
+<td width="22%" align="center" valign="middle"><img src="https://github.com/RifatNSU701.png?size=320" width="150" alt="Rifat Khan" /></td>
 <td width="78%" valign="middle">
 
 ### Welcome to my GitHub
@@ -40,18 +36,16 @@
 
 <table width="100%">
 <tr>
-<td align="center"><img src="https://img.shields.io/github/repos/RifatNSU701?style=for-the-badge&label=PUBLIC%20REPOS&labelColor=0D1117&color=22C55E" alt="Public repositories" /><br /><sub>Repositories</sub></td>
-<td align="center"><img src="https://img.shields.io/github/stars/RifatNSU701?style=for-the-badge&label=TOTAL%20STARS&labelColor=0D1117&color=22C55E" alt="Total stars" /><br /><sub>Stars received</sub></td>
-<td align="center"><img src="https://img.shields.io/github/followers/RifatNSU701?style=for-the-badge&label=FOLLOWERS&labelColor=0D1117&color=06B6D4" alt="Followers" /><br /><sub>Followers</sub></td>
-<td align="center"><img src="https://img.shields.io/github/commit-activity/y/RifatNSU701?style=for-the-badge&label=YEARLY%20ACTIVITY&labelColor=0D1117&color=06B6D4" alt="Yearly activity" /><br /><sub>Commit activity</sub></td>
+<td align="center"><img src="https://img.shields.io/github/repos/RifatNSU701?style=for-the-badge&label=PUBLIC%20REPOS&labelColor=0D1117&color=22C55E" alt="Public repositories" /></td>
+<td align="center"><img src="https://img.shields.io/github/stars/RifatNSU701?style=for-the-badge&label=TOTAL%20STARS&labelColor=0D1117&color=22C55E" alt="Total stars" /></td>
+<td align="center"><img src="https://img.shields.io/github/followers/RifatNSU701?style=for-the-badge&label=FOLLOWERS&labelColor=0D1117&color=06B6D4" alt="Followers" /></td>
+<td align="center"><img src="https://img.shields.io/github/commit-activity/y/RifatNSU701?style=for-the-badge&label=YEARLY%20ACTIVITY&labelColor=0D1117&color=06B6D4" alt="Yearly activity" /></td>
 </tr>
 </table>
 
 ## Contributions
 
-<div align="center">
-<img src="https://ghchart.xqsit94.in/dark:22c55e/RifatNSU701" width="100%" alt="Rifat Khan GitHub contribution graph" />
-</div>
+<div align="center"><img src="https://ghchart.xqsit94.in/dark:22c55e/RifatNSU701" width="100%" alt="Rifat Khan GitHub contribution graph" /></div>
 
 ## Core Technologies
 
