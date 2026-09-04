@@ -4,48 +4,57 @@
 
 ### Cybersecurity Analyst | Network Security & IT Infrastructure
 
-**Cybersecurity • Network Security • IT Infrastructure • Systems • Automation**
+**Cybersecurity · Network Security · IT Infrastructure · Systems · Automation**
 
-<a href="https://www.rifatkhan.tech/"><img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logo=googlechrome&logoColor=22C55E&labelColor=0D1117" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/rifatcrs/"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0D1117" alt="LinkedIn" /></a>
-<a href="https://github.com/RifatNSU701"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117" alt="GitHub" /></a>
-<a href="mailto:corps.rifat@outlook.com"><img src="https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=microsoftoutlook&logoColor=22C55E&labelColor=0D1117" alt="Email" /></a>
-<a href="https://www.linkedin.com/company/oriontechbd"><img src="https://img.shields.io/badge/ORION%20TECH-0D1117?style=for-the-badge&logo=linkedin&logoColor=22C55E&labelColor=0D1117" alt="Orion Tech" /></a>
+[**🌐 Portfolio**](https://www.rifatkhan.tech/) · [**💼 LinkedIn**](https://www.linkedin.com/in/rifatcrs/) · [**🐙 GitHub**](https://github.com/RifatNSU701) · [**✉️ Email**](mailto:corps.rifat@outlook.com) · [**🏢 Orion Tech**](https://www.linkedin.com/company/oriontechbd) · [**𝕏 X**](https://x.com/MRKhan24154476)
 
 </div>
 
+---
+
 <table width="100%">
 <tr>
-<td width="22%" align="center" valign="middle"><img src="https://github.com/RifatNSU701.png?size=320" width="150" alt="Rifat Khan" /></td>
-<td width="78%" valign="middle">
+<td width="24%" align="center" valign="top">
 
-### Welcome to my GitHub
+<img src="https://github.com/RifatNSU701.png?size=320" width="170" alt="Rifat Khan" />
+
+### `@RifatNSU701`
+
+**CEO & Founder**  
+[Orion Tech](https://www.linkedin.com/company/oriontechbd)
+
+📍 **Dhaka, Bangladesh**  
+🎓 **North South University**  
+BSc in Computer Science & Engineering
+
+**Focus**  
+`Cybersecurity` · `Network Security`  
+`IT Infrastructure` · `Systems` · `Automation`
+
+</td>
+<td width="76%" valign="top">
+
+## Welcome to my GitHub
 
 **Myself ..**
 
-**CEO & Founder — Orion Tech** · Technology • Engineering • Research • Innovation  
-🎓 **North South University** · BSc in Computer Science & Engineering · 📍 **Dhaka, Bangladesh**
+### GitHub Overview
 
-<a href="https://www.rifatkhan.tech/">Portfolio</a> · <a href="https://www.linkedin.com/in/rifatcrs/">LinkedIn</a> · <a href="https://x.com/MRKhan24154476">X / Twitter</a> · <a href="mailto:corps.rifat@outlook.com">Email</a> · <a href="https://www.linkedin.com/company/oriontechbd">Orion Tech</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/overview.dark.svg" />
+  <img src="./assets/profile/overview.dark.svg" width="100%" alt="GitHub overview statistics" />
+</picture>
+
+### Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/contributions.dark.svg" />
+  <img src="./assets/profile/contributions.dark.svg" width="100%" alt="GitHub contributions and streaks" />
+</picture>
 
 </td>
 </tr>
 </table>
-
-## GitHub Overview
-
-<table width="100%">
-<tr>
-<td align="center"><img src="https://img.shields.io/github/repos/RifatNSU701?style=for-the-badge&label=PUBLIC%20REPOS&labelColor=0D1117&color=22C55E" alt="Public repositories" /></td>
-<td align="center"><img src="https://img.shields.io/github/stars/RifatNSU701?style=for-the-badge&label=TOTAL%20STARS&labelColor=0D1117&color=22C55E" alt="Total stars" /></td>
-<td align="center"><img src="https://img.shields.io/github/followers/RifatNSU701?style=for-the-badge&label=FOLLOWERS&labelColor=0D1117&color=06B6D4" alt="Followers" /></td>
-<td align="center"><img src="https://img.shields.io/github/commit-activity/y/RifatNSU701?style=for-the-badge&label=YEARLY%20ACTIVITY&labelColor=0D1117&color=06B6D4" alt="Yearly activity" /></td>
-</tr>
-</table>
-
-## Contributions
-
-<div align="center"><img src="https://ghchart.xqsit94.in/dark:22c55e/RifatNSU701" width="100%" alt="Rifat Khan GitHub contribution graph" /></div>
 
 ## Core Technologies
 
@@ -55,27 +64,18 @@
 
 ### 🛡️ Cybersecurity
 
-<img src="https://img.shields.io/badge/SIEM-111827?style=for-the-badge&logoColor=22C55E" alt="SIEM" />
-<img src="https://img.shields.io/badge/Wazuh-111827?style=for-the-badge&logoColor=22C55E" alt="Wazuh" />
-<img src="https://img.shields.io/badge/Splunk-111827?style=for-the-badge&logo=splunk&logoColor=22C55E" alt="Splunk" />
-<img src="https://img.shields.io/badge/Elastic-111827?style=for-the-badge&logo=elastic&logoColor=22C55E" alt="Elastic" />
-<img src="https://img.shields.io/badge/MITRE%20ATT%26CK-111827?style=for-the-badge&logoColor=22C55E" alt="MITRE ATT&CK" />
-<img src="https://img.shields.io/badge/Threat%20Detection-111827?style=for-the-badge&logoColor=22C55E" alt="Threat Detection" />
-<img src="https://img.shields.io/badge/Incident%20Response-111827?style=for-the-badge&logoColor=22C55E" alt="Incident Response" />
-<img src="https://img.shields.io/badge/Vulnerability%20Assessment-111827?style=for-the-badge&logoColor=22C55E" alt="Vulnerability Assessment" />
+`SIEM` · `Wazuh` · `Splunk` · `Elastic`  
+`Threat Detection` · `Incident Response`  
+`Vulnerability Assessment` · `MITRE ATT&CK`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Networking & Infrastructure
+### 🌐 Network Security & Infrastructure
 
-<img src="https://skillicons.dev/icons?i=linux,bash,ubuntu,git,github,docker" alt="Linux Bash Ubuntu Git GitHub Docker" />
-
-<img src="https://img.shields.io/badge/TCP%2FIP-111827?style=for-the-badge&logoColor=06B6D4" alt="TCP/IP" />
-<img src="https://img.shields.io/badge/DNS-111827?style=for-the-badge&logoColor=06B6D4" alt="DNS" />
-<img src="https://img.shields.io/badge/DHCP-111827?style=for-the-badge&logoColor=06B6D4" alt="DHCP" />
-<img src="https://img.shields.io/badge/pfSense-111827?style=for-the-badge&logoColor=06B6D4" alt="pfSense" />
-<img src="https://img.shields.io/badge/Network%20Security-111827?style=for-the-badge&logoColor=06B6D4" alt="Network Security" />
+`TCP/IP` · `DNS` · `DHCP` · `Routing` · `Switching`  
+`Network Security` · `pfSense` · `Linux` · `Ubuntu`  
+`Kali Linux` · `Git` · `GitHub` · `Docker`
 
 </td>
 </tr>
@@ -84,42 +84,51 @@
 
 ### 💻 Programming & Systems
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,js,html,css,mysql" alt="Python C C++ Java JavaScript HTML CSS MySQL" />
+`Python` · `C` · `C++` · `Java` · `JavaScript`  
+`HTML` · `CSS` · `SQL` · `MySQL` · `REST APIs`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧪 Security Lab
 
-`Kali Linux` · `Ubuntu` · `pfSense` · `Metasploitable 2` · `Wazuh` · `Splunk` · `Elastic`
+`Kali Linux` · `pfSense` · `Metasploitable 2`  
+`Wazuh` · `Splunk` · `Elastic` · `Linux`
 
 </td>
 </tr>
 </table>
 
-## GitHub Analytics
+## Languages & Analytics
 
 <table width="100%">
 <tr>
-<td width="50%" align="center"><img src="https://github-readme-stats.vercel.app/api?username=RifatNSU701&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB&icon_color=06B6D4" width="100%" alt="GitHub statistics" /></td>
-<td width="50%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RifatNSU701&layout=donut&langs_count=6&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB" width="100%" alt="Top languages" /></td>
+<td width="50%" valign="top">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/languages.dark.svg" />
+  <img src="./assets/profile/languages.dark.svg" width="100%" alt="Top languages" />
+</picture>
+
+</td>
+<td width="50%" valign="top">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/rhythm.dark.svg" />
+  <img src="./assets/profile/rhythm.dark.svg" width="100%" alt="Contribution rhythm" />
+</picture>
+
+</td>
 </tr>
 </table>
-
-<div align="center"><img src="https://streak-stats.demolab.com?user=RifatNSU701&theme=github-dark&hide_border=true&background=0D1117&ring=22C55E&fire=22C55E&currStreakLabel=22C55E&sideLabels=E5E7EB&dates=9CA3AF" alt="GitHub streak" width="65%" /></div>
 
 ## Notable Projects
 
-<table width="100%">
-<tr>
-<td width="50%"><a href="https://github.com/RifatNSU701/nersF"><img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=RifatNSU701&repo=nersF&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB&icon_color=06B6D4" alt="nersF" /></a></td>
-<td width="50%"><a href="https://github.com/RifatNSU701/Hardware_Product_Management_System"><img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=RifatNSU701&repo=Hardware_Product_Management_System&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB&icon_color=06B6D4" alt="Hardware Product Management System" /></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/RifatNSU701/ECommerce_Management"><img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=RifatNSU701&repo=ECommerce_Management&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB&icon_color=06B6D4" alt="ECommerce Management" /></a></td>
-<td width="50%"><a href="https://github.com/RifatNSU701/RifatNSU701.github.io"><img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=RifatNSU701&repo=RifatNSU701.github.io&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB&icon_color=06B6D4" alt="Portfolio website" /></a></td>
-</tr>
-</table>
+<div align="center">
+
+<img src="./assets/projects/notable-projects.svg" width="100%" alt="Notable GitHub projects with live repository metadata" />
+
+</div>
 
 ## Experience & Education
 
@@ -130,16 +139,16 @@
 ### Experience
 
 **CEO & Founder — Orion Tech**  
-Technology leadership, cybersecurity, networking, IT solutions & team management
+Technology leadership, cybersecurity, networking, IT solutions and team management.
 
 **Cybersecurity Analyst / Trainee**  
-Security monitoring, threat detection, incident response & security fundamentals
+Security monitoring, threat detection, incident response and security fundamentals.
 
 **System Engineering Intern — GAO RFID Inc.**  
-Database management, backend infrastructure support, manufacturing data, monitoring & troubleshooting
+Database management, backend infrastructure support, manufacturing data, monitoring and troubleshooting.
 
 **Data Administrator**  
-Data administration, backend support, data accuracy & information management
+Data administration, backend support, data accuracy and information management.
 
 </td>
 <td width="50%" valign="top">
@@ -149,9 +158,9 @@ Data administration, backend support, data accuracy & information management
 **North South University**  
 BSc in Computer Science & Engineering
 
-### Professional Focus
+### Professional Direction
 
-**Cybersecurity** · **Network Security** · **IT Infrastructure** · **Systems & Security Operations** · **Automation**
+Building practical expertise across **cybersecurity, network security, IT infrastructure and security operations**, with a strong interest in systems and automation.
 
 </td>
 </tr>
@@ -187,23 +196,22 @@ Cisco Networking Academy · 2027 · 🟡 **IN PROGRESS**
 
 ## Contribution Activity
 
-<div align="center"><img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake" /></div>
+<div align="center">
 
-## Activity
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake" />
 
-<div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&bg_color=0D1117&color=E5E7EB&line=22C55E&point=06B6D4&area=true&area_color=052E16&hide_border=true" width="100%" alt="GitHub activity graph" /></div>
+</div>
 
-<br />
+## Connect
 
 <div align="center">
-<a href="https://www.rifatkhan.tech/"><img src="https://img.shields.io/badge/Visit%20Portfolio-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/rifatcrs/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://www.linkedin.com/company/oriontechbd"><img src="https://img.shields.io/badge/Orion%20Tech-22C55E?style=for-the-badge&logo=linkedin&logoColor=white" alt="Orion Tech" /></a>
-<a href="mailto:corps.rifat@outlook.com"><img src="https://img.shields.io/badge/Contact%20Me-06B6D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
+
+[**🌐 Visit Portfolio**](https://www.rifatkhan.tech/) · [**💼 Connect on LinkedIn**](https://www.linkedin.com/in/rifatcrs/) · [**🏢 Orion Tech**](https://www.linkedin.com/company/oriontechbd) · [**✉️ Contact Me**](mailto:corps.rifat@outlook.com) · [**𝕏 X / Twitter**](https://x.com/MRKhan24154476)
 
 <br /><br />
 
 **Building secure systems. Strengthening networks. Learning continuously.**
 
-<sub>GitHub metrics, contribution data, analytics and repository cards update from live sources as the underlying data changes.</sub>
+<sub>Analytics and project metadata are generated from GitHub data and refreshed automatically by GitHub Actions.</sub>
+
 </div>
