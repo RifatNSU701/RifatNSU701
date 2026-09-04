@@ -7,13 +7,20 @@ OWNER = "RifatNSU701"
 OUT = "assets/projects"
 API = "https://api.github.com/users/{}/repos?per_page=100&type=owner&sort=updated".format(OWNER)
 
-req = urllib.request.Request(API, headers={"Accept": "application/vnd.github+json", "User-Agent": "RifatNSU701-profile"})
+headers = {
+    "Accept": "application/vnd.github+json",
+    "User-Agent": "RifatNSU701-profile",
+}
+if os.getenv("GITHUB_TOKEN"):
+    headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
+
+req = urllib.request.Request(API, headers=headers)
 with urllib.request.urlopen(req, timeout=30) as response:
     repos = json.load(response)
 
 repos = [
     r for r in repos
-    if not r.get("fork") and r.get("name") != OWNER and not r.get("archived")
+    if not r.get("fork") and r.get("name") != OWNER and not r.get("archived") and not r.get("private")
 ]
 repos.sort(key=lambda r: (r.get("stargazers_count", 0), r.get("forks_count", 0), r.get("updated_at", "")), reverse=True)
 repos = repos[:6]
@@ -46,13 +53,24 @@ def card(repo, index):
     forks = repo.get("forks_count", 0)
     x = 0 if index % 2 == 0 else 425
     y = 0 if index < 2 else 170 if index < 4 else 340
-    return f'''<a href="{esc(repo["html_url"])}"><rect x="{x+1}" y="{y+1}" width="418" height="158" rx="12" fill="{CARD}" stroke="{BORDER}"/><rect x="{x+1}" y="{y+1}" width="4" height="156" rx="2" fill="{GREEN if index % 2 == 0 else CYAN}"/><text x="{x+24}" y="{y+36}" fill="{GREEN}" font-family="Arial, sans-serif" font-size="19" font-weight="700">{name}</text><rect x="{x+330}" y="{y+20}" width="64" height="26" rx="13" fill="{BG}" stroke="{BORDER}"/><text x="{x+362}" y="{y+38}" text-anchor="middle" fill="{MUTED}" font-family="Arial, sans-serif" font-size="11">{lang}</text><text x="{x+24}" y="{y+72}" fill="{MUTED}" font-family="Arial, sans-serif" font-size="13">{desc}</text><text x="{x+24}" y="{y+124}" fill="{TEXT}" font-family="Arial, sans-serif" font-size="12">★ {stars:,}</text><text x="{x+105}" y="{y+124}" fill="{TEXT}" font-family="Arial, sans-serif" font-size="12">⑂ {forks:,}</text><text x="{x+330}" y="{y+124}" fill="{CYAN}" font-family="Arial, sans-serif" font-size="12">VIEW ↗</text></a>'''
+    accent = GREEN if index % 2 == 0 else CYAN
+    return f'''<a href="{esc(repo["html_url"])}"><rect x="{x+1}" y="{y+1}" width="418" height="158" rx="12" fill="{CARD}" stroke="{BORDER}"/><rect x="{x+1}" y="{y+1}" width="4" height="156" rx="2" fill="{accent}"/><text x="{x+24}" y="{y+36}" fill="{GREEN}" font-family="Arial, sans-serif" font-size="19" font-weight="700">{name}</text><rect x="{x+330}" y="{y+20}" width="64" height="26" rx="13" fill="{BG}" stroke="{BORDER}"/><text x="{x+362}" y="{y+38}" text-anchor="middle" fill="{MUTED}" font-family="Arial, sans-serif" font-size="11">{lang}</text><text x="{x+24}" y="{y+72}" fill="{MUTED}" font-family="Arial, sans-serif" font-size="13">{desc}</text><text x="{x+24}" y="{y+124}" fill="{TEXT}" font-family="Arial, sans-serif" font-size="12">★ {stars:,}</text><text x="{x+105}" y="{y+124}" fill="{TEXT}" font-family="Arial, sans-serif" font-size="12">⑂ {forks:,}</text><text x="{x+330}" y="{y+124}" fill="{CYAN}" font-family="Arial, sans-serif" font-size="12">VIEW ↗</text></a>'''
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="846" height="{max(170, ((len(repos)+1)//2)*170)}" viewBox="0 0 846 {max(170, ((len(repos)+1)//2)*170)}"><rect width="846" height="{max(170, ((len(repos)+1)//2)*170)}" fill="transparent"/>''' + "".join(card(r, i) for i, r in enumerate(repos)) + "</svg>"
+height = max(170, ((len(repos) + 1) // 2) * 170)
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="846" height="{height}" viewBox="0 0 846 {height}"><rect width="846" height="{height}" fill="transparent"/>''' + "".join(card(r, i) for i, r in enumerate(repos)) + "</svg>"
 
 with open(os.path.join(OUT, "notable-projects.svg"), "w", encoding="utf-8") as f:
     f.write(svg)
 
-# Keep a tiny machine-readable snapshot for debugging/auditing the generated project set.
 with open(os.path.join(OUT, "projects.json"), "w", encoding="utf-8") as f:
-    json.dump([{k: r.get(k) for k in ("name", "html_url", "description", "language", "stargazers_count", "forks_count")} for r in repos], f, indent=2)
+    json.dump(
+        [
+            {
+                k: r.get(k)
+                for k in ("name", "html_url", "description", "language", "stargazers_count", "forks_count")
+            }
+            for r in repos
+        ],
+        f,
+        indent=2,
+    )
