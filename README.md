@@ -18,22 +18,19 @@
 
 <table width="100%">
 <tr>
-<td width="25%" align="center">
-<img src="https://github.com/RifatNSU701.png?size=320" width="170" alt="Rifat Khan" />
+<td width="22%" align="center" valign="middle">
+<img src="https://github.com/RifatNSU701.png?size=320" width="150" alt="Rifat Khan" />
 </td>
-<td width="75%" valign="middle">
+<td width="78%" valign="middle">
 
-## Welcome to my GitHub
+### Welcome to my GitHub
 
 **Myself ..**
 
-**CEO & Founder — Orion Tech**  
-Technology • Engineering • Research • Innovation
+**CEO & Founder — Orion Tech** · Technology • Engineering • Research • Innovation  
+🎓 **North South University** · BSc in Computer Science & Engineering · 📍 **Dhaka, Bangladesh**
 
-🎓 **North South University** · BSc in Computer Science & Engineering  
-📍 **Dhaka, Bangladesh**
-
-<a href="https://www.rifatkhan.tech/">🌐 Portfolio</a> · <a href="https://www.linkedin.com/in/rifatcrs/">💼 LinkedIn</a> · <a href="https://x.com/MRKhan24154476">𝕏 X / Twitter</a> · <a href="mailto:corps.rifat@outlook.com">📧 Email</a>
+<a href="https://www.rifatkhan.tech/">Portfolio</a> · <a href="https://www.linkedin.com/in/rifatcrs/">LinkedIn</a> · <a href="https://x.com/MRKhan24154476">X / Twitter</a> · <a href="mailto:corps.rifat@outlook.com">Email</a> · <a href="https://www.linkedin.com/company/oriontechbd">Orion Tech</a>
 
 </td>
 </tr>
@@ -110,18 +107,12 @@ Technology • Engineering • Research • Innovation
 
 <table width="100%">
 <tr>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=RifatNSU701&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB&icon_color=06B6D4" width="100%" alt="GitHub statistics" />
-</td>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RifatNSU701&layout=donut&langs_count=6&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB" width="100%" alt="Top languages" />
-</td>
+<td width="50%" align="center"><img src="https://github-readme-stats.vercel.app/api?username=RifatNSU701&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB&icon_color=06B6D4" width="100%" alt="GitHub statistics" /></td>
+<td width="50%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RifatNSU701&layout=donut&langs_count=6&hide_border=true&bg_color=0D1117&title_color=22C55E&text_color=E5E7EB" width="100%" alt="Top languages" /></td>
 </tr>
 </table>
 
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=RifatNSU701&theme=github-dark&hide_border=true&background=0D1117&ring=22C55E&fire=22C55E&currStreakLabel=22C55E&sideLabels=E5E7EB&dates=9CA3AF" alt="GitHub streak" width="70%" />
-</div>
+<div align="center"><img src="https://streak-stats.demolab.com?user=RifatNSU701&theme=github-dark&hide_border=true&background=0D1117&ring=22C55E&fire=22C55E&currStreakLabel=22C55E&sideLabels=E5E7EB&dates=9CA3AF" alt="GitHub streak" width="65%" /></div>
 
 ## Notable Projects
 
@@ -166,11 +157,7 @@ BSc in Computer Science & Engineering
 
 ### Professional Focus
 
-**Cybersecurity**  
-**Network Security**  
-**IT Infrastructure**  
-**Systems & Security Operations**  
-**Automation**
+**Cybersecurity** · **Network Security** · **IT Infrastructure** · **Systems & Security Operations** · **Automation**
 
 </td>
 </tr>
@@ -206,20 +193,15 @@ Cisco Networking Academy · 2027 · 🟡 **IN PROGRESS**
 
 ## Contribution Activity
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake" />
-</div>
+<div align="center"><img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake" /></div>
 
 ## Activity
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&bg_color=0D1117&color=E5E7EB&line=22C55E&point=06B6D4&area=true&area_color=052E16&hide_border=true" width="100%" alt="GitHub activity graph" />
-</div>
+<div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&bg_color=0D1117&color=E5E7EB&line=22C55E&point=06B6D4&area=true&area_color=052E16&hide_border=true" width="100%" alt="GitHub activity graph" /></div>
 
 <br />
 
 <div align="center">
-
 <a href="https://www.rifatkhan.tech/"><img src="https://img.shields.io/badge/Visit%20Portfolio-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/rifatcrs/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://www.linkedin.com/company/oriontechbd"><img src="https://img.shields.io/badge/Orion%20Tech-22C55E?style=for-the-badge&logo=linkedin&logoColor=white" alt="Orion Tech" /></a>
@@ -229,6 +211,5 @@ Cisco Networking Academy · 2027 · 🟡 **IN PROGRESS**
 
 **Building secure systems. Strengthening networks. Learning continuously.**
 
-<sub>GitHub metrics, contribution data, analytics and repository cards are powered by live sources and update automatically as the underlying data changes.</sub>
-
+<sub>GitHub metrics, contribution data, analytics and repository cards update from live sources as the underlying data changes.</sub>
 </div>
