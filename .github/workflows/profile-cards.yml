@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/workflows/profile-cards.yml'
+      - 'scripts/generate_projects.py'
 
 permissions:
   contents: write
@@ -18,7 +19,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Render profile cards
+      - name: Generate dynamic project cards
+        run: python scripts/generate_projects.py
+
+      - name: Render profile analytics cards
         uses: seijikohara/profile-cards-action@v0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -26,5 +30,16 @@ jobs:
           cards: overview,contributions,languages,rhythm
           output-dir: assets/profile
           themes: dark
-          commit: true
-          commit-message: 'chore(profile): refresh GitHub analytics [skip ci]'
+          commit: false
+
+      - name: Commit generated profile assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile assets/projects
+          if git diff --cached --quiet; then
+            echo "No profile asset changes."
+          else
+            git commit -m "chore(profile): refresh live analytics and projects [skip ci]"
+            git push
+          fi
