@@ -8,6 +8,8 @@
 
 [🌐 Portfolio](https://www.rifatkhan.tech/) · [💼 LinkedIn](https://www.linkedin.com/in/rifatcrs/) · [🐙 GitHub](https://github.com/RifatNSU701) · [✉️ Email](mailto:corps.rifat@outlook.com) · [🏢 Orion Tech](https://www.linkedin.com/company/oriontechbd) · [𝕏 X](https://x.com/MRKhan24154476)
 
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/tech-motion.svg" width="100%" alt="Animated cybersecurity technology showcase" />
+
 </div>
 
 ---
@@ -41,24 +43,40 @@ Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
 
 ## Core Technologies
 
+<div align="center">
+
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
 ### 🛡️ Cybersecurity
 
-`SIEM` · `Wazuh` · `Splunk` · `Elastic`  
-`Threat Detection` · `Incident Response`  
-`Vulnerability Assessment` · `MITRE ATT&CK`
+<table>
+<tr>
+<td align="center"><img src="https://cdn.simpleicons.org/wazuh/22C55E" width="30" height="30" alt="Wazuh"/><br/><sub>Wazuh</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/splunk/22C55E" width="30" height="30" alt="Splunk"/><br/><sub>Splunk</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/elastic/22C55E" width="30" height="30" alt="Elastic"/><br/><sub>Elastic</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/mitreattack/22C55E" width="30" height="30" alt="MITRE ATT&CK"/><br/><sub>MITRE ATT&CK</sub></td>
+</tr>
+</table>
+
+`SIEM` · `Threat Detection` · `Incident Response` · `Vulnerability Assessment`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌐 Network Security
 
-`TCP/IP` · `DNS` · `DHCP` · `Routing` · `Switching`  
-`Network Security` · `pfSense` · `Linux` · `Ubuntu`  
-`Kali Linux` · `Git` · `GitHub`
+<table>
+<tr>
+<td align="center"><img src="https://cdn.simpleicons.org/linux/06B6D4" width="30" height="30" alt="Linux"/><br/><sub>Linux</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/ubuntumate/06B6D4" width="30" height="30" alt="Ubuntu"/><br/><sub>Ubuntu</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/pfsense/06B6D4" width="30" height="30" alt="pfSense"/><br/><sub>pfSense</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/cisco/06B6D4" width="30" height="30" alt="Cisco"/><br/><sub>Cisco</sub></td>
+</tr>
+</table>
+
+`TCP/IP` · `DNS` · `DHCP` · `Routing` · `Switching` · `Network Security`
 
 </td>
 </tr>
@@ -67,7 +85,16 @@ Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
 
 ### 💻 Programming & Systems
 
-`Python` · `C` · `C++` · `Java` · `JavaScript`  
+<table>
+<tr>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="30" height="30" alt="Python"/><br/><sub>Python</sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="30" height="30" alt="C"/><br/><sub>C</sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="30" height="30" alt="C++"/><br/><sub>C++</sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="30" height="30" alt="Java"/><br/><sub>Java</sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="30" height="30" alt="JavaScript"/><br/><sub>JavaScript</sub></td>
+</tr>
+</table>
+
 `HTML` · `CSS` · `SQL` · `MySQL` · `REST APIs`
 
 </td>
@@ -75,12 +102,22 @@ Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
 
 ### 🧪 Security Lab
 
-`Kali Linux` · `pfSense` · `Metasploitable 2`  
-`Wazuh` · `Splunk` · `Elastic` · `Linux`
+<table>
+<tr>
+<td align="center"><img src="https://cdn.simpleicons.org/kalilinux/22C55E" width="30" height="30" alt="Kali Linux"/><br/><sub>Kali Linux</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/metasploit/22C55E" width="30" height="30" alt="Metasploit"/><br/><sub>Metasploit</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/wazuh/22C55E" width="30" height="30" alt="Wazuh"/><br/><sub>Wazuh</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/wireshark/22C55E" width="30" height="30" alt="Wireshark"/><br/><sub>Wireshark</sub></td>
+</tr>
+</table>
+
+`pfSense` · `Splunk` · `Elastic` · `Metasploitable 2`
 
 </td>
 </tr>
 </table>
+
+</div>
 
 ## Languages & Analytics
 
