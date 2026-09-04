@@ -1,0 +1,1 @@
+These SVG analytics are generated automatically by GitHub Actions.
