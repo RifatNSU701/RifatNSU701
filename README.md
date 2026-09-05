@@ -18,7 +18,11 @@
 
 ### ABOUT
 
-**Myself ..**
+**Cybersecurity and networking professional with over two years of experience in data administration, backend operations, and technical systems support, establishing a solid foundation in IT infrastructure, system operations, and information management. 
+Currently concentrating on Cybersecurity, Network Security, and IT Infrastructure Security, I possess hands-on expertise in Linux systems, computer networking, vulnerability assessment, threat detection, incident response, and security monitoring. I have experience with security and monitoring technologies, including Wazuh, Splunk, and Elastic, and I am familiar with the MITRE ATT&CK framework.
+My background in data systems and system engineering provides a comprehensive understanding of how modern IT environments operate, encompassing infrastructure, networks, data, and security. This combination facilitates a practical, security-focused approach to identifying risks, fortifying systems, and enhancing organisational security.
+I have a particular interest in Security Operations Centres (SOC), Network Security, Threat Detection, Vulnerability Management, and IT Infrastructure Security.
+I am committed to continuous learning, practical application, and contributing to the development of secure, reliable, and resilient technology environments.**
 
 **CEO & Founder · Orion Tech**  
 Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
