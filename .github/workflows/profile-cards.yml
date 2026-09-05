@@ -9,6 +9,7 @@ on:
       - 'README.md'
       - '.github/workflows/profile-cards.yml'
       - 'scripts/generate_projects.py'
+      - 'scripts/generate_profile.py'
 
 permissions:
   contents: write
@@ -26,15 +27,8 @@ jobs:
       - name: Generate dynamic project cards
         run: python scripts/generate_projects.py
 
-      - name: Render profile analytics cards
-        uses: seijikohara/profile-cards-action@v0
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          username: RifatNSU701
-          cards: overview,contributions,languages,rhythm
-          output-dir: assets/profile
-          themes: dark
-          commit: false
+      - name: Generate premium live profile analytics
+        run: python scripts/generate_profile.py
 
       - name: Commit generated profile assets
         run: |
