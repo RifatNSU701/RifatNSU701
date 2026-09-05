@@ -8,7 +8,7 @@
 
 [🌐 Portfolio](https://www.rifatkhan.tech/) · [💼 LinkedIn](https://www.linkedin.com/in/rifatcrs/) · [🐙 GitHub](https://github.com/RifatNSU701) · [✉️ Email](mailto:corps.rifat@outlook.com) · [🏢 Orion Tech](https://www.linkedin.com/company/oriontechbd) · [𝕏 X](https://x.com/MRKhan24154476)
 
-<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/tech-motion.svg" width="100%" alt="Animated cybersecurity technology showcase" />
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/tech-motion.svg" width="100%" alt="Cybersecurity technology showcase" />
 
 </div>
 
@@ -18,49 +18,38 @@
 
 ### ABOUT
 
-**Cybersecurity and networking professional with over two years of experience in data administration, backend operations, and technical systems support, establishing a solid foundation in IT infrastructure, system operations, and information management. 
-Currently concentrating on Cybersecurity, Network Security, and IT Infrastructure Security, I possess hands-on expertise in Linux systems, computer networking, vulnerability assessment, threat detection, incident response, and security monitoring. I have experience with security and monitoring technologies, including Wazuh, Splunk, and Elastic, and I am familiar with the MITRE ATT&CK framework.
-My background in data systems and system engineering provides a comprehensive understanding of how modern IT environments operate, encompassing infrastructure, networks, data, and security. This combination facilitates a practical, security-focused approach to identifying risks, fortifying systems, and enhancing organisational security.
-I have a particular interest in Security Operations Centres (SOC), Network Security, Threat Detection, Vulnerability Management, and IT Infrastructure Security.
-I am committed to continuous learning, practical application, and contributing to the development of secure, reliable, and resilient technology environments.**
+**Cybersecurity and networking professional with over two years of experience in data administration, backend operations, and technical systems support. Currently concentrating on Cybersecurity, Network Security, and IT Infrastructure Security, with hands-on exposure to Linux systems, computer networking, vulnerability assessment, threat detection, incident response, and security monitoring. Experienced with Wazuh, Splunk, Elastic, and the MITRE ATT&CK framework, with a strong interest in SOC operations, Network Security, Threat Detection, Vulnerability Management, and secure infrastructure.**
 
-**CEO & Founder · Orion Tech**  
-Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
+**CEO & Founder · Orion Tech**
 
 </div>
 
 ## GitHub Overview
 
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/overview.dark.svg" width="100%" alt="Live GitHub overview statistics" />
-
 </div>
 
 ## Contributions
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/contributions.dark.svg" width="100%" alt="Live GitHub contribution activity" />
-
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/contributions.dark.svg" width="100%" alt="Live GitHub contribution calendar" />
 </div>
 
 ## Core Technologies
-
-<div align="center">
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ Cybersecurity
+### Cybersecurity
 
 <table>
 <tr>
-<td align="center"><img src="https://cdn.simpleicons.org/wazuh/22C55E" width="30" height="30" alt="Wazuh"/><br/><sub>Wazuh</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/splunk/22C55E" width="30" height="30" alt="Splunk"/><br/><sub>Splunk</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/elastic/22C55E" width="30" height="30" alt="Elastic"/><br/><sub>Elastic</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/mitreattack/22C55E" width="30" height="30" alt="MITRE ATT&CK"/><br/><sub>MITRE ATT&CK</sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/logos/wazuh.svg" width="42" height="42" alt="Wazuh"/><br/><sub><b>Wazuh</b></sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/splunk/22C55E" width="42" height="42" alt="Splunk"/><br/><sub><b>Splunk</b></sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/elastic/22C55E" width="42" height="42" alt="Elastic"/><br/><sub><b>Elastic</b></sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/logos/mitre-attack.svg" width="52" height="42" alt="MITRE ATT&CK"/><br/><sub><b>MITRE ATT&CK</b></sub></td>
 </tr>
 </table>
 
@@ -69,14 +58,14 @@ Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Network Security
+### Network Security
 
 <table>
 <tr>
-<td align="center"><img src="https://cdn.simpleicons.org/linux/06B6D4" width="30" height="30" alt="Linux"/><br/><sub>Linux</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/ubuntumate/06B6D4" width="30" height="30" alt="Ubuntu"/><br/><sub>Ubuntu</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/pfsense/06B6D4" width="30" height="30" alt="pfSense"/><br/><sub>pfSense</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/cisco/06B6D4" width="30" height="30" alt="Cisco"/><br/><sub>Cisco</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/linux/06B6D4" width="42" height="42" alt="Linux"/><br/><sub><b>Linux</b></sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/ubuntu/06B6D4" width="42" height="42" alt="Ubuntu"/><br/><sub><b>Ubuntu</b></sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/pfsense/06B6D4" width="42" height="42" alt="pfSense"/><br/><sub><b>pfSense</b></sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/cisco/06B6D4" width="42" height="42" alt="Cisco"/><br/><sub><b>Cisco</b></sub></td>
 </tr>
 </table>
 
@@ -87,15 +76,15 @@ Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
 <tr>
 <td width="50%" valign="top">
 
-### 💻 Programming & Systems
+### Programming & Systems
 
 <table>
 <tr>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="30" height="30" alt="Python"/><br/><sub>Python</sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="30" height="30" alt="C"/><br/><sub>C</sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="30" height="30" alt="C++"/><br/><sub>C++</sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="30" height="30" alt="Java"/><br/><sub>Java</sub></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="30" height="30" alt="JavaScript"/><br/><sub>JavaScript</sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="42" height="42" alt="Python"/><br/><sub><b>Python</b></sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="42" height="42" alt="C"/><br/><sub><b>C</b></sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="42" height="42" alt="C++"/><br/><sub><b>C++</b></sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="42" height="42" alt="Java"/><br/><sub><b>Java</b></sub></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="42" height="42" alt="JavaScript"/><br/><sub><b>JavaScript</b></sub></td>
 </tr>
 </table>
 
@@ -104,48 +93,39 @@ Cybersecurity · Network Security · IT Infrastructure · Systems · Automation
 </td>
 <td width="50%" valign="top">
 
-### 🧪 Security Lab
+### Security Lab
 
 <table>
 <tr>
-<td align="center"><img src="https://cdn.simpleicons.org/kalilinux/22C55E" width="30" height="30" alt="Kali Linux"/><br/><sub>Kali Linux</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/metasploit/22C55E" width="30" height="30" alt="Metasploit"/><br/><sub>Metasploit</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/wazuh/22C55E" width="30" height="30" alt="Wazuh"/><br/><sub>Wazuh</sub></td>
-<td align="center"><img src="https://cdn.simpleicons.org/wireshark/22C55E" width="30" height="30" alt="Wireshark"/><br/><sub>Wireshark</sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/kalilinux/22C55E" width="42" height="42" alt="Kali Linux"/><br/><sub><b>Kali Linux</b></sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/metasploit/22C55E" width="42" height="42" alt="Metasploit"/><br/><sub><b>Metasploit</b></sub></td>
+<td align="center"><img src="https://cdn.simpleicons.org/wireshark/22C55E" width="42" height="42" alt="Wireshark"/><br/><sub><b>Wireshark</b></sub></td>
+<td align="center"><img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/logos/wazuh.svg" width="42" height="42" alt="Wazuh"/><br/><sub><b>Wazuh</b></sub></td>
 </tr>
 </table>
 
-`pfSense` · `Splunk` · `Elastic` · `Metasploitable 2`
+`pfSense` · `Splunk` · `Elastic` · `Metasploitable 2` · `Linux`
 
 </td>
 </tr>
 </table>
-
-</div>
 
 ## Languages & Analytics
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/languages.dark.svg" width="100%" alt="Live language statistics" />
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/languages.dark.svg" width="100%" alt="Live language distribution chart" />
 
-</td>
-<td width="50%" valign="top" align="center">
+<br />
 
-<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/rhythm.dark.svg" width="100%" alt="Live contribution rhythm" />
+<img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/profile/rhythm.dark.svg" width="100%" alt="Live contribution rhythm chart" />
 
-</td>
-</tr>
-</table>
+</div>
 
 ## Notable Projects
 
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/assets/projects/notable-projects.svg" width="100%" alt="Live GitHub project cards" />
-
 </div>
 
 ## Experience & Education
