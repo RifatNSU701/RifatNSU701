@@ -3,6 +3,9 @@ name: Sync & Deploy Profile Dashboard
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "site/data/github.json"
+      - "site/data/contributions.json"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
@@ -38,25 +41,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/data/github.json site/data/contributions.json
-          if git diff --cached --quiet; then
-            echo "No cache changes."
-          else
-            git commit -m "chore: refresh GitHub profile data"
-            git push
-          fi
+          if git diff --cached --quiet; then echo "No cache changes."; else git commit -m "chore: refresh GitHub profile data"; git push; fi
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./site"
 
   deploy:
     needs: sync
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Download dashboard artifact
+        uses: actions/download-artifact@v4
         with:
-          path: "./site"
+          name: github-pages
+          path: "./_site"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
