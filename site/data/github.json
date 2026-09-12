@@ -1,6 +1,6 @@
 {
   "source": "github-actions-rest",
-  "syncedAt": "2026-09-12T08:59:37.221250+00:00",
+  "syncedAt": "2026-09-12T09:02:39.499454+00:00",
   "user": {
     "login": "RifatNSU701",
     "name": "Rifat Khan",
@@ -23,8 +23,8 @@
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
-      "updated_at": "2026-09-12T08:59:25Z",
-      "pushed_at": "2026-09-12T08:59:22Z",
+      "updated_at": "2026-09-12T09:02:29Z",
+      "pushed_at": "2026-09-12T09:02:26Z",
       "fork": false
     },
     {
@@ -113,6 +113,32 @@
     }
   ],
   "events": [
+    {
+      "id": "20893117450",
+      "type": "PushEvent",
+      "actor": {
+        "id": 122586788,
+        "login": "RifatNSU701",
+        "display_login": "RifatNSU701",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/RifatNSU701",
+        "avatar_url": "https://avatars.githubusercontent.com/u/122586788?"
+      },
+      "repo": {
+        "id": 1361638997,
+        "name": "RifatNSU701/Olympus",
+        "url": "https://api.github.com/repos/RifatNSU701/Olympus"
+      },
+      "payload": {
+        "repository_id": 1361638997,
+        "push_id": 43304705904,
+        "ref": "refs/heads/main",
+        "head": "9ac842f91d75dd64087cdd8399966385da407511",
+        "before": "8d563fbb321a44242465101e9f8e85920464ee56"
+      },
+      "public": true,
+      "created_at": "2026-09-11T12:21:38Z"
+    },
     {
       "id": "20892900188",
       "type": "PushEvent",
@@ -739,32 +765,6 @@
       },
       "public": true,
       "created_at": "2026-09-10T05:46:42Z"
-    },
-    {
-      "id": "20863799919",
-      "type": "PushEvent",
-      "actor": {
-        "id": 122586788,
-        "login": "RifatNSU701",
-        "display_login": "RifatNSU701",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/RifatNSU701",
-        "avatar_url": "https://avatars.githubusercontent.com/u/122586788?"
-      },
-      "repo": {
-        "id": 1361638997,
-        "name": "RifatNSU701/Olympus",
-        "url": "https://api.github.com/repos/RifatNSU701/Olympus"
-      },
-      "payload": {
-        "repository_id": 1361638997,
-        "push_id": 43167362787,
-        "ref": "refs/heads/main",
-        "head": "744bea53e0e661897976c778e272fa5bce7e787d",
-        "before": "92bc49fd6cab0be6d6c2e08c46c5293a4802628f"
-      },
-      "public": true,
-      "created_at": "2026-09-10T05:44:08Z"
     }
   ],
   "languages": {
