@@ -5,8 +5,6 @@
 
 **Building secure systems through knowledge, practice and innovation.**
 
-<img src="./assets/profile-dashboard.svg" alt="Rifat Khan cybersecurity GitHub profile dashboard" width="100%" />
-
 </div>
 
 ---
@@ -88,9 +86,7 @@ North South University (NSU) · Expected 2027
 
 ## 📊 GITHUB INTELLIGENCE
 
-The visual dashboard above is **generated from code** and designed specifically to reproduce the visual direction of the supplied reference: neon HUD panels, technology marks, metrics, wireframe globe, network telemetry graph, contribution-style visualization, project cards and a cybersecurity SOC aesthetic.
-
-The repository also contains an interactive HTML/CSS/JavaScript dashboard with GitHub API synchronization. GitHub Actions refreshes the cached public profile/repository/activity data.
+My profile uses a **code-first interactive dashboard** in the repository's `site/` directory. It uses HTML, CSS, JavaScript and Canvas for the visualizations, with no image assets.
 
 **Live dashboard:** [RifatNSU701.github.io/RifatNSU701](https://RifatNSU701.github.io/RifatNSU701/)
 
