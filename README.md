@@ -1,114 +1,112 @@
-# Rifat Khan // Cybersecurity Intelligence
+<div align="center">
 
-> **Cybersecurity · Network Security · Networking · IT Infrastructure · Threat Detection · Automation · Open Source**
+# RIFAT KHAN
+### CYBERSECURITY · NETWORKING · INFRASTRUCTURE · OPEN SOURCE
 
-I am **Rifat Khan (@RifatNSU701)**, a Computer Science & Engineering student at **North South University (NSU)**, focused on cybersecurity, network security, infrastructure, systems, automation, research and practical security work.
+**Building secure systems through knowledge, practice and innovation.**
 
-### ◈ Interactive Profile Dashboard
+<img src="./assets/profile-dashboard.svg" alt="Rifat Khan cybersecurity GitHub profile dashboard" width="100%" />
 
-**[Open the live Cybersecurity Intelligence Dashboard →](https://RifatNSU701.github.io/RifatNSU701/)**
-
-The dashboard is built entirely with HTML/CSS/JavaScript and code-generated Canvas visualisations. It contains no downloaded image assets.
+</div>
 
 ---
 
-## ABOUT
+## ◈ ABOUT ME
 
-I learn by building: security labs, monitoring workflows, backend systems and automation that turn theory into practical capability. My current direction combines cybersecurity with networking, infrastructure, systems and open-source work.
+I’m **Rifat Khan (@RifatNSU701)**, a Computer Science & Engineering student at **North South University (NSU)** focused on **cybersecurity, network security, infrastructure, systems, automation, research, and practical security work**.
 
-**Current focus**
+> `THINK → BUILD → SECURE → REPEAT`
 
-- Cybersecurity & network security
-- Threat detection, security monitoring & SIEM
-- Linux, infrastructure & systems
-- Automation and scripting
-- Security research and practical labs
-- Open-source contribution
+### CURRENTLY
 
-## SKILLS & TECHNOLOGIES
+- 🔐 Learning advanced networking and threat hunting
+- 🛡️ Building cybersecurity labs and security tooling
+- 🌐 Exploring cloud security and infrastructure
+- ⚙️ Working with automation, scripting and systems
+- 🧪 Practicing defensive and offensive security techniques
+- 🌱 Contributing to open-source projects
 
-**Programming:** Python · C · C++ · C# · Java · JavaScript · PHP · Rust · Perl
+---
 
-**Web & Backend:** HTML · CSS · React · REST APIs · Backend Systems
+## ⚡ SKILLS & TECHNOLOGIES
 
-**Data:** SQL · MySQL · Database Design · Data Normalization
+**Programming** · Python · C · C++ · C# · Java · JavaScript · PHP · Rust · Perl  
+**Web & Backend** · HTML · CSS · React · REST APIs · Backend Systems  
+**Data** · SQL · MySQL · Database Design · Data Normalization  
+**Cybersecurity** · Threat Detection · Incident Response · Vulnerability Assessment · SIEM · MITRE ATT&CK · Network Security · Penetration Testing  
+**Security Tooling** · Kali Linux · Wireshark · Wazuh · Splunk · Elastic · Metasploit · Nmap · Burp Suite · pfSense · Snort  
+**Networking & Systems** · Cisco · TCP/IP · Linux/Ubuntu · Windows · System Administration  
+**Development & Automation** · Git · GitHub · Python Automation · Scripting · GitHub Actions
 
-**Cybersecurity:** Threat Detection · Incident Response · Vulnerability Assessment · SIEM · MITRE ATT&CK · Network Security · Security Monitoring · Penetration Testing
+---
 
-**Security Tooling:** Kali Linux · Wireshark · Wazuh · Splunk · Elastic · Metasploit · Nmap · Burp Suite · pfSense · Snort
+## 🧭 EXPERIENCE
 
-**Networking & Systems:** Cisco · TCP/IP · Linux / Ubuntu · Windows · System Administration
-
-**Development & Automation:** Git · GitHub · Python Automation · Scripting · GitHub Actions
-
-## EXPERIENCE
-
-### System Engineering Intern — GAO RFID Inc. (New York, USA)
-**Jun 2024 — Present**
-
-System engineering work spanning database management, backend infrastructure support, manufacturing data, monitoring data accuracy, troubleshooting and technical documentation.
+### System Engineering Intern — GAO RFID Inc. · New York, USA
+**Jun 2024 — Present**  
+Database management · backend infrastructure support · manufacturing data · monitoring · troubleshooting · documentation
 
 ### Data Administrator
-**Jan 2022 — May 2024**
-
-Data administration and backend support experience focused on information quality, operational workflows and reliable technical records.
+**Jan 2022 — May 2024**  
+Data administration and backend support focused on information quality, operational workflows and reliable technical records.
 
 ### Cybersecurity Analyst Trainee
-**Training / Ongoing**
-
-Hands-on cybersecurity learning across Linux, networking, SIEM, threat detection, vulnerability assessment, incident response and MITRE ATT&CK.
+**Training / Ongoing**  
+Hands-on learning across Linux, networking, SIEM, threat detection, vulnerability assessment, incident response and MITRE ATT&CK.
 
 ### Founder & CEO — Orion Tech
-**Ongoing**
+**Ongoing**  
+Technology · Engineering · Research · Innovation, with a focus on cybersecurity, infrastructure, software and automation.
 
-Leading an IT initiative across **Technology · Engineering · Research · Innovation**, with a focus on cybersecurity, infrastructure, software and automation.
+---
 
-## EDUCATION
+## 🎓 EDUCATION
 
 **BSc in Computer Science & Engineering**  
 North South University (NSU) · Expected 2027
 
-## CERTIFICATIONS
+---
 
-- **IBM Cybersecurity Analyst Professional Certificate** — IBM / Coursera — Completed — 2022
-- **Cisco Networking Basics** — Cisco — Completed — 2026
-- **Cisco Ethical Hacker** — Cisco — Completed — 2026
+## 🏆 CERTIFICATIONS
 
-## SELECTED PROJECTS
+- **IBM Cybersecurity Analyst Professional Certificate** — IBM / Coursera
+- **Cisco Networking Basics** — Cisco
+- **Cisco Ethical Hacker** — Cisco
 
-The interactive dashboard selects projects from public GitHub repositories using a configured priority list, then falls back to repository signals such as stars, forks, recent activity and language.
+---
 
-- **nersF** — national energy/resource/security framework project
-- **Olympus** — active software project
-- **BookSelf-organiser** — multithreaded book organisation project
-- **Hardware_Product_Management_System** — hardware/product management system
+## 🚀 SELECTED PROJECTS
 
-For the authoritative, current project metadata, use the dashboard or my GitHub profile.
+| Project | Focus | Stack |
+|---|---|---|
+| **Olympus** | Secure software platform | Rust · TypeScript |
+| **nersF** | National energy/resource/security framework | TypeScript |
+| **BookSelf-organiser** | Multithreaded book organisation | C · POSIX Threads |
+| **Hardware Product Management System** | Hardware/product management | C |
 
-## GITHUB DATA
+---
 
-The dashboard synchronizes public GitHub profile/repository/activity data through GitHub's API. A GitHub Actions job refreshes the repository cache daily and can also be run manually.
+## 📊 GITHUB INTELLIGENCE
 
-Contribution history is generated from GitHub's GraphQL `contributionCalendar` using the workflow token. If a live API request fails in the browser, the dashboard uses the last Actions-generated cache.
+The visual dashboard above is **generated from code** and designed specifically to reproduce the visual direction of the supplied reference: neon HUD panels, technology marks, metrics, wireframe globe, network telemetry graph, contribution-style visualization, project cards and a cybersecurity SOC aesthetic.
 
-No credentials are stored in the frontend.
+The repository also contains an interactive HTML/CSS/JavaScript dashboard with GitHub API synchronization. GitHub Actions refreshes the cached public profile/repository/activity data.
 
-## ORION TECH
+**Live dashboard:** [RifatNSU701.github.io/RifatNSU701](https://RifatNSU701.github.io/RifatNSU701/)
+
+---
+
+## 🏢 ORION TECH
 
 **Orion Tech**  
 *Technology · Engineering · Research · Innovation*
 
-[Orion Tech on LinkedIn →](https://www.linkedin.com/company/oriontechbd)
-
-## CONNECT
-
-- **Portfolio:** https://www.rifatkhan.tech/
-- **LinkedIn:** https://www.linkedin.com/in/rifatcrs/
-- **X:** https://x.com/MRKhan24154476
-- **Email:** corps.rifat@outlook.com
-- **GitHub:** https://github.com/RifatNSU701
-
 ---
+
+## 🌐 CONNECT
+
+**Portfolio:** [rifatkhan.tech](https://www.rifatkhan.tech/) · **LinkedIn:** [rifatcrs](https://www.linkedin.com/in/rifatcrs/) · **GitHub:** [RifatNSU701](https://github.com/RifatNSU701)  
+**Email:** `corps.rifat@outlook.com`
 
 ```text
 rifat@github:~$ echo "Same Networks. Safer Tomorrows."
@@ -116,4 +114,8 @@ rifat@github:~$ echo "Same Networks. Safer Tomorrows."
 > Let's build a more secure digital world together.
 ```
 
-<sub>Code-first profile dashboard · responsive · accessible · reduced-motion aware</sub>
+<div align="center">
+
+**SECURITY FOR A BETTER TOMORROW.**
+
+</div>
