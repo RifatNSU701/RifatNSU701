@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#03080d">
+  <meta name="description" content="Rifat Khan — Cybersecurity, Networking, Infrastructure and Open Source intelligence dashboard.">
+  <title>Rifat Khan // Cybersecurity Intelligence</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="brand-mark">◈</span><span>RIFAT.KHAN</span></a>
+    <nav class="topnav" aria-label="Primary"><a href="#about">Overview</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#activity">Activity</a></nav>
+    <div class="top-status"><span class="pulse"></span><span id="syncStatus">SYNCING</span><span class="kbd">GH</span></div>
+  </header>
+  <div class="layout" id="top">
+    <aside class="sidebar panel">
+      <div class="profile-orb"><div class="orb-core"><span>RK</span></div><i></i><b></b></div>
+      <h2>Rifat Khan <span class="verified">✓</span></h2>
+      <div class="handle">@RifatNSU701</div>
+      <p class="side-role">Cybersecurity Enthusiast<br>Network Security | Threat Detection<br>Open Source | Secure Systems</p>
+      <div class="side-meta"><span>⌖</span> Bangladesh</div>
+      <a class="side-link" href="https://www.rifatkhan.tech/" target="_blank" rel="noreferrer">↗ rifatkhan.tech</a>
+      <a class="side-link" href="https://www.linkedin.com/in/rifatcrs/" target="_blank" rel="noreferrer">in linkedin / rifatcrs</a>
+      <a class="side-link" href="mailto:corps.rifat@outlook.com">@ corps.rifat@outlook.com</a>
+      <div class="side-stats"><span><strong id="sideFollowers">—</strong> followers</span><span><strong id="sideFollowing">—</strong> following</span></div>
+      <a class="github-btn" href="https://github.com/RifatNSU701" target="_blank" rel="noreferrer">VIEW GITHUB ↗</a>
+      <div class="quote">“Better systems.<br>Safer people.”</div>
+      <div class="side-nav">
+        <div class="nav-label">NAVIGATION</div>
+        <a href="#about">◉ <span>About Me</span></a><a href="#skills">◌ <span>Skills</span></a><a href="#education">⌂ <span>Education</span></a><a href="#experience">◫ <span>Experience</span></a><a href="#certifications">✓ <span>Certifications</span></a><a href="#projects">▣ <span>Projects</span></a><a href="#github-stats">◒ <span>GitHub Stats</span></a><a href="#contributions">▦ <span>Contributions</span></a><a href="#activity">◌ <span>Activity</span></a><a href="#organizations">⌘ <span>Organizations</span></a><a href="#contact">✉ <span>Contact</span></a>
+      </div>
+      <div class="currently"><div class="nav-label">CURRENTLY</div><div id="currentlyList"></div></div>
+    </aside>
+    <main class="main">
+      <section class="hero panel" id="about">
+        <div class="hero-copy">
+          <div class="eyebrow">CYBERSECURITY / NETWORK INTELLIGENCE <span>LIVE</span></div>
+          <h1>RIFAT <em>KHAN</em></h1>
+          <div class="hero-tags">CYBERSECURITY <b>|</b> NETWORKING <b>|</b> INFRASTRUCTURE <b>|</b> OPEN SOURCE</div>
+          <p id="tagline"></p>
+          <div class="hero-actions"><a class="primary" href="#projects">EXPLORE WORK ↘</a><a class="ghost" href="https://github.com/RifatNSU701" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
+          <div class="terminal mini-terminal"><div class="terminal-head"><span></span><span></span><span></span><code>rifat@github:~</code></div><div id="terminalBody" aria-live="polite"></div></div>
+        </div>
+        <div class="hero-visual"><canvas id="worldCanvas" aria-label="Animated network world visualization"></canvas><div class="visual-readout"><span>NETWORK MESH</span><strong id="nodeCount">24 NODES</strong><small>DATA FLOW NOMINAL</small></div></div>
+      </section>
+      <section class="stat-grid" id="github-stats">
+        <article class="stat panel"><div class="stat-icon">▣</div><div><span>PUBLIC REPOSITORIES</span><strong id="repoCount">—</strong><small>GITHUB</small></div></article>
+        <article class="stat panel"><div class="stat-icon star">✦</div><div><span>TOTAL STARS</span><strong id="starCount">—</strong><small>PUBLIC REPOS</small></div></article>
+        <article class="stat panel"><div class="stat-icon">⑂</div><div><span>TOTAL FORKS</span><strong id="forkCount">—</strong><small>PUBLIC REPOS</small></div></article>
+        <article class="stat panel"><div class="stat-icon user">♙</div><div><span>FOLLOWERS</span><strong id="followers">—</strong><small>LIVE PROFILE</small></div></article>
+      </section>
+      <section class="two-col">
+        <article class="panel section-card" id="about-card"><div class="section-title"><span>◉</span><h2>ABOUT ME</h2><small>PROFILE</small></div><p id="aboutText"></p><div class="check-list" id="focusList"></div></article>
+        <article class="panel section-card" id="education"><div class="section-title"><span>⌂</span><h2>EDUCATION</h2><small>ACADEMIC</small></div><div class="edu-card"><div class="edu-badge">NSU</div><div><h3 id="degree"></h3><p id="institution"></p><span id="eduStatus"></span></div></div><div class="mini-rule"></div><p class="muted">Relevant direction</p><div class="chips"><span>Networking</span><span>Operating Systems</span><span>Database Systems</span><span>Algorithms</span><span>Cybersecurity</span></div></article>
+      </section>
+      <section class="panel section-card" id="skills"><div class="section-title"><span>⌘</span><h2>SKILLS & TECHNOLOGIES</h2><small id="skillCount">—</small></div><div class="skill-tabs" id="skillTabs"></div><div class="skill-grid" id="skillGrid"></div></section>
+      <section class="panel section-card" id="network-stack"><div class="section-title"><span>◈</span><h2>CYBERSECURITY & NETWORKING STACK</h2><small>LAB TOOLING</small></div><div class="tool-grid" id="toolGrid"></div><div class="network-stage"><canvas id="networkCanvas"></canvas><div class="network-label">SIMULATED SECURITY TELEMETRY</div></div></section>
+      <section class="two-col" id="experience">
+        <article class="panel section-card"><div class="section-title"><span>◫</span><h2>EXPERIENCE</h2><small>PROFESSIONAL</small></div><div class="timeline" id="experienceList"></div></article>
+        <article class="panel section-card" id="certifications"><div class="section-title"><span>✓</span><h2>CERTIFICATIONS</h2><small>VERIFIED DATA</small></div><div id="certList"></div></article>
+      </section>
+      <section class="panel section-card" id="projects"><div class="section-title"><span>▣</span><h2>FEATURED PROJECTS</h2><small id="projectMeta">GITHUB REPOS</small></div><div class="project-grid" id="projectGrid"></div></section>
+      <section class="two-col" id="contributions">
+        <article class="panel section-card"><div class="section-title"><span>▦</span><h2>CONTRIBUTION INTELLIGENCE</h2><small id="contribTotal">—</small></div><div class="heatmap-wrap"><div class="month-row" id="months"></div><div class="heatmap"><div class="weekday"><span>Mon</span><span>Wed</span><span>Fri</span></div><div id="heatGrid"></div></div></div><div class="heat-footer"><span>LESS <i></i><i></i><i></i><i></i><i></i> MORE</span><span id="streak">STREAK —</span></div></article>
+        <article class="panel section-card" id="activity"><div class="section-title"><span>◌</span><h2>RECENT ACTIVITY</h2><small>LIVE EVENTS</small></div><div id="activityList" class="activity-list"></div></article>
+      </section>
+      <section class="two-col">
+        <article class="panel section-card" id="organizations"><div class="section-title"><span>⌘</span><h2>ORGANIZATIONS</h2><small>NETWORK</small></div><div id="orgList"></div></article>
+        <article class="panel section-card"><div class="section-title"><span>◒</span><h2>TOP LANGUAGES</h2><small>PUBLIC REPOS</small></div><div id="languageList"></div></article>
+      </section>
+      <section class="panel section-card" id="contact"><div class="section-title"><span>⌁</span><h2>CONNECT WITH ME</h2><small>OPEN CHANNELS</small></div><div class="contact-grid" id="contactGrid"></div></section>
+      <footer class="terminal-footer panel"><div class="terminal-line"><span>rifat@github:~$</span> <b>echo "Same Networks. Safer Tomorrows."</b><i></i></div><div class="footer-core"><strong>THANK YOU FOR VISITING</strong><span>Let's build a more secure digital world together.</span></div></footer>
+    </main>
+  </div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
