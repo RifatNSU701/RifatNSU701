@@ -1,0 +1,40 @@
+{
+  "name": "Rifat Khan",
+  "handle": "RifatNSU701",
+  "title": "Cybersecurity • Networking • Infrastructure • Open Source",
+  "tagline": "Building secure systems through practical security, network engineering, automation and research.",
+  "about": "Computer Science & Engineering student focused on cybersecurity, network security and infrastructure. I learn by building: security labs, monitoring workflows, backend systems and automation that turn theory into practical capability.",
+  "education": {"degree": "BSc in Computer Science & Engineering", "institution": "North South University (NSU)", "status": "Expected 2027"},
+  "focus": ["Cybersecurity","Network Security","Networking","IT Infrastructure","Threat Detection","Security Operations","Automation","Systems","Research","Open Source"],
+  "currently": ["Advanced threat hunting","Building security labs & tooling","Exploring cloud security","Contributing to open source","Growing Orion Tech"],
+  "socials": [
+    {"label":"Portfolio","value":"rifatkhan.tech","url":"https://www.rifatkhan.tech/","icon":"↗"},
+    {"label":"LinkedIn","value":"linkedin.com/in/rifatcrs","url":"https://www.linkedin.com/in/rifatcrs/","icon":"in"},
+    {"label":"X","value":"x.com/MRKhan24154476","url":"https://x.com/MRKhan24154476","icon":"𝕏"},
+    {"label":"Email","value":"corps.rifat@outlook.com","url":"mailto:corps.rifat@outlook.com","icon":"@"}
+  ],
+  "skills": [
+    ["Programming","Python","PY"],["Programming","C / C++","C++"],["Programming","C#","CS"],["Programming","Java","JA"],["Programming","JavaScript","JS"],["Programming","PHP","PHP"],["Programming","Rust","RS"],["Programming","Perl","PL"],
+    ["Web & Backend","HTML","HT"],["Web & Backend","CSS","CSS"],["Web & Backend","React","RE"],["Web & Backend","REST APIs","API"],["Web & Backend","Backend Systems","BE"],
+    ["Data","SQL / MySQL","SQL"],["Data","Database Design","DB"],["Data","Data Normalization","NF"],
+    ["Security","Threat Detection","TD"],["Security","Incident Response","IR"],["Security","Vulnerability Assessment","VA"],["Security","SIEM","SIEM"],["Security","MITRE ATT&CK","ATT&CK"],["Security","Network Security","NS"],["Security","Security Monitoring","MON"],["Security","Penetration Testing","PT"],
+    ["Security Tools","Kali Linux","KALI"],["Security Tools","Wireshark","WS"],["Security Tools","Wazuh","WZ"],["Security Tools","Splunk","SP"],["Security Tools","Elastic","EL"],["Security Tools","Metasploit","MSF"],["Security Tools","Nmap","NMAP"],["Security Tools","Burp Suite","BURP"],["Security Tools","pfSense","PFS"],["Security Tools","Snort","SN"],
+    ["Networking","Cisco","CISCO"],["Networking","TCP/IP","TCP"],["Systems","Linux / Ubuntu","LIN"],["Systems","Windows","WIN"],["Systems","System Administration","SYS"],["Development","Git","GIT"],["Development","GitHub","GH"],["Automation","Python Automation","PY"],["Automation","GitHub Actions","ACT"],["Automation","Scripting","SH"]
+  ],
+  "experience": [
+    {"role":"System Engineering Intern","company":"GAO RFID Inc. (New York, USA)","period":"Jun 2024 — Present","description":"System engineering work spanning database management, backend infrastructure support, manufacturing data, monitoring data accuracy, troubleshooting and technical documentation."},
+    {"role":"Data Administrator","company":"Company / Organization","period":"Jan 2022 — May 2024","description":"Data administration and backend support experience focused on maintaining information quality, operational workflows and reliable technical records."},
+    {"role":"Cybersecurity Analyst Trainee","company":"Professional Training","period":"Training / Ongoing","description":"Hands-on cybersecurity learning across Linux, networking, SIEM, threat detection, vulnerability assessment, incident response and MITRE ATT&CK."},
+    {"role":"Founder & CEO","company":"Orion Tech","period":"Ongoing","description":"Leading an IT initiative across technology, engineering, research and innovation, with a focus on cybersecurity, infrastructure, software and automation."}
+  ],
+  "certifications": [
+    {"name":"IBM Cybersecurity Analyst Professional Certificate","issuer":"IBM / Coursera","status":"Completed","date":"2022"},
+    {"name":"Cisco Networking Basics","issuer":"Cisco","status":"Completed","date":"2026"},
+    {"name":"Cisco Ethical Hacker","issuer":"Cisco","status":"Completed","date":"2026"}
+  ],
+  "organizations": [
+    {"name":"Orion Tech","detail":"Technology • Engineering • Research • Innovation","url":"https://www.linkedin.com/company/oriontechbd"},
+    {"name":"Personal Projects","detail":"Open Source Work","url":"https://github.com/RifatNSU701"}
+  ],
+  "featuredOverride": ["nersF","Olympus","BookSelf-organiser","Hardware_Product_Management_System"]
+}
