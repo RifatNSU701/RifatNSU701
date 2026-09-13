@@ -1,30 +1,63 @@
-// ---------- Tech matrix (real logos via simple-icons CDN, graceful fallback to text-only) ----------
+// ---------- Tech matrix (clickable real logos via Simple Icons CDN) ----------
 const ICON = (slug) => `https://cdn.simpleicons.org/${slug}/2FD9E8`;
 
-function chip(label, slug) {
+function chip(label, slug, url) {
   const img = slug
-    ? `<img src="${ICON(slug)}" alt="" onerror="this.remove()">`
-    : "";
-  return `<span class="icon-chip">${img}${label}</span>`;
+    ? `<img src="${ICON(slug)}" alt="${label} logo" onerror="this.style.display='none'">`
+    : `<span class="icon-fallback">●</span>`;
+  return `<a class="icon-chip" href="${url}" target="_blank" rel="noopener noreferrer" title="Open ${label} website">${img}<span>${label}</span><span class="external-mark">↗</span></a>`;
 }
 
 const matrices = {
-  "matrix-secops": [["Wazuh", "wazuh"], ["Splunk", "splunk"], ["Elastic Security", "elastic"]],
-  "matrix-sectest": [["Nmap", "nmap"], ["Metasploit", null], ["Burp Suite", "burpsuite"]],
-  "matrix-netsec": [["pfSense", null], ["Wireshark", "wireshark"], ["VPN", null]],
-  "matrix-net": [["Cisco IOS", "cisco"], ["Packet Tracer", "cisco"]],
-  "matrix-linux": [["Kali Linux", "kalilinux"], ["Ubuntu", "ubuntu"], ["Linux Server", "linux"], ["Bash", "gnubash"], ["SSH", "openssh"]],
-  "matrix-iot": [["MQTT", "mqtt"], ["BLE", "bluetooth"]],
-  "matrix-prog": [["Python", "python"], ["Java", "openjdk"], ["C++", "cplusplus"], ["Bash", "gnubash"]],
-  "matrix-dev": [["Git", "git"], ["GitHub", "github"], ["VirtualBox", "virtualbox"]],
+  "matrix-secops": [
+    ["Wazuh", "wazuh", "https://wazuh.com/"],
+    ["Splunk", "splunk", "https://www.splunk.com/"],
+    ["Elastic Security", "elastic", "https://www.elastic.co/security"],
+  ],
+  "matrix-sectest": [
+    ["Nmap", "nmap", "https://nmap.org/"],
+    ["Metasploit", null, "https://www.metasploit.com/"],
+    ["Burp Suite", "burpsuite", "https://portswigger.net/burp"],
+  ],
+  "matrix-netsec": [
+    ["pfSense", null, "https://www.pfsense.org/"],
+    ["Wireshark", "wireshark", "https://www.wireshark.org/"],
+    ["VPN", null, "https://www.cloudflare.com/learning/access-management/what-is-a-vpn/"],
+  ],
+  "matrix-net": [
+    ["Cisco IOS", "cisco", "https://www.cisco.com/c/en/us/products/ios-nx-os-software/index.html"],
+    ["Packet Tracer", "cisco", "https://www.netacad.com/cisco-packet-tracer"],
+  ],
+  "matrix-linux": [
+    ["Kali Linux", "kalilinux", "https://www.kali.org/"],
+    ["Ubuntu", "ubuntu", "https://ubuntu.com/"],
+    ["Linux Server", "linux", "https://www.linux.org/"],
+    ["Bash", "gnubash", "https://www.gnu.org/software/bash/"],
+    ["SSH", "openssh", "https://www.openssh.com/"],
+  ],
+  "matrix-iot": [
+    ["MQTT", "mqtt", "https://mqtt.org/"],
+    ["BLE", "bluetooth", "https://www.bluetooth.com/"],
+  ],
+  "matrix-prog": [
+    ["Python", "python", "https://www.python.org/"],
+    ["Java", "openjdk", "https://www.java.com/"],
+    ["C++", "cplusplus", "https://isocpp.org/"],
+    ["Bash", "gnubash", "https://www.gnu.org/software/bash/"],
+  ],
+  "matrix-dev": [
+    ["Git", "git", "https://git-scm.com/"],
+    ["GitHub", "github", "https://github.com/"],
+    ["VirtualBox", "virtualbox", "https://www.virtualbox.org/"],
+  ],
 };
 
 for (const [id, items] of Object.entries(matrices)) {
   const el = document.getElementById(id);
-  if (el) el.innerHTML = items.map(([label, slug]) => chip(label, slug)).join("");
+  if (el) el.innerHTML = items.map(([label, slug, url]) => chip(label, slug, url)).join("");
 }
 
-// ---------- Reveal-on-load (single orchestrated pass, staggered) ----------
+// ---------- Reveal-on-load ----------
 const revealTargets = document.querySelectorAll(".reveal");
 const io = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
