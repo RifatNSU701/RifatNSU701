@@ -11,27 +11,27 @@
 
 </div>
 
-<div align="center">
-
-## About Me
+<h2 align="center">About Me</h2>
 
 Computer Science & Engineering student focused on **cybersecurity, networking, Linux systems, and IoT security** — building toward security operations, network defense, threat detection, and security automation.
 
-## Current Mission
+<h2 align="center">Current Mission</h2>
 
+<div align="center">
 <img src="assets/mission.svg" alt="Networking → Network Security → Security Operations → Threat Detection → Security Automation" width="100%">
+</div>
 
-## Education
+<h2 align="center">Education</h2>
 
 **North South University** — B.Sc. in Computer Science & Engineering (CSE)  
 `January 2023 — December 2026`
 
-## Experience
+<h2 align="center">Experience</h2>
 
 **OrionTech** — Founder & CEO  
 `August 2026 — Present`
 
-## Cybersecurity
+<h2 align="center">Cybersecurity</h2>
 
 **Security Operations (SOC)**  
 Threat Detection · Threat Hunting · Incident Response · Security Monitoring
@@ -51,7 +51,7 @@ Nmap · Metasploit · Burp Suite
 **Threat Intelligence**  
 MITRE ATT&CK · IOC Analysis · TTP Analysis
 
-## Network Engineering
+<h2 align="center">Network Engineering</h2>
 
 **Network Engineering**  
 Routing · Switching · Network Architecture · Network Configuration
@@ -64,31 +64,33 @@ Network Troubleshooting · Network Monitoring · Network Traffic Analysis
 
 Cisco IOS · Cisco Packet Tracer · Wireshark · pfSense · VPN
 
-## Linux & Systems
+<h2 align="center">Linux & Systems</h2>
 
 Linux Administration · Linux Server Administration · System Hardening · Network Administration · Access & Permission Management · Security Automation
 
 Kali Linux · Ubuntu · Linux Server · Bash · SSH
 
-## IoT Security
+<h2 align="center">IoT Security</h2>
 
 IoT Architecture · IoT Networking · IoT Security · IoT Threat Detection · IoT Traffic Analysis · IoT Anomaly Detection
 
 MQTT · BLE
 
-## Programming & Automation
+<h2 align="center">Programming & Automation</h2>
 
 Java · C++ · Python · Bash
 
-## Security Toolchain
+<h2 align="center">Security Toolchain</h2>
 
 Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSense · Wireshark · Cisco IOS · Cisco Packet Tracer · Kali Linux · Ubuntu · Linux Server · Bash · SSH · MQTT · BLE · Git · GitHub · VirtualBox
 
-## Language Analytics
+<h2 align="center">Language Analytics</h2>
 
+<div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RifatNSU701&layout=compact&theme=dark&hide_border=true&bg_color=05080B&title_color=2FD9E8&text_color=DCE6EE" alt="Top languages">
+</div>
 
-## Certifications
+<h2 align="center">Certifications</h2>
 
 IBM Cybersecurity Analyst — `Completed`  
 Cisco Networking Basics — `Completed`  
@@ -96,7 +98,7 @@ Introduction to IoT — `Completed`
 Ethical Hacking — `Completed`  
 CCNA — `In Progress`
 
-## GitHub Intelligence
+<h2 align="center">GitHub Intelligence</h2>
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=RifatNSU701&show_icons=true&theme=dark&hide_border=true&bg_color=05080B&title_color=2FD9E8&text_color=DCE6EE&icon_color=FFB84D" alt="GitHub stats">
@@ -106,14 +108,12 @@ CCNA — `In Progress`
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&theme=react-dark&bg_color=05080B&color=2FD9E8&line=2FD9E8&point=FFB84D&hide_border=true" alt="Contribution activity graph">
 </div>
 
-## Interactive Dashboard
+<h2 align="center">Interactive Dashboard</h2>
 
 **[Open the full cybersecurity dashboard →](https://RifatNSU701.github.io/RifatNSU701/)**
 
 The dashboard contains the richer animated interface, technology matrix, Chart.js visualizations, GitHub intelligence, activity feed, and automatically synchronized repository analytics.
 
-## Connect
+<h2 align="center">Connect</h2>
 
 [GitHub](https://github.com/RifatNSU701) · [LinkedIn](https://linkedin.com/in/rifatcrs) · [Portfolio](https://rifatkhan.tech) · [X](https://x.com/MRKhan24154476)
-
-</div>
