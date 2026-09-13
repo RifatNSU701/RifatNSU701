@@ -1,0 +1,24 @@
+<svg width="920" height="90" viewBox="0 0 920 90" xmlns="http://www.w3.org/2000/svg" font-family="Courier New, monospace">
+  <rect width="920" height="90" fill="#05080B"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#7C8A97"/>
+    </marker>
+  </defs>
+  <g font-size="12.5">
+    <!-- stages -->
+    <g transform="translate(10,30)"><rect width="120" height="30" rx="15" fill="none" stroke="#1B2733"/><text x="60" y="20" fill="#DCE6EE" text-anchor="middle">Networking</text></g>
+    <line x1="132" y1="45" x2="168" y2="45" stroke="#7C8A97" marker-end="url(#arrow)"/>
+
+    <g transform="translate(170,30)"><rect width="150" height="30" rx="15" fill="none" stroke="#1B2733"/><text x="75" y="20" fill="#DCE6EE" text-anchor="middle">Network Security</text></g>
+    <line x1="322" y1="45" x2="358" y2="45" stroke="#7C8A97" marker-end="url(#arrow)"/>
+
+    <g transform="translate(360,25)"><rect width="170" height="40" rx="20" fill="none" stroke="#2FD9E8"/><text x="85" y="25" fill="#2FD9E8" text-anchor="middle">Security Operations</text></g>
+    <line x1="532" y1="45" x2="568" y2="45" stroke="#7C8A97" marker-end="url(#arrow)"/>
+
+    <g transform="translate(570,30)"><rect width="150" height="30" rx="15" fill="none" stroke="#1B2733"/><text x="75" y="20" fill="#DCE6EE" text-anchor="middle">Threat Detection</text></g>
+    <line x1="722" y1="45" x2="758" y2="45" stroke="#7C8A97" marker-end="url(#arrow)"/>
+
+    <g transform="translate(760,30)"><rect width="150" height="30" rx="15" fill="none" stroke="#1B2733"/><text x="75" y="20" fill="#DCE6EE" text-anchor="middle">Sec. Automation</text></g>
+  </g>
+</svg>

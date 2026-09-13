@@ -1,0 +1,42 @@
+name: Sync GitHub Intelligence Data
+
+on:
+  schedule:
+    # Every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and compute GitHub statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          PROFILE_USERNAME: RifatNSU701
+        run: python scripts/fetch_stats.py
+
+      - name: Regenerate animated hero banner
+        run: python scripts/generate_hero_svg.py
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/stats.json assets/hero.svg
+          git diff --staged --quiet || git commit -m "chore: sync GitHub intelligence data [skip ci]"
+          git push
