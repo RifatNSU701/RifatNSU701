@@ -1,19 +1,172 @@
 {
   "username": "RifatNSU701",
-  "generated_at": null,
-  "pending": true,
-  "profile": { "public_repos": null, "followers": null, "following": null },
-  "totals": {
-    "repositories": null,
-    "stars": null,
-    "forks": null,
-    "open_issues": null,
-    "pull_requests": null,
-    "issues_opened": null
+  "generated_at": "2026-09-13T08:21:12.653405+00:00",
+  "profile": {
+    "public_repos": 8,
+    "followers": 18,
+    "following": 4
   },
-  "languages": [],
-  "repositories": [],
-  "recent_activity": [],
+  "totals": {
+    "repositories": 8,
+    "stars": 24,
+    "forks": 1,
+    "open_issues": 2,
+    "pull_requests": 10,
+    "issues_opened": 0
+  },
+  "languages": [
+    {
+      "name": "Java",
+      "bytes": 508610,
+      "percent": 44.3
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 397902,
+      "percent": 34.66
+    },
+    {
+      "name": "C",
+      "bytes": 125612,
+      "percent": 10.94
+    },
+    {
+      "name": "Rust",
+      "bytes": 73389,
+      "percent": 6.39
+    },
+    {
+      "name": "CMake",
+      "bytes": 17681,
+      "percent": 1.54
+    },
+    {
+      "name": "Python",
+      "bytes": 17268,
+      "percent": 1.5
+    },
+    {
+      "name": "Tcl",
+      "bytes": 2881,
+      "percent": 0.25
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 1496,
+      "percent": 0.13
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 1343,
+      "percent": 0.12
+    },
+    {
+      "name": "HTML",
+      "bytes": 721,
+      "percent": 0.06
+    },
+    {
+      "name": "CSS",
+      "bytes": 664,
+      "percent": 0.06
+    },
+    {
+      "name": "Makefile",
+      "bytes": 448,
+      "percent": 0.04
+    }
+  ],
+  "repositories": [
+    {
+      "name": "RifatNSU701",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/RifatNSU701/RifatNSU701",
+      "updated_at": "2026-09-13T08:21:00Z"
+    },
+    {
+      "name": "Hardware_Product_Management_System",
+      "description": null,
+      "stars": 16,
+      "forks": 1,
+      "language": "C",
+      "url": "https://github.com/RifatNSU701/Hardware_Product_Management_System",
+      "updated_at": "2026-09-11T16:09:51Z"
+    },
+    {
+      "name": "Olympus",
+      "description": null,
+      "stars": 1,
+      "forks": 0,
+      "language": "Rust",
+      "url": "https://github.com/RifatNSU701/Olympus",
+      "updated_at": "2026-09-11T12:56:50Z"
+    },
+    {
+      "name": "A",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": null,
+      "url": "https://github.com/RifatNSU701/A",
+      "updated_at": "2026-09-11T08:35:48Z"
+    },
+    {
+      "name": "ECommerce_Management",
+      "description": null,
+      "stars": 4,
+      "forks": 0,
+      "language": "Java",
+      "url": "https://github.com/RifatNSU701/ECommerce_Management",
+      "updated_at": "2026-09-11T05:46:28Z"
+    },
+    {
+      "name": "BookSelf-organiser",
+      "description": null,
+      "stars": 2,
+      "forks": 0,
+      "language": "C",
+      "url": "https://github.com/RifatNSU701/BookSelf-organiser",
+      "updated_at": "2026-09-09T12:09:19Z"
+    },
+    {
+      "name": "nersF",
+      "description": null,
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "url": "https://github.com/RifatNSU701/nersF",
+      "updated_at": "2026-09-02T11:46:14Z"
+    },
+    {
+      "name": "RifatNSU701.github.io",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": null,
+      "url": "https://github.com/RifatNSU701/RifatNSU701.github.io",
+      "updated_at": "2025-09-16T11:29:32Z"
+    }
+  ],
+  "recent_activity": [
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-13T08:20:56Z"
+    },
+    {
+      "type": "CreateEvent",
+      "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-13T08:02:18Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/Olympus",
+      "created_at": "2026-09-11T06:46:57Z"
+    }
+  ],
   "contributions": null,
-  "notes": "This file is a placeholder. It is overwritten with real data the first time the 'Sync GitHub Intelligence Data' Action runs after this repo is pushed."
+  "notes": "contributions is null unless a GH_PAT secret with read:user scope is configured, since the default Actions token cannot read another account's contribution calendar."
 }
