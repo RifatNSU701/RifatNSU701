@@ -87,7 +87,7 @@ Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSen
 <h2 align="center">Language Analytics</h2>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RifatNSU701&layout=compact&theme=dark&hide_border=true&bg_color=05080B&title_color=2FD9E8&text_color=DCE6EE" alt="Top languages">
+<img src="assets/language-analytics.svg" alt="Premium GitHub language analytics showing language distribution and percentage ranking" width="100%">
 </div>
 
 <h2 align="center">Certifications</h2>
