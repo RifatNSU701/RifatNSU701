@@ -87,7 +87,7 @@ Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSen
 <h2 align="center">Language Analytics</h2>
 
 <div align="center">
-<img src="assets/language-analytics.svg" alt="Premium GitHub language analytics showing language distribution and percentage ranking" width="100%">
+<img src="assets/language-analytics.png" alt="Premium GitHub language analytics with bar chart, histogram, line graph, and pie chart" width="100%">
 </div>
 
 <h2 align="center">Certifications</h2>
