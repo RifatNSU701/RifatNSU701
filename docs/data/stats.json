@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-09-15T12:03:34.512055+00:00",
+  "generated_at": "2026-09-15T12:10:43.136836+00:00",
   "profile": {
     "public_repos": 7,
     "followers": 18,
@@ -18,12 +18,12 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 44.22
+      "percent": 44.23
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 34.59
+      "percent": 34.6
     },
     {
       "name": "C",
@@ -37,8 +37,8 @@
     },
     {
       "name": "Python",
-      "bytes": 19522,
-      "percent": 1.7
+      "bytes": 19115,
+      "percent": 1.66
     },
     {
       "name": "CMake",
@@ -84,7 +84,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-09-15T12:03:26Z"
+      "updated_at": "2026-09-15T12:10:37Z"
     },
     {
       "name": "Hardware_Product_Management_System",
@@ -145,6 +145,11 @@
     {
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-15T12:10:24Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-09-15T12:03:15Z"
     },
     {
@@ -186,11 +191,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-09-14T15:11:26Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-09-14T15:03:29Z"
     }
   ],
   "contributions": null,
