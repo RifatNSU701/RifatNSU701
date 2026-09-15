@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-09-15T12:10:43.136836+00:00",
+  "generated_at": "2026-09-15T14:33:39.784074+00:00",
   "profile": {
     "public_repos": 7,
     "followers": 18,
@@ -18,12 +18,12 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 44.23
+      "percent": 44.22
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 34.6
+      "percent": 34.59
     },
     {
       "name": "C",
@@ -37,8 +37,8 @@
     },
     {
       "name": "Python",
-      "bytes": 19115,
-      "percent": 1.66
+      "bytes": 19483,
+      "percent": 1.69
     },
     {
       "name": "CMake",
@@ -84,7 +84,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-09-15T12:10:37Z"
+      "updated_at": "2026-09-15T14:33:28Z"
     },
     {
       "name": "Hardware_Product_Management_System",
@@ -145,6 +145,26 @@
     {
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-15T14:33:25Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-15T12:02:17Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-15T12:01:35Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-15T12:10:46Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-09-15T12:10:24Z"
     },
     {
@@ -171,26 +191,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-09-14T15:07:05Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-09-14T15:05:53Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-09-14T15:03:53Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-09-14T15:03:41Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-09-14T15:11:26Z"
     }
   ],
   "contributions": null,

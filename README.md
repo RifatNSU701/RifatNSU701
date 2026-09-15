@@ -92,11 +92,11 @@ Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSen
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'background':'transparent','primaryTextColor':'#DCE6EE','primaryColor':'#2FD9E8','pie1':'#2FD9E8','pie2':'#8B7CFF','pie3':'#FFB84D','pie4':'#5FD38D','pie5':'#F06B8C','pie6':'#76B7FF','pie7':'#64748B','pieStrokeColor':'#05080B','pieStrokeWidth':'2','pieOuterStrokeWidth':'1','pieOuterStrokeColor':'#22343D','pieOpacity':'0.96'}}}%%
 pie showData
-    "Java" : 44.23
-    "TypeScript" : 34.60
+    "Java" : 44.22
+    "TypeScript" : 34.59
     "C" : 10.92
     "Rust" : 6.38
-    "Python" : 1.66
+    "Python" : 1.69
     "CMake" : 1.54
     "Other" : 0.66
 ```
