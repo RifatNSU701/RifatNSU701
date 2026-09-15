@@ -86,6 +86,24 @@ Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSen
 
 <h2 align="center">Language Analytics</h2>
 
+<!-- LANGUAGE_ANALYTICS_START -->
+### Language Distribution
+
+```mermaid
+pie showData
+    title GitHub Language Distribution
+    "Java" : 44.22
+    "TypeScript" : 34.60
+    "C" : 10.92
+    "Rust" : 6.38
+    "Python" : 1.68
+    "CMake" : 1.54
+    "Other" : 0.66
+```
+
+_Generated from live GitHub repository language byte data by Python._
+<!-- LANGUAGE_ANALYTICS_END -->
+
 <div align="center">
 <img src="assets/language-analytics.png" alt="Premium GitHub language analytics with bar chart, histogram, line graph, and pie chart" width="100%">
 </div>
