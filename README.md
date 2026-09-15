@@ -93,10 +93,10 @@ Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSen
 pie showData
     title GitHub Language Distribution
     "Java" : 44.22
-    "TypeScript" : 34.60
+    "TypeScript" : 34.59
     "C" : 10.92
     "Rust" : 6.38
-    "Python" : 1.68
+    "Python" : 1.70
     "CMake" : 1.54
     "Other" : 0.66
 ```
@@ -104,9 +104,6 @@ pie showData
 _Generated from live GitHub repository language byte data by Python._
 <!-- LANGUAGE_ANALYTICS_END -->
 
-<div align="center">
-<img src="assets/language-analytics.png" alt="Premium GitHub language analytics with bar chart, histogram, line graph, and pie chart" width="100%">
-</div>
 
 <h2 align="center">Certifications</h2>
 
