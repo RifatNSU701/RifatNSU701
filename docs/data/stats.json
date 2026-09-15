@@ -1,17 +1,17 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-09-15T04:35:14.298530+00:00",
+  "generated_at": "2026-09-15T10:50:43.621907+00:00",
   "profile": {
-    "public_repos": 8,
+    "public_repos": 7,
     "followers": 18,
     "following": 4
   },
   "totals": {
-    "repositories": 8,
+    "repositories": 7,
     "stars": 24,
     "forks": 1,
     "open_issues": 2,
-    "pull_requests": 10,
+    "pull_requests": 8,
     "issues_opened": 0
   },
   "languages": [
@@ -84,7 +84,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-09-15T04:35:04Z"
+      "updated_at": "2026-09-15T04:35:18Z"
     },
     {
       "name": "Hardware_Product_Management_System",
@@ -103,15 +103,6 @@
       "language": "Rust",
       "url": "https://github.com/RifatNSU701/Olympus",
       "updated_at": "2026-09-11T12:56:50Z"
-    },
-    {
-      "name": "A",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "language": null,
-      "url": "https://github.com/RifatNSU701/A",
-      "updated_at": "2026-09-11T08:35:48Z"
     },
     {
       "name": "ECommerce_Management",
@@ -151,6 +142,11 @@
     }
   ],
   "recent_activity": [
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/RifatNSU701",
+      "created_at": "2026-09-15T04:35:01Z"
+    },
     {
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
@@ -195,11 +191,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/Olympus",
       "created_at": "2026-09-11T12:23:51Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/Olympus",
-      "created_at": "2026-09-11T08:33:05Z"
     }
   ],
   "contributions": null,
