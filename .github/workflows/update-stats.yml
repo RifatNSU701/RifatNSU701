@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install image generation dependency
+        run: python -m pip install --upgrade pillow
+
       - name: Fetch and compute GitHub statistics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -30,7 +33,7 @@ jobs:
           PROFILE_USERNAME: RifatNSU701
         run: python scripts/fetch_stats.py
 
-      - name: Generate premium language analytics
+      - name: Generate premium language analytics PNG
         run: python scripts/generate_language_analytics.py
 
       - name: Regenerate animated hero banner
@@ -40,6 +43,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/stats.json assets/language-analytics.svg assets/hero.svg
+          git add docs/data/stats.json assets/language-analytics.png assets/hero.svg
           git diff --staged --quiet || git commit -m "chore: sync GitHub intelligence data [skip ci]"
           git push
