@@ -10,6 +10,10 @@ README = os.path.join(ROOT, "README.md")
 
 START = "<!-- LANGUAGE_ANALYTICS_START -->"
 END = "<!-- LANGUAGE_ANALYTICS_END -->"
+LEGACY = re.compile(
+    r'\n<div align="center">\n<img src="assets/language-analytics\.(?:png|svg)"[^>]*>\n</div>\n',
+    re.DOTALL,
+)
 
 
 def main():
@@ -53,18 +57,17 @@ def main():
     with open(README, encoding="utf-8") as handle:
         readme = handle.read()
 
-    pattern = re.compile(
-        re.escape(START) + r".*?" + re.escape(END),
-        re.DOTALL,
-    )
+    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
     if pattern.search(readme):
         readme = pattern.sub(block, readme, count=1)
     else:
         marker = '<h2 align="center">Language Analytics</h2>'
-        replacement = marker + "\n\n" + block
         if marker not in readme:
             raise RuntimeError("Language Analytics heading not found in README.md")
-        readme = readme.replace(marker, replacement, 1)
+        readme = readme.replace(marker, marker + "\n\n" + block, 1)
+
+    # Remove the old static PNG/SVG chart completely.
+    readme = LEGACY.sub("\n", readme)
 
     with open(README, "w", encoding="utf-8") as handle:
         handle.write(readme)
