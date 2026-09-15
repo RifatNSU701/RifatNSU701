@@ -90,8 +90,8 @@ Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSen
 ### Language Distribution
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'background':'transparent','primaryTextColor':'#DCE6EE','primaryColor':'#2FD9E8','pie1':'#2FD9E8','pie2':'#8B7CFF','pie3':'#FFB84D','pie4':'#5FD38D','pie5':'#F06B8C','pie6':'#76B7FF','pie7':'#64748B','pieStrokeColor':'#05080B','pieStrokeWidth':'2','pieOuterStrokeWidth':'1','pieOuterStrokeColor':'#22343D','pieOpacity':'0.96'}}}%%
 pie showData
-    title GitHub Language Distribution
     "Java" : 44.23
     "TypeScript" : 34.60
     "C" : 10.92
