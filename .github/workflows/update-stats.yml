@@ -30,7 +30,7 @@ jobs:
           PROFILE_USERNAME: RifatNSU701
         run: python scripts/fetch_stats.py
 
-      - name: Generate dynamic language pie chart
+      - name: Generate dynamic language analytics SVG
         run: python scripts/generate_language_analytics.py
 
       - name: Regenerate animated hero banner
@@ -40,6 +40,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md docs/data/stats.json assets/hero.svg
+          git add README.md docs/data/stats.json assets/hero.svg assets/language-analytics.svg
           git diff --staged --quiet || git commit -m "chore: sync GitHub intelligence data [skip ci]"
           git push
