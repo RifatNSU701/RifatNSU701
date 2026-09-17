@@ -3,6 +3,7 @@
 <desc id="desc">Dynamically generated repository language usage chart.</desc>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1118"/><stop offset="1" stop-color="#071017"/></linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect x="10" y="10" width="1180" height="630" rx="18" fill="url(#bg)" stroke="#243541"/>
 <rect x="11" y="11" width="1178" height="628" rx="17" fill="none" stroke="#13212B"/>
@@ -12,35 +13,48 @@
 <g transform="translate(1000 52)"><rect width="142" height="38" rx="19" fill="#071D1A" stroke="#126D61"/><circle cx="20" cy="19" r="7" fill="#31E6B4"/><text x="37" y="25" font-size="15" fill="#31E6B4">Live Data</text></g>
 <text x="1140" y="112" text-anchor="end" font-size="13" fill="#91A4B7">Updated every 6 hours</text>
 <text x="62" y="178" font-size="14" font-weight="600" fill="#AFC0CF">USAGE (%)</text>
+<line x1="105" y1="505.0" x2="1125" y2="505.0" stroke="#263642" stroke-dasharray="5 7"/>
+<text x="87" y="510.0" text-anchor="end" font-size="14" fill="#A9B8C7">0</text>
+<line x1="105" y1="434.0" x2="1125" y2="434.0" stroke="#263642" stroke-dasharray="5 7"/>
+<text x="87" y="439.0" text-anchor="end" font-size="14" fill="#A9B8C7">10</text>
+<line x1="105" y1="363.0" x2="1125" y2="363.0" stroke="#263642" stroke-dasharray="5 7"/>
+<text x="87" y="368.0" text-anchor="end" font-size="14" fill="#A9B8C7">20</text>
+<line x1="105" y1="292.0" x2="1125" y2="292.0" stroke="#263642" stroke-dasharray="5 7"/>
+<text x="87" y="297.0" text-anchor="end" font-size="14" fill="#A9B8C7">30</text>
+<line x1="105" y1="221.0" x2="1125" y2="221.0" stroke="#263642" stroke-dasharray="5 7"/>
+<text x="87" y="226.0" text-anchor="end" font-size="14" fill="#A9B8C7">40</text>
+<line x1="105" y1="150.0" x2="1125" y2="150.0" stroke="#263642" stroke-dasharray="5 7"/>
+<text x="87" y="155.0" text-anchor="end" font-size="14" fill="#A9B8C7">50</text>
 <line x1="105" y1="505" x2="1125" y2="505" stroke="#526A7A"/>
-<g stroke="#263642" stroke-dasharray="5 7">
-<line x1="105" y1="505" x2="1125" y2="505"/><line x1="105" y1="435" x2="1125" y2="435"/><line x1="105" y1="365" x2="1125" y2="365"/><line x1="105" y1="295" x2="1125" y2="295"/><line x1="105" y1="225" x2="1125" y2="225"/><line x1="105" y1="155" x2="1125" y2="155"/>
-</g>
-<g fill="#A9B8C7" font-size="14" text-anchor="end">
-<text x="87" y="510">0</text><text x="87" y="440">10</text><text x="87" y="370">20</text><text x="87" y="300">30</text><text x="87" y="230">40</text><text x="87" y="160">50</text>
-</g>
-<g text-anchor="middle">
-<rect x="147" y="195.7" width="110" height="309.3" rx="3" fill="#FFB52E" opacity=".96"/>
-<rect x="317" y="262.0" width="110" height="243.0" rx="3" fill="#2F9BF4" opacity=".96"/>
-<rect x="487" y="428.6" width="110" height="76.4" rx="3" fill="#8B68F5" opacity=".96"/>
-<rect x="657" y="460.7" width="110" height="44.3" rx="3" fill="#39C98A" opacity=".96"/>
-<rect x="827" y="492.6" width="110" height="12.4" rx="3" fill="#F06B78" opacity=".96"/>
-<rect x="997" y="494.2" width="110" height="10.8" rx="3" fill="#20C4E8" opacity=".96"/>
-<text x="202" y="181" font-size="18" font-weight="700" fill="#FFB52E">44.19%</text>
-<text x="372" y="248" font-size="18" font-weight="700" fill="#2F9BF4">34.57%</text>
-<text x="542" y="414" font-size="18" font-weight="700" fill="#8B68F5">10.91%</text>
-<text x="712" y="446" font-size="18" font-weight="700" fill="#39C98A">6.38%</text>
-<text x="882" y="478" font-size="18" font-weight="700" fill="#F06B78">1.77%</text>
-<text x="1052" y="480" font-size="18" font-weight="700" fill="#20C4E8">1.54%</text>
-<g font-size="20" font-weight="700">
-<text x="202" y="548" fill="#FFB52E">☕</text><text x="372" y="548" fill="#2F9BF4">TS</text><text x="542" y="548" fill="#8B68F5">C</text><text x="712" y="548" fill="#39C98A">R</text><text x="882" y="548" fill="#F06B78">Py</text><text x="1052" y="548" fill="#20C4E8">◆</text>
-</g>
-<g font-size="15" fill="#DCE6EE">
-<text x="202" y="579">Java</text><text x="372" y="579">TypeScript</text><text x="542" y="579">C</text><text x="712" y="579">Rust</text><text x="882" y="579">Python</text><text x="1052" y="579">CMake</text>
-</g>
-<rect x="1092" y="487" width="33" height="18" rx="3" fill="#9AA9BC" opacity=".96"/>
-<text x="1108" y="478" font-size="14" font-weight="700" fill="#9AA9BC">0.66%</text><text x="1108" y="548" font-size="20" font-weight="700" fill="#9AA9BC">•••</text><text x="1108" y="579" font-size="15" fill="#DCE6EE">Other</text>
-</g>
-<circle cx="63" cy="607" r="9" fill="none" stroke="#2F9BF4" stroke-width="2"/><text x="63" y="612" text-anchor="middle" font-size="12" font-weight="700" fill="#2F9BF4">i</text>
+<rect x="135.6" y="191.7" width="84.5" height="313.3" rx="3" fill="#FFB52E" opacity="0.96"/>
+<text x="177.9" y="196.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFB52E">44.12%</text>
+<text x="177.9" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#FFB52E">☕</text>
+<text x="177.9" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Java</text>
+<rect x="281.3" y="259.9" width="84.5" height="245.1" rx="3" fill="#2F9BF4" opacity="0.96"/>
+<text x="323.6" y="245.9" text-anchor="middle" font-size="18" font-weight="700" fill="#2F9BF4">34.52%</text>
+<text x="323.6" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#2F9BF4">TS</text>
+<text x="323.6" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">TypeScript</text>
+<rect x="427.0" y="427.6" width="84.5" height="77.4" rx="3" fill="#8B68F5" opacity="0.96"/>
+<text x="469.3" y="413.6" text-anchor="middle" font-size="18" font-weight="700" fill="#8B68F5">10.90%</text>
+<text x="469.3" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#8B68F5">C</text>
+<text x="469.3" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">C</text>
+<rect x="572.7" y="459.8" width="84.5" height="45.2" rx="3" fill="#39C98A" opacity="0.96"/>
+<text x="615.0" y="445.8" text-anchor="middle" font-size="18" font-weight="700" fill="#39C98A">6.37%</text>
+<text x="615.0" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#39C98A">R</text>
+<text x="615.0" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Rust</text>
+<rect x="718.5" y="491.4" width="84.5" height="13.6" rx="3" fill="#F06B78" opacity="0.96"/>
+<text x="760.7" y="477.4" text-anchor="middle" font-size="18" font-weight="700" fill="#F06B78">1.91%</text>
+<text x="760.7" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#F06B78">Py</text>
+<text x="760.7" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Python</text>
+<rect x="864.2" y="494.1" width="84.5" height="10.9" rx="3" fill="#20C4E8" opacity="0.96"/>
+<text x="906.4" y="480.1" text-anchor="middle" font-size="18" font-weight="700" fill="#20C4E8">1.53%</text>
+<text x="906.4" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#20C4E8">◆</text>
+<text x="906.4" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">CMake</text>
+<rect x="1009.9" y="500.3" width="84.5" height="4.7" rx="3" fill="#9AA9BC" opacity="0.96"/>
+<text x="1052.1" y="486.3" text-anchor="middle" font-size="18" font-weight="700" fill="#9AA9BC">0.66%</text>
+<text x="1052.1" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#9AA9BC">•••</text>
+<text x="1052.1" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Other</text>
+<circle cx="63" cy="607" r="9" fill="none" stroke="#2F9BF4" stroke-width="2"/>
+<text x="63" y="612" text-anchor="middle" font-size="12" font-weight="700" fill="#2F9BF4">i</text>
 <text x="82" y="612" font-size="14" font-style="italic" fill="#91A4B7">Live repository language data · generated by Python</text>
 </g></svg>
