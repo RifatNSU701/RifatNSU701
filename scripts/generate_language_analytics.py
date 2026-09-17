@@ -1,96 +1,81 @@
 #!/usr/bin/env python3
-"""Generate a native GitHub README vertical language chart from repository data."""
+"""Generate a premium, data-driven language analytics SVG for the profile README."""
 import json
 import os
-import re
 import html
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA = os.path.join(ROOT, "docs", "data", "stats.json")
-README = os.path.join(ROOT, "README.md")
+OUTPUT = os.path.join(ROOT, "assets", "language-analytics.svg")
 
-START = "<!-- LANGUAGE_ANALYTICS_START -->"
-END = "<!-- LANGUAGE_ANALYTICS_END -->"
-
-COLORS = [
-    "#FFB02E", "#2F9BF4", "#8B68F5", "#39C98A",
-    "#F06B78", "#20C4E8", "#9AA9BC"
-]
+COLORS = ["#FFB52E", "#2F9BF4", "#8B68F5", "#39C98A", "#F06B78", "#20C4E8", "#9AA9BC"]
 
 
 def main():
     with open(DATA, encoding="utf-8") as handle:
         data = json.load(handle)
 
-    languages = [
-        item for item in data.get("languages", [])
-        if item.get("name") and item.get("bytes", 0) > 0
+    languages = [x for x in data.get("languages", []) if x.get("name") and x.get("bytes", 0) > 0]
+    languages.sort(key=lambda x: x["bytes"], reverse=True)
+    total = sum(x["bytes"] for x in languages) or 1
+    top = languages[:6]
+    other_bytes = total - sum(x["bytes"] for x in top)
+    items = [(x["name"], x["bytes"] / total * 100) for x in top]
+    if other_bytes > 0:
+        items.append(("Other", other_bytes / total * 100))
+
+    width, height = 1200, 650
+    left, right, top_y, bottom = 105, 1125, 150, 505
+    chart_h = bottom - top_y
+    slot = (right - left) / len(items)
+    bar_w = min(112, slot * 0.58)
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+        '<title id="title">Language Analytics — Repository Language Breakdown</title>',
+        '<desc id="desc">Dynamically generated repository language usage chart.</desc>',
+        '<defs>',
+        '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1118"/><stop offset="1" stop-color="#071017"/></linearGradient>',
+        '<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
+        '</defs>',
+        '<rect x="10" y="10" width="1180" height="630" rx="18" fill="url(#bg)" stroke="#243541"/>',
+        '<rect x="11" y="11" width="1178" height="628" rx="17" fill="none" stroke="#13212B"/>',
+        '<g font-family="Inter,Segoe UI,Arial,sans-serif">',
+        '<text x="62" y="70" font-size="34" font-weight="700" fill="#F2F6FA">Language <tspan fill="#2FD9E8">Analytics</tspan></text>',
+        '<text x="62" y="104" font-size="20" fill="#91A4B7">Repository Language Breakdown</text>',
+        '<g transform="translate(1000 52)"><rect width="142" height="38" rx="19" fill="#071D1A" stroke="#126D61"/><circle cx="20" cy="19" r="7" fill="#31E6B4"/><text x="37" y="25" font-size="15" fill="#31E6B4">Live Data</text></g>',
+        '<text x="1140" y="112" text-anchor="end" font-size="13" fill="#91A4B7">Updated every 6 hours</text>',
+        '<text x="62" y="178" font-size="14" font-weight="600" fill="#AFC0CF">USAGE (%)</text>',
     ]
-    languages.sort(key=lambda item: item["bytes"], reverse=True)
 
-    total = sum(item["bytes"] for item in languages) or 1
-    top = languages[:7]
-    rows = []
-    percentages = []
+    for tick in range(0, 51, 10):
+        y = bottom - chart_h * tick / 50
+        svg.append(f'<line x1="{left}" y1="{y:.1f}" x2="{right}" y2="{y:.1f}" stroke="#263642" stroke-dasharray="5 7"/>')
+        svg.append(f'<text x="{left-18}" y="{y+5:.1f}" text-anchor="end" font-size="14" fill="#A9B8C7">{tick}</text>')
 
-    for item in top:
-        percent = item["bytes"] / total * 100
-        percentages.append(percent)
+    svg.append(f'<line x1="{left}" y1="{bottom}" x2="{right}" y2="{bottom}" stroke="#526A7A"/>')
 
-    lines = [
-        START,
-        '<div align="center">',
-        '',
-        '<h2>Language Analytics</h2>',
-        '',
-        '<strong>Repository Language Breakdown</strong>',
-        '',
-        '<table width="100%" border="0" cellspacing="0" cellpadding="3">',
-        '<tr>' + ''.join(f'<td align="center"><strong>{percent:.2f}%</strong></td>' for percent in percentages) + '</tr>',
-    ]
+    for i, (name, pct) in enumerate(items):
+        cx = left + slot * (i + 0.5)
+        h = chart_h * min(pct, 50) / 50
+        x = cx - bar_w / 2
+        y = bottom - h
+        color = COLORS[i]
+        svg.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w:.1f}" height="{h:.1f}" rx="3" fill="{color}" opacity="0.96"/>')
+        svg.append(f'<text x="{cx:.1f}" y="{max(y-14, 196):.1f}" text-anchor="middle" font-size="18" font-weight="700" fill="{color}">{pct:.2f}%</text>')
+        # Small language mark beneath each bar; intentionally vector-only/no external assets.
+        mark = {"Java":"☕", "TypeScript":"TS", "C":"C", "Rust":"R", "Python":"Py", "CMake":"◆", "Other":"•••"}.get(name, name[:2])
+        svg.append(f'<text x="{cx:.1f}" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="{color}">{html.escape(mark)}</text>')
+        svg.append(f'<text x="{cx:.1f}" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">{html.escape(name)}</text>')
 
-    # Ten 5%-high cells create a true vertical bar chart without Mermaid controls.
-    for level in range(50, 0, -5):
-        cells = []
-        for index, percent in enumerate(percentages):
-            filled = percent >= level
-            if filled:
-                cells.append(f'<td align="center"><font color="{COLORS[index]}">█</font></td>')
-            else:
-                cells.append('<td align="center">&nbsp;</td>')
-        lines.append('<tr>' + ''.join(cells) + '</tr>')
-
-    lines.extend([
-        '</table>',
-        '',
-        '<table width="100%" border="0" cellspacing="0" cellpadding="2">',
-        '<tr>' + ''.join(f'<td align="center"><font color="{COLORS[index]}">●</font></td>' for index in range(len(top))) + '</tr>',
-        '<tr>' + ''.join(f'<td align="center"><strong>{html.escape(item["name"])}</strong></td>' for item in top) + '</tr>',
-        '</table>',
-        '',
-        '<strong>Usage (%)</strong> · 0 — 50',
-        '',
-        '<sub>🟢 Live Data · Updated every 6 hours</sub>',
-        '',
-        '<em>Live repository language data · generated by Python</em>',
-        '',
-        '</div>',
-        END,
+    svg.extend([
+        '<circle cx="63" cy="607" r="9" fill="none" stroke="#2F9BF4" stroke-width="2"/>',
+        '<text x="63" y="612" text-anchor="middle" font-size="12" font-weight="700" fill="#2F9BF4">i</text>',
+        '<text x="82" y="612" font-size="14" font-style="italic" fill="#91A4B7">Live repository language data · generated by Python</text>',
+        '</g></svg>',
     ])
 
-    block = "\n".join(lines)
-
-    with open(README, encoding="utf-8") as handle:
-        readme = handle.read()
-
-    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
-    if not pattern.search(readme):
-        raise RuntimeError("Language Analytics markers not found in README.md")
-
-    readme = pattern.sub(block, readme, count=1)
-
-    with open(README, "w", encoding="utf-8") as handle:
-        handle.write(readme)
+    with open(OUTPUT, "w", encoding="utf-8") as handle:
+        handle.write("\n".join(svg) + "\n")
 
 
 if __name__ == "__main__":
