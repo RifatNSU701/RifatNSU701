@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-09-17T04:54:46.688398+00:00",
+  "generated_at": "2026-09-17T05:02:48.751213+00:00",
   "profile": {
     "public_repos": 7,
     "followers": 18,
@@ -18,32 +18,32 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 44.19
+      "percent": 44.12
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 34.57
+      "percent": 34.52
     },
     {
       "name": "C",
       "bytes": 125612,
-      "percent": 10.91
+      "percent": 10.9
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 6.38
+      "percent": 6.37
     },
     {
       "name": "Python",
-      "bytes": 20335,
-      "percent": 1.77
+      "bytes": 22000,
+      "percent": 1.91
     },
     {
       "name": "CMake",
       "bytes": 17681,
-      "percent": 1.54
+      "percent": 1.53
     },
     {
       "name": "Tcl",
@@ -84,7 +84,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-09-17T04:54:38Z"
+      "updated_at": "2026-09-17T05:02:42Z"
     },
     {
       "name": "Hardware_Product_Management_System",
