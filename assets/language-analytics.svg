@@ -26,32 +26,32 @@
 <line x1="105" y1="150.0" x2="1125" y2="150.0" stroke="#263642" stroke-dasharray="5 7"/>
 <text x="87" y="155.0" text-anchor="end" font-size="14" fill="#A9B8C7">50</text>
 <line x1="105" y1="505" x2="1125" y2="505" stroke="#526A7A"/>
-<rect x="135.6" y="191.7" width="84.5" height="313.3" rx="3" fill="#FFB52E" opacity="0.96"/>
-<text x="177.9" y="196.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFB52E">44.12%</text>
+<rect x="135.6" y="194.1" width="84.5" height="310.9" rx="3" fill="#FFB52E" opacity="0.96"/>
+<text x="177.9" y="196.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFB52E">43.79%</text>
 <text x="177.9" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#FFB52E">☕</text>
 <text x="177.9" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Java</text>
-<rect x="281.3" y="259.9" width="84.5" height="245.1" rx="3" fill="#2F9BF4" opacity="0.96"/>
-<text x="323.6" y="245.9" text-anchor="middle" font-size="18" font-weight="700" fill="#2F9BF4">34.52%</text>
+<rect x="281.3" y="261.8" width="84.5" height="243.2" rx="3" fill="#2F9BF4" opacity="0.96"/>
+<text x="323.6" y="247.8" text-anchor="middle" font-size="18" font-weight="700" fill="#2F9BF4">34.26%</text>
 <text x="323.6" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#2F9BF4">TS</text>
 <text x="323.6" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">TypeScript</text>
-<rect x="427.0" y="427.6" width="84.5" height="77.4" rx="3" fill="#8B68F5" opacity="0.96"/>
-<text x="469.3" y="413.6" text-anchor="middle" font-size="18" font-weight="700" fill="#8B68F5">10.90%</text>
+<rect x="427.0" y="428.2" width="84.5" height="76.8" rx="3" fill="#8B68F5" opacity="0.96"/>
+<text x="469.3" y="414.2" text-anchor="middle" font-size="18" font-weight="700" fill="#8B68F5">10.82%</text>
 <text x="469.3" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#8B68F5">C</text>
 <text x="469.3" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">C</text>
-<rect x="572.7" y="459.8" width="84.5" height="45.2" rx="3" fill="#39C98A" opacity="0.96"/>
-<text x="615.0" y="445.8" text-anchor="middle" font-size="18" font-weight="700" fill="#39C98A">6.37%</text>
+<rect x="572.7" y="460.1" width="84.5" height="44.9" rx="3" fill="#39C98A" opacity="0.96"/>
+<text x="615.0" y="446.1" text-anchor="middle" font-size="18" font-weight="700" fill="#39C98A">6.32%</text>
 <text x="615.0" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#39C98A">R</text>
 <text x="615.0" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Rust</text>
-<rect x="718.5" y="491.4" width="84.5" height="13.6" rx="3" fill="#F06B78" opacity="0.96"/>
-<text x="760.7" y="477.4" text-anchor="middle" font-size="18" font-weight="700" fill="#F06B78">1.91%</text>
+<rect x="718.5" y="486.2" width="84.5" height="18.8" rx="3" fill="#F06B78" opacity="0.96"/>
+<text x="760.7" y="472.2" text-anchor="middle" font-size="18" font-weight="700" fill="#F06B78">2.64%</text>
 <text x="760.7" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#F06B78">Py</text>
 <text x="760.7" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Python</text>
-<rect x="864.2" y="494.1" width="84.5" height="10.9" rx="3" fill="#20C4E8" opacity="0.96"/>
-<text x="906.4" y="480.1" text-anchor="middle" font-size="18" font-weight="700" fill="#20C4E8">1.53%</text>
+<rect x="864.2" y="494.2" width="84.5" height="10.8" rx="3" fill="#20C4E8" opacity="0.96"/>
+<text x="906.4" y="480.2" text-anchor="middle" font-size="18" font-weight="700" fill="#20C4E8">1.52%</text>
 <text x="906.4" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#20C4E8">◆</text>
 <text x="906.4" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">CMake</text>
-<rect x="1009.9" y="500.3" width="84.5" height="4.7" rx="3" fill="#9AA9BC" opacity="0.96"/>
-<text x="1052.1" y="486.3" text-anchor="middle" font-size="18" font-weight="700" fill="#9AA9BC">0.66%</text>
+<rect x="1009.9" y="500.4" width="84.5" height="4.6" rx="3" fill="#9AA9BC" opacity="0.96"/>
+<text x="1052.1" y="486.4" text-anchor="middle" font-size="18" font-weight="700" fill="#9AA9BC">0.65%</text>
 <text x="1052.1" y="548" text-anchor="middle" font-size="20" font-weight="700" fill="#9AA9BC">•••</text>
 <text x="1052.1" y="579" text-anchor="middle" font-size="15" fill="#DCE6EE">Other</text>
 <circle cx="63" cy="607" r="9" fill="none" stroke="#2F9BF4" stroke-width="2"/>
