@@ -102,13 +102,11 @@ CCNA — `In Progress`
 
 <h2 align="center">GitHub Intelligence</h2>
 
+<!-- GITHUB_INTELLIGENCE_START -->
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=RifatNSU701&show_icons=true&theme=dark&hide_border=true&bg_color=05080B&title_color=2FD9E8&text_color=DCE6EE&icon_color=FFB84D" alt="GitHub stats">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RifatNSU701&theme=dark&hide_border=true&background=05080B&ring=2FD9E8&fire=FFB84D&currStreakLabel=2FD9E8" alt="GitHub streak">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&theme=react-dark&bg_color=05080B&color=2FD9E8&line=2FD9E8&point=FFB84D&hide_border=true" alt="Contribution activity graph">
+<img src="assets/github-intelligence.svg" alt="GitHub Intelligence — Live repository metrics, activity and contribution telemetry" width="100%">
 </div>
+<!-- GITHUB_INTELLIGENCE_END -->
 
 <h2 align="center">Interactive Dashboard</h2>
 
