@@ -34,7 +34,7 @@ Computer Science & Engineering student focused on **cybersecurity, networking, L
 <h2 align="center">Skills &amp; Technologies</h2>
 
 <div align="center">
-<img src="assets/skills-and-technologies.svg" alt="Skills &amp; Technologies — cybersecurity, networking, Linux, IoT, programming and automation" width="100%">
+<img src="assets/skills-dashboard.svg" alt="Skills & Technologies — cybersecurity, networking, Linux, IoT, programming and automation" width="100%">
 </div>
 
 <br>
@@ -56,7 +56,12 @@ Computer Science & Engineering student focused on **cybersecurity, networking, L
 <a href="https://www.nist.gov/cyberframework">Security Architecture</a> ·
 <a href="https://www.nist.gov/cyberframework">Identity &amp; Access Management</a> ·
 <a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">Digital Forensics</a> ·
-<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">Endpoint Security</a>
+<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">Endpoint Security</a> ·
+<a href="https://www.nist.gov/cyberframework">Network Defense</a> ·
+<a href="https://www.nist.gov/cyberframework">Firewall Security</a> ·
+<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">IDS/IPS</a> ·
+<a href="https://www.nist.gov/cyberframework">Network Segmentation</a> ·
+<a href="https://www.nist.gov/cyberframework">VPN Security</a>
 
 <br><br>
 
@@ -75,7 +80,39 @@ Computer Science & Engineering student focused on **cybersecurity, networking, L
 <a href="https://www.cloudflare.com/learning/ddos/glossary/what-is-dhcp/">DHCP</a> ·
 <a href="https://www.cloudflare.com/learning/network-layer/what-is-ipv6/">IPv4 / IPv6</a> ·
 <a href="https://www.wireshark.org/docs/">Traffic Analysis</a> ·
-<a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-monitoring.html">Network Monitoring</a>
+<a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-monitoring.html">Network Monitoring</a> ·
+<a href="https://www.cisco.com/c/en/us/support/docs/ip/tcp-ip/13788-3.html">TCP/IP</a> ·
+<a href="https://www.cisco.com/c/en/us/support/docs/ip/dhcp/27470-10.html">Network Troubleshooting</a> ·
+<a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-monitoring.html">Network Architecture</a> ·
+<a href="https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-5.html">Network Configuration</a>
+
+<br><br>
+
+<b>LINUX &amp; SYSTEMS</b><br>
+<a href="https://ubuntu.com/server/docs">Linux Administration</a> ·
+<a href="https://ubuntu.com/server/docs">Linux Server Administration</a> ·
+<a href="https://www.nist.gov/publications/guide-general-server-security">System Hardening</a> ·
+<a href="https://www.linux.org/">Network Administration</a> ·
+<a href="https://www.linux.org/">Access &amp; Permission Management</a> ·
+<a href="https://www.gnu.org/software/bash/">Security Automation</a>
+
+<br><br>
+
+<b>IoT</b><br>
+<a href="https://mqtt.org/">IoT Architecture</a> ·
+<a href="https://mqtt.org/">IoT Networking</a> ·
+<a href="https://www.cisa.gov/topics/operational-technology">IoT Security</a> ·
+<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">IoT Threat Detection</a> ·
+<a href="https://www.wireshark.org/docs/">IoT Traffic Analysis</a> ·
+<a href="https://mqtt.org/">IoT Anomaly Detection</a>
+
+<br><br>
+
+<b>PROGRAMMING &amp; AUTOMATION</b><br>
+<a href="https://dev.java/">Java</a> ·
+<a href="https://isocpp.org/">C++</a> ·
+<a href="https://www.python.org/">Python</a> ·
+<a href="https://www.gnu.org/software/bash/">Bash</a>
 
 </div>
 
