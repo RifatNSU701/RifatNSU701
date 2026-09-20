@@ -34,49 +34,67 @@ Computer Science & Engineering student focused on **cybersecurity, networking, L
 <h2 align="center">Skills &amp; Technologies</h2>
 
 <div align="center">
-<img src="assets/skills-and-technologies.svg" alt="Skills &amp; Technologies — cybersecurity, networking, Linux, IoT, programming and automation" width="100%">
-</div>
-
-<br>
-
-<h2 align="center">Security Toolchain</h2>
-
-<div align="center">
-<img src="assets/security-toolchain.svg" alt="Security Toolchain — animated security and infrastructure stack" width="100%">
+<img src="assets/skills-and-technologies.svg" alt="Skills &amp; Technologies — moving technology logos" width="100%">
 </div>
 
 <br>
 
 <div align="center">
 
-<a href="https://wazuh.com/" title="Wazuh"><img src="assets/tool-logos/wazuh.svg" alt="Wazuh" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.splunk.com/" title="Splunk"><img src="https://cdn.simpleicons.org/splunk/2F9BF4" alt="Splunk" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.elastic.co/security" title="Elastic Security"><img src="https://cdn.simpleicons.org/elastic/8B68F5" alt="Elastic Security" height="42"></a>&nbsp;&nbsp;
-<a href="https://nmap.org/" title="Nmap"><img src="assets/tool-logos/nmap.svg" alt="Nmap" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.metasploit.com/" title="Metasploit"><img src="https://cdn.simpleicons.org/metasploit/F06B78" alt="Metasploit" height="42"></a>&nbsp;&nbsp;
-<a href="https://portswigger.net/burp" title="Burp Suite"><img src="https://cdn.simpleicons.org/burpsuite/FFB52E" alt="Burp Suite" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.pfsense.org/" title="pfSense"><img src="https://cdn.simpleicons.org/pfsense/2FD9E8" alt="pfSense" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.wireshark.org/" title="Wireshark"><img src="https://cdn.simpleicons.org/wireshark/2F9BF4" alt="Wireshark" height="42"></a>
+<!-- CLICKABLE TOOL LOGOS -->
+<a href="https://wazuh.com/" title="Wazuh"><img src="assets/tool-logos/wazuh.svg" alt="Wazuh" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.splunk.com/" title="Splunk"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/splunk.svg" alt="Splunk" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.elastic.co/security" title="Elastic Security"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/elastic.svg" alt="Elastic Security" height="44"></a>&nbsp;&nbsp;
+<a href="https://nmap.org/" title="Nmap"><img src="assets/tool-logos/nmap.svg" alt="Nmap" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.metasploit.com/" title="Metasploit"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/metasploit.svg" alt="Metasploit" height="44"></a>&nbsp;&nbsp;
+<a href="https://portswigger.net/burp" title="Burp Suite"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/burpsuite.svg" alt="Burp Suite" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.pfsense.org/" title="pfSense"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/pfsense.svg" alt="pfSense" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.wireshark.org/" title="Wireshark"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/wireshark.svg" alt="Wireshark" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/index.html" title="Cisco IOS"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/cisco.svg" alt="Cisco IOS" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.netacad.com/cisco-packet-tracer" title="Cisco Packet Tracer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/cisco.svg" alt="Cisco Packet Tracer" height="44"></a>
 <br><br>
-<a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/index.html" title="Cisco IOS"><img src="https://cdn.simpleicons.org/cisco/8B68F5" alt="Cisco IOS" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.netacad.com/cisco-packet-tracer" title="Cisco Packet Tracer"><img src="https://cdn.simpleicons.org/cisco/8B68F5" alt="Cisco Packet Tracer" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.kali.org/" title="Kali Linux"><img src="https://cdn.simpleicons.org/kalilinux/39C98A" alt="Kali Linux" height="42"></a>&nbsp;&nbsp;
-<a href="https://ubuntu.com/" title="Ubuntu"><img src="https://cdn.simpleicons.org/ubuntu/F06B78" alt="Ubuntu" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.linux.org/" title="Linux Server"><img src="https://cdn.simpleicons.org/linux/FFB52E" alt="Linux Server" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.gnu.org/software/bash/" title="Bash"><img src="https://cdn.simpleicons.org/gnubash/2FD9E8" alt="Bash" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.openssh.com/" title="OpenSSH"><img src="assets/tool-logos/openssh.svg" alt="SSH / OpenSSH" height="42"></a>
+<a href="https://www.kali.org/" title="Kali Linux"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/kalilinux.svg" alt="Kali Linux" height="44"></a>&nbsp;&nbsp;
+<a href="https://ubuntu.com/" title="Ubuntu"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/ubuntu.svg" alt="Ubuntu" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.linux.org/" title="Linux Server"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/linux.svg" alt="Linux Server" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.gnu.org/software/bash/" title="Bash"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/gnubash.svg" alt="Bash" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.openssh.com/" title="OpenSSH"><img src="assets/tool-logos/openssh.svg" alt="SSH / OpenSSH" height="44"></a>&nbsp;&nbsp;
+<a href="https://mqtt.org/" title="MQTT"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/mqtt.svg" alt="MQTT" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.bluetooth.com/" title="Bluetooth / BLE"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/bluetooth.svg" alt="Bluetooth / BLE" height="44"></a>&nbsp;&nbsp;
+<a href="https://git-scm.com/" title="Git"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" alt="Git" height="44"></a>&nbsp;&nbsp;
+<a href="https://github.com/" title="GitHub"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg" alt="GitHub" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.virtualbox.org/" title="VirtualBox"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/virtualbox.svg" alt="VirtualBox" height="44"></a>
 <br><br>
-<a href="https://mqtt.org/" title="MQTT"><img src="https://cdn.simpleicons.org/mqtt/8B68F5" alt="MQTT" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.bluetooth.com/" title="Bluetooth / BLE"><img src="https://cdn.simpleicons.org/bluetooth/39C98A" alt="Bluetooth / BLE" height="42"></a>&nbsp;&nbsp;
-<a href="https://git-scm.com/" title="Git"><img src="https://cdn.simpleicons.org/git/F06B78" alt="Git" height="42"></a>&nbsp;&nbsp;
-<a href="https://github.com/" title="GitHub"><img src="https://cdn.simpleicons.org/github/F2F6FA" alt="GitHub" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.virtualbox.org/" title="VirtualBox"><img src="https://cdn.simpleicons.org/virtualbox/FFB52E" alt="VirtualBox" height="42"></a>
+<a href="https://www.python.org/" title="Python"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/python.svg" alt="Python" height="44"></a>&nbsp;&nbsp;
+<a href="https://www.oracle.com/java/" title="Java"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/openjdk.svg" alt="Java" height="44"></a>&nbsp;&nbsp;
+<a href="https://isocpp.org/" title="C++"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/cplusplus.svg" alt="C++" height="44"></a>
 
 </div>
 
 <p align="center">
-<sub>Click any logo to open its official website · animated cyber-dashboard · local logo fallbacks for reliable rendering</sub>
+<sub>Click any logo to open the related official site · 23 technologies · simple, low-motion presentation</sub>
 </p>
+
+### Cybersecurity
+- **Security Operations (SOC):** Threat Detection · Threat Hunting · Incident Response · Security Monitoring
+- **Network Security:** Network Defense · Firewall Security · IDS/IPS · Network Segmentation · VPN Security
+- **Security Assessment:** Vulnerability Assessment · Penetration Testing · Security Auditing · Risk Assessment
+- **Threat Intelligence:** MITRE ATT&amp;CK · IOC Analysis · TTP Analysis
+
+### Networking
+- **Network Engineering:** Routing · Switching · Network Architecture · Network Configuration
+- **Network Protocols:** TCP/IP · IPv4/IPv6 · DNS · DHCP
+- **Network Operations:** Network Troubleshooting · Network Monitoring · Network Traffic Analysis
+
+### Linux &amp; Systems
+Linux Administration · Linux Server Administration · System Hardening · Network Administration · Access &amp; Permission Management · Security Automation
+
+### IoT
+IoT Architecture · IoT Networking · IoT Security · IoT Threat Detection · IoT Traffic Analysis · IoT Anomaly Detection
+
+### Programming &amp; Automation
+Java · C++ · Python · Bash
+
+<br>
 
 <h2 align="center">Language Analytics</h2>
 
