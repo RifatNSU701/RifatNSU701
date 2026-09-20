@@ -36,6 +36,9 @@ jobs:
       - name: Generate dynamic GitHub intelligence SVG
         run: python scripts/generate_github_intelligence.py
 
+      - name: Generate premium animated certifications SVG
+        run: python scripts/generate_certifications.py
+
       - name: Regenerate animated hero banner
         run: python scripts/generate_hero_svg.py
 
@@ -43,6 +46,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md docs/data/stats.json assets/hero.svg assets/language-analytics.svg assets/github-intelligence.svg
+          git add README.md docs/data/stats.json assets/hero.svg assets/language-analytics.svg assets/github-intelligence.svg assets/certifications.svg
           git diff --staged --quiet || git commit -m "chore: sync GitHub intelligence data [skip ci]"
           git push
