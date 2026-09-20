@@ -34,7 +34,7 @@ Computer Science & Engineering student focused on **cybersecurity, networking, L
 <h2 align="center">Skills &amp; Technologies</h2>
 
 <div align="center">
-<img src="assets/skills-dashboard.svg" alt="Skills & Technologies — cybersecurity, networking, Linux, IoT, programming and automation" width="100%">
+<img src="assets/skills-and-technologies.svg" alt="Skills & Technologies — cybersecurity, networking, Linux, IoT, programming and automation" width="100%">
 </div>
 
 <br>
