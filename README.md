@@ -94,11 +94,11 @@ Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSen
 
 <h2 align="center">Certifications</h2>
 
-IBM Cybersecurity Analyst — `Completed`  
-Cisco Networking Basics — `Completed`  
-Introduction to IoT — `Completed`  
-Ethical Hacking — `Completed`  
-CCNA — `In Progress`
+<!-- CERTIFICATIONS_START -->
+<div align="center">
+<img src="assets/certifications.svg" alt="Certifications — Cybersecurity and Networking Credentials" width="100%">
+</div>
+<!-- CERTIFICATIONS_END -->
 
 <h2 align="center">GitHub Intelligence</h2>
 
