@@ -31,54 +31,13 @@ Computer Science & Engineering student focused on **cybersecurity, networking, L
 **OrionTech** — Founder & CEO  
 `August 2026 — Present`
 
-<h2 align="center">Cybersecurity</h2>
+<h2 align="center">Skills &amp; Technologies</h2>
 
-**Security Operations (SOC)**  
-Threat Detection · Threat Hunting · Incident Response · Security Monitoring
+<div align="center">
+<img src="assets/skills-and-technologies.svg" alt="Skills &amp; Technologies — cybersecurity, networking, Linux, IoT, programming and automation" width="100%">
+</div>
 
-Wazuh · Splunk · Elastic Security
-
-**Network Security**  
-Network Defense · Firewall Security · IDS/IPS · Network Segmentation · VPN Security
-
-pfSense · Wireshark
-
-**Security Assessment**  
-Vulnerability Assessment · Penetration Testing · Security Auditing · Risk Assessment
-
-Nmap · Metasploit · Burp Suite
-
-**Threat Intelligence**  
-MITRE ATT&CK · IOC Analysis · TTP Analysis
-
-<h2 align="center">Network Engineering</h2>
-
-**Network Engineering**  
-Routing · Switching · Network Architecture · Network Configuration
-
-**Network Protocols**  
-TCP/IP · IPv4/IPv6 · DNS · DHCP
-
-**Network Operations**  
-Network Troubleshooting · Network Monitoring · Network Traffic Analysis
-
-Cisco IOS · Cisco Packet Tracer · Wireshark · pfSense · VPN
-
-<h2 align="center">Linux & Systems</h2>
-
-Linux Administration · Linux Server Administration · System Hardening · Network Administration · Access & Permission Management · Security Automation
-
-Kali Linux · Ubuntu · Linux Server · Bash · SSH
-
-<h2 align="center">IoT Security</h2>
-
-IoT Architecture · IoT Networking · IoT Security · IoT Threat Detection · IoT Traffic Analysis · IoT Anomaly Detection
-
-MQTT · BLE
-
-<h2 align="center">Programming & Automation</h2>
-
-Java · C++ · Python · Bash
+<br>
 
 <h2 align="center">Security Toolchain</h2>
 
