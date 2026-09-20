@@ -82,7 +82,42 @@ Java · C++ · Python · Bash
 
 <h2 align="center">Security Toolchain</h2>
 
-Wazuh · Splunk · Elastic Security · Nmap · Metasploit · Burp Suite · pfSense · Wireshark · Cisco IOS · Cisco Packet Tracer · Kali Linux · Ubuntu · Linux Server · Bash · SSH · MQTT · BLE · Git · GitHub · VirtualBox
+<div align="center">
+<img src="assets/security-toolchain.svg" alt="Security Toolchain — animated security and infrastructure stack" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+
+<a href="https://wazuh.com/" title="Wazuh"><img src="https://cdn.simpleicons.org/wazuh/2FD9E8" alt="Wazuh" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.splunk.com/" title="Splunk"><img src="https://cdn.simpleicons.org/splunk/2F9BF4" alt="Splunk" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.elastic.co/security" title="Elastic Security"><img src="https://cdn.simpleicons.org/elastic/8B68F5" alt="Elastic Security" height="42"></a>&nbsp;&nbsp;
+<a href="https://nmap.org/" title="Nmap"><img src="https://cdn.simpleicons.org/nmap/39C98A" alt="Nmap" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.metasploit.com/" title="Metasploit"><img src="https://cdn.simpleicons.org/metasploit/F06B78" alt="Metasploit" height="42"></a>&nbsp;&nbsp;
+<a href="https://portswigger.net/burp" title="Burp Suite"><img src="https://cdn.simpleicons.org/burpsuite/FFB52E" alt="Burp Suite" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.pfsense.org/" title="pfSense"><img src="https://cdn.simpleicons.org/pfsense/2FD9E8" alt="pfSense" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.wireshark.org/" title="Wireshark"><img src="https://cdn.simpleicons.org/wireshark/2F9BF4" alt="Wireshark" height="42"></a>
+<br><br>
+<a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/index.html" title="Cisco IOS"><img src="https://cdn.simpleicons.org/cisco/8B68F5" alt="Cisco IOS" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.netacad.com/cisco-packet-tracer" title="Cisco Packet Tracer"><img src="https://cdn.simpleicons.org/cisco/8B68F5" alt="Cisco Packet Tracer" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.kali.org/" title="Kali Linux"><img src="https://cdn.simpleicons.org/kalilinux/39C98A" alt="Kali Linux" height="42"></a>&nbsp;&nbsp;
+<a href="https://ubuntu.com/" title="Ubuntu"><img src="https://cdn.simpleicons.org/ubuntu/F06B78" alt="Ubuntu" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.linux.org/" title="Linux Server"><img src="https://cdn.simpleicons.org/linux/FFB52E" alt="Linux Server" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.gnu.org/software/bash/" title="Bash"><img src="https://cdn.simpleicons.org/gnubash/2FD9E8" alt="Bash" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.openssh.com/" title="OpenSSH"><img src="https://cdn.simpleicons.org/openssh/2F9BF4" alt="SSH / OpenSSH" height="42"></a>
+<br><br>
+<a href="https://mqtt.org/" title="MQTT"><img src="https://cdn.simpleicons.org/mqtt/8B68F5" alt="MQTT" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.bluetooth.com/" title="Bluetooth / BLE"><img src="https://cdn.simpleicons.org/bluetooth/39C98A" alt="Bluetooth / BLE" height="42"></a>&nbsp;&nbsp;
+<a href="https://git-scm.com/" title="Git"><img src="https://cdn.simpleicons.org/git/F06B78" alt="Git" height="42"></a>&nbsp;&nbsp;
+<a href="https://github.com/" title="GitHub"><img src="https://cdn.simpleicons.org/github/F2F6FA" alt="GitHub" height="42"></a>&nbsp;&nbsp;
+<a href="https://www.virtualbox.org/" title="VirtualBox"><img src="https://cdn.simpleicons.org/virtualbox/FFB52E" alt="VirtualBox" height="42"></a>
+
+</div>
+
+<p align="center">
+<sub>Click any logo to open its official website · animated vector header · 20-tool operational stack</sub>
+</p>
 
 <h2 align="center">Language Analytics</h2>
 
