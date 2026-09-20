@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Rifat Khan — Security Engineering" width="100%">
+# Rifat Khan — Cybersecurity Engineer & Network Security Professional
+
+<p><a href="https://www.rifatkhan.tech/">Official Portfolio: rifatkhan.tech</a></p>
+
+<img src="assets/hero.svg" alt="Rifat Khan — Cybersecurity Engineer and Network Security Professional" width="100%">
 
 [![GitHub](https://img.shields.io/badge/GitHub-RifatNSU701-2FD9E8?style=flat-square&logo=github&logoColor=white&labelColor=05080B)](https://github.com/RifatNSU701)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rifatcrs-2FD9E8?style=flat-square&logo=linkedin&logoColor=white&labelColor=05080B)](https://linkedin.com/in/rifatcrs)
