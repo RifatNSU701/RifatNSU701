@@ -4,14 +4,14 @@
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:3b0764&height=220&section=header&text=Md%20Rifat%20Khan%20Rabbi&fontSize=44&fontColor=38bdf8&animation=fadeIn&fontAlignY=35&desc=CSE%20%40%20North%20South%20University%20%7C%20Software%20%26%20Systems%20Developer%20%7C%20Cybersecurity%20%26%20Data&descAlignY=58&descSize=16&descColor=e2e8f0" alt="Header Banner" />
 
-  <!-- Dynamic Typing Animation (Fixed width & single-line so it never cuts off) -->
+  <!-- Dynamic Typing Animation -->
   <a href="https://github.com/RifatNSU701">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=50&lines=%F0%9F%9A%80+Architecting+Scalable+Mobile+%26+Enterprise+Applications;%F0%9F%94%90+Cybersecurity+Defense%2C+Data+Analytics+%26+Cloud+Systems;%F0%9F%8E%93+Computer+Science+%26+Engineering+%40+North+South+University" alt="Typing SVG" />
   </a>
 
   <br/>
 
-  <!-- Live Telemetry & Social / Contact Badges -->
+  <!-- Live Telemetry & Social Badges -->
   <p align="center">
     <a href="https://github.com/RifatNSU701">
       <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FRifatNSU701&label=PROFILE%20VIEWS&labelColor=%230f172a&countColor=%230ea5e9&style=for-the-badge" alt="Profile Views" />
@@ -316,76 +316,72 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
 
 <!-- ===================================================================== -->
-<!--              CERTIFICATES & CREDENTIALS FLASHCARDS DECK               -->
+<!--        CERTIFICATES & CREDENTIALS (FROM EXACT UPLOADED PROOF)         -->
 <!-- ===================================================================== -->
-<h2 align="center">🎓 Certifications, Courses & Professional Credentials</h2>
-<p align="center"><i>Click on any flashcard below to flip and inspect credential details and competencies</i></p>
+<h2 align="center">🎓 Certifications, Credentials & Badges</h2>
+<p align="center"><i>Click on any flashcard below to inspect exact credentials, completion status, and verification IDs</i></p>
 
 <table>
   <tr>
-    <!-- Certificate Card 1 -->
+    <!-- Credential 1 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/CYBERSECURITY_%26_DATA-IBM_%2F_COURSERA-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
-        <h4>🔐 Introduction to Cybersecurity Careers & Data Analytics</h4>
-        <p><sub><b>Issuer:</b> IBM / Coursera</sub></p>
+        <img src="https://img.shields.io/badge/CREDENTIAL_01-COMPLETED_2022-38bdf8?style=for-the-badge&logo=ibm&logoColor=white" />
+        <h4>🔐 IBM Cybersecurity Analyst Professional Certificate</h4>
+        <p><sub><b>Issuer:</b> IBM • Coursera &nbsp;|&nbsp; <b>ID:</b> <code>TUPYLX2K5CPW</code></sub></p>
       </div>
       <details>
         <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
         <ul>
-          <li><b>Introduction to Cybersecurity Careers:</b> Security defense fundamentals, threat mitigation, and security analyst workflows.</li>
-          <li><b>Introduction to Data Analytics:</b> Data ecosystems, structured analysis pipelines, and business intelligence reporting.</li>
-          <li><b>Generative AI: Prompt Engineering Basics:</b> Structured prompt design and LLM optimization techniques.</li>
+          <li><b>Core Competencies:</b> Security analysts fundamentals, threat detection, network defense, system hardening, and incident response workflows.</li>
         </ul>
       </details>
     </td>
-    <!-- Certificate Card 2 -->
+    <!-- Credential 2 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/GOOGLE_CERTIFIED-DIGITAL_GARAGE-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-        <h4>🌐 The Fundamentals of Digital Marketing</h4>
-        <p><sub><b>Issuer:</b> Google Digital Garage</sub></p>
+        <img src="https://img.shields.io/badge/CREDENTIAL_02-COMPLETED_2026-00b4d8?style=for-the-badge&logo=cisco&logoColor=white" />
+        <h4>🌐 Cisco Networking Basics</h4>
+        <p><sub><b>Issuer:</b> Cisco Networking Academy &nbsp;|&nbsp; <b>ID:</b> <code>ff0552a9-46c1-a988-58b9f7206877</code></sub></p>
       </div>
       <details>
         <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
         <ul>
-          <li>Certified by Google in digital presence optimization, web analytics, search engine indexing, and data-driven growth strategies.</li>
+          <li><b>Core Competencies:</b> OSI & TCP/IP models, IP addressing, subnetting, switching, and foundational network architecture.</li>
         </ul>
       </details>
     </td>
   </tr>
   <tr>
-    <!-- Certificate Card 3 -->
+    <!-- Credential 3 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/ENGINEERING_INTERNSHIP-GAO_TEK_%2F_RFID-10b981?style=for-the-badge&logo=Buffer&logoColor=white" />
-        <h4>⚙️ Engineering Intern & Technical Training Certificates</h4>
-        <p><sub><b>Issuer:</b> GAO Tek Inc. / GAO RFID Inc.</sub></p>
+        <img src="https://img.shields.io/badge/CREDENTIAL_03-COMPLETED_2026-f43f5e?style=for-the-badge&logo=cisco&logoColor=white" />
+        <h4>🛡️ Cisco Ethical Hacker</h4>
+        <p><sub><b>Issuer:</b> Cisco Networking Academy &nbsp;|&nbsp; <b>ID:</b> <code>952d1b88-b308-4016-8389-3200888b783d</code></sub></p>
       </div>
       <details>
         <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
         <ul>
-          <li>Completed intensive engineering internship and multi-group technical skill certifications (Feb–May 2024).</li>
-          <li>Collaborated on RFID/IoT product documentation, technical specifications, and enterprise systems support.</li>
+          <li><b>Core Competencies:</b> Penetration testing methodologies, vulnerability assessment, reconnaissance, and defensive countermeasures.</li>
         </ul>
       </details>
     </td>
-    <!-- Certificate Card 4 -->
+    <!-- Credential 4 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/ACADEMIC_%26_RESEARCH-HARVARD_%26_STANFORD-A51C30?style=for-the-badge&logo=harvard&logoColor=white" />
-        <h4>🏛️ Clinical Research & Health Informatics Courses</h4>
-        <p><sub><b>Issuers:</b> Harvard Medical School & Stanford University</sub></p>
+        <img src="https://img.shields.io/badge/CREDENTIAL_04-IN_PROGRESS_2027-10b981?style=for-the-badge&logo=cisco&logoColor=white" />
+        <h4>⚙️ CCNA (Cisco Certified Network Associate)</h4>
+        <p><sub><b>Issuer:</b> Cisco Networking Academy &nbsp;|&nbsp; <b>Pathway:</b> CCNA Pathway</sub></p>
       </div>
       <details>
         <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
         <ul>
-          <li><b>Harvard Medical School:</b> <i>Foundations of Clinical Research</i> program acceptance & coursework.</li>
-          <li><b>Stanford University:</b> <i>Stanford Introduction to Food and Health</i> certification coursework.</li>
+          <li><b>Core Competencies:</b> Enterprise networking, enterprise routing, IP services, security fundamentals, and automation.</li>
         </ul>
       </details>
     </td>
@@ -399,9 +395,9 @@
 <!-- ===================================================================== -->
 <h2 align="center">📈 Live Developer Telemetry & Dynamic Graphs</h2>
 
-<!-- 1. GitHub Trophies Bar (Using active mirror since vercel.app main instance is paused) -->
+<!-- 1. GitHub Trophies Bar (Verified Working Endpoint) -->
 <div align="center">
-  <img width="98%" src="https://github-profile-trophy-orcin-eta.vercel.app/?username=RifatNSU701&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" alt="GitHub Trophies" />
+  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=RifatNSU701&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" alt="GitHub Trophies" />
 </div>
 
 <br/>
@@ -430,9 +426,9 @@
 
 <br/>
 
-<!-- 5. Full-Width Interactive Activity Contribution Graph (Fixed XML '&' bug) -->
+<!-- 5. Full-Width Interactive Activity Contribution Graph (Fixed Heroku Endpoint) -->
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&theme=tokyo-night&bg_color=0f172a&color=38bdf8&line=f43f5e&point=e2e8f0&area=true&hide_border=true&custom_title=Real-Time%20Contribution%20and%20Commit%20Velocity%20Graph" alt="Contribution Activity Graph" />
+  <img width="98%" src="https://activity-graph.herokuapp.com/graph?username=RifatNSU701&theme=tokyo-night&bg_color=0f172a&color=38bdf8&line=f43f5e&point=e2e8f0&area=true&hide_border=true" alt="Contribution Activity Graph" />
 </div>
 
 <br/>
