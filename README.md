@@ -1,157 +1,429 @@
+<!-- ===================================================================== -->
+<!--                    ANIMATED HEADER & TYPING BANNER                    -->
+<!-- ===================================================================== -->
 <div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:3b0764&height=220&section=header&text=Md%20Rifat%20Khan%20Rabbi&fontSize=46&fontColor=38bdf8&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20Flutter%20Architect%20%7C%20Systems%20%26%20Security%20Enthusiast&descAlignY=58&descSize=18&descColor=e2e8f0" alt="Header Banner" />
 
-# Rifat Khan — Cybersecurity Engineer & Network Security Professional
+  <!-- Dynamic Typing Animation -->
+  <a href="https://github.com/RifatNSU701">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=%F0%9F%9A%80+Architecting+Scalable+Mobile+%26+Enterprise+Applications;%F0%9F%94%90+Exploring+Cybersecurity%2C+Cloud+Infrastructure+%26+AI+Models;%F0%9F%92%BB+Turning+Complex+Problems+into+Clean%2C+Modular+Code" alt="Typing SVG" />
+  </a>
 
-<p><a href="https://www.rifatkhan.tech/">Official Portfolio: rifatkhan.tech</a></p>
+  <br/>
 
-<img src="assets/hero.svg" alt="Rifat Khan — Cybersecurity Engineer and Network Security Professional" width="100%">
-
-[![GitHub](https://img.shields.io/badge/GitHub-RifatNSU701-2FD9E8?style=flat-square&logo=github&logoColor=white&labelColor=05080B)](https://github.com/RifatNSU701)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rifatcrs-2FD9E8?style=flat-square&logo=linkedin&logoColor=white&labelColor=05080B)](https://linkedin.com/in/rifatcrs)
-[![Portfolio](https://img.shields.io/badge/Portfolio-rifatkhan.tech-2FD9E8?style=flat-square&logo=firefox&logoColor=white&labelColor=05080B)](https://rifatkhan.tech)
-[![X](https://img.shields.io/badge/X-@MRKhan24154476-2FD9E8?style=flat-square&logo=x&logoColor=white&labelColor=05080B)](https://x.com/MRKhan24154476)
-
-**[→ Open the full interactive dashboard](https://RifatNSU701.github.io/RifatNSU701/)**
-
+  <!-- Live Telemetry & Social Badges -->
+  <p align="center">
+    <a href="https://github.com/RifatNSU701">
+      <img src="https://komarev.com/ghpvc/?username=RifatNSU701&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
+    </a>
+    <a href="https://github.com/RifatNSU701?tab=followers">
+      <img src="https://img.shields.io/github/followers/RifatNSU701?label=Followers&logo=github&style=for-the-badge&color=6366f1&logoColor=white" alt="Followers" />
+    </a>
+    <a href="https://github.com/RifatNSU701?tab=repositories">
+      <img src="https://img.shields.io/github/stars/RifatNSU701?affiliations=OWNER&label=Total%20Stars&logo=starship&style=for-the-badge&color=f59e0b&logoColor=white" alt="Stars" />
+    </a>
+    <a href="mailto:rifat@example.com">
+      <img src="https://img.shields.io/badge/Contact_Me-0f172a?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email" />
+    </a>
+  </p>
 </div>
 
-<h2 align="center">About Me</h2>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
 
-Computer Science & Engineering student focused on **cybersecurity, networking, Linux systems, and IoT security** — building toward security operations, network defense, threat detection, and security automation.
+<!-- ===================================================================== -->
+<!--                   CLICKABLE SKILLS & APPS SHOWCASE                    -->
+<!--        (Logo on top, Name directly below, links to official site)     -->
+<!-- ===================================================================== -->
+<h2 align="center">🛠️ Interactive Tech Stack & Ecosystem</h2>
+<p align="center"><i>Click any technology logo or label below to visit its official platform</i></p>
 
-<h2 align="center">Current Mission</h2>
-
+<h4 align="center">⚡ Languages, Mobile & Core Frameworks</h4>
 <div align="center">
-<img src="assets/mission.svg" alt="Networking → Network Security → Security Operations → Threat Detection → Security Automation" width="100%">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <a href="https://flutter.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=flutter" width="48" height="48" alt="Flutter" />
+          <br /><sub><b>Flutter</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://dart.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="Dart" />
+          <br /><sub><b>Dart</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.java.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
+          <br /><sub><b>Java</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
+          <br /><sub><b>C Lang</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://isocpp.org" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+          <br /><sub><b>C++</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.python.org" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+          <br /><sub><b>Python</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+          <br /><sub><b>JavaScript</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
+          <br /><sub><b>TypeScript</b></sub>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<h2 align="center">Education</h2>
-
-**North South University** — B.Sc. in Computer Science & Engineering (CSE)  
-`January 2023 — December 2026`
-
-<h2 align="center">Experience</h2>
-
-**OrionTech** — Founder & CEO  
-`August 2026 — Present`
-
-<h2 align="center">Skills &amp; Technologies</h2>
-
+<h4 align="center">☁️ Cloud, Databases, DevOps & Developer Apps</h4>
 <div align="center">
-<img src="assets/skills-and-technologies.svg" alt="Skills & Technologies — cybersecurity, networking, Linux, IoT, programming and automation" width="100%">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <a href="https://firebase.google.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
+          <br /><sub><b>Firebase</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="Google Cloud" />
+          <br /><sub><b>Google Cloud</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+          <br /><sub><b>MySQL</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.sqlite.org" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" alt="SQLite" />
+          <br /><sub><b>SQLite</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://git-scm.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+          <br /><sub><b>Git</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions" />
+          <br /><sub><b>GH Actions</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.docker.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+          <br /><sub><b>Docker</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.linux.org" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+          <br /><sub><b>Linux</b></sub>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="96">
+        <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+          <br /><sub><b>VS Code</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://developer.android.com/studio" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=androidstudio" width="48" height="48" alt="Android Studio" />
+          <br /><sub><b>Android Studio</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.postman.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
+          <br /><sub><b>Postman</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.figma.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
+          <br /><sub><b>Figma</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash" />
+          <br /><sub><b>Bash</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://supabase.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" />
+          <br /><sub><b>Supabase</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+          <br /><sub><b>HTML5</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" />
+          <br /><sub><b>CSS3</b></sub>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
+
+<!-- ===================================================================== -->
+<!--               INTERACTIVE PROJECT FLASHCARDS & LIVE PINS              -->
+<!-- ===================================================================== -->
+<h2 align="center">🚀 Featured Engineering Flashcards</h2>
+<p align="center"><i>Live repository telemetry paired with interactive architecture flashcards (click to flip/expand)</i></p>
 
 <div align="center">
-
-<b>CYBERSECURITY SKILLS</b><br>
-<a href="https://www.nist.gov/cyberframework">Security Monitoring</a> ·
-<a href="https://attack.mitre.org/">Threat Hunting</a> ·
-<a href="https://attack.mitre.org/">MITRE ATT&amp;CK</a> ·
-<a href="https://www.nist.gov/cyberframework">Incident Response</a> ·
-<a href="https://www.nist.gov/cyberframework">Vulnerability Assessment</a> ·
-<a href="https://owasp.org/">Penetration Testing</a> ·
-<a href="https://owasp.org/www-project-top-ten/">Web Security</a> ·
-<a href="https://www.nist.gov/cyberframework">Security Auditing</a> ·
-<a href="https://www.nist.gov/cyberframework">Risk Assessment</a> ·
-<a href="https://attack.mitre.org/">IOC Analysis</a> ·
-<a href="https://attack.mitre.org/">TTP Analysis</a> ·
-<a href="https://www.nist.gov/cyberframework">Security Architecture</a> ·
-<a href="https://www.nist.gov/cyberframework">Identity &amp; Access Management</a> ·
-<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">Digital Forensics</a> ·
-<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">Endpoint Security</a> ·
-<a href="https://www.nist.gov/cyberframework">Network Defense</a> ·
-<a href="https://www.nist.gov/cyberframework">Firewall Security</a> ·
-<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">IDS/IPS</a> ·
-<a href="https://www.nist.gov/cyberframework">Network Segmentation</a> ·
-<a href="https://www.nist.gov/cyberframework">VPN Security</a>
-
-<br><br>
-
-<b>NETWORKING SKILLS</b><br>
-<a href="https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-5.html">Routing</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/5234-5.html">Switching</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/lan-switching/vlan/10023-3.html">VLAN</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/5234-5.html">STP</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/7039-1.html">OSPF</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13751-1.html">BGP</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/13772-12.html">NAT</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/security/ios-firewall/23602-confaccesslists.html">ACL</a> ·
-<a href="https://www.cloudflare.com/learning/network-layer/what-is-quality-of-service-qos/">QoS</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/security-vpn/ipsec-negotiation-ike-protocols/14106-ipsec.html">IPsec / VPN</a> ·
-<a href="https://www.cloudflare.com/learning/network-layer/what-is-dns/">DNS</a> ·
-<a href="https://www.cloudflare.com/learning/ddos/glossary/what-is-dhcp/">DHCP</a> ·
-<a href="https://www.cloudflare.com/learning/network-layer/what-is-ipv6/">IPv4 / IPv6</a> ·
-<a href="https://www.wireshark.org/docs/">Traffic Analysis</a> ·
-<a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-monitoring.html">Network Monitoring</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/ip/tcp-ip/13788-3.html">TCP/IP</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/ip/dhcp/27470-10.html">Network Troubleshooting</a> ·
-<a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-monitoring.html">Network Architecture</a> ·
-<a href="https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-5.html">Network Configuration</a>
-
-<br><br>
-
-<b>LINUX &amp; SYSTEMS</b><br>
-<a href="https://ubuntu.com/server/docs">Linux Administration</a> ·
-<a href="https://ubuntu.com/server/docs">Linux Server Administration</a> ·
-<a href="https://www.nist.gov/publications/guide-general-server-security">System Hardening</a> ·
-<a href="https://www.linux.org/">Network Administration</a> ·
-<a href="https://www.linux.org/">Access &amp; Permission Management</a> ·
-<a href="https://www.gnu.org/software/bash/">Security Automation</a>
-
-<br><br>
-
-<b>IoT</b><br>
-<a href="https://mqtt.org/">IoT Architecture</a> ·
-<a href="https://mqtt.org/">IoT Networking</a> ·
-<a href="https://www.cisa.gov/topics/operational-technology">IoT Security</a> ·
-<a href="https://www.cisa.gov/topics/cyber-threats-and-advisories">IoT Threat Detection</a> ·
-<a href="https://www.wireshark.org/docs/">IoT Traffic Analysis</a> ·
-<a href="https://mqtt.org/">IoT Anomaly Detection</a>
-
-<br><br>
-
-<b>PROGRAMMING &amp; AUTOMATION</b><br>
-<a href="https://dev.java/">Java</a> ·
-<a href="https://isocpp.org/">C++</a> ·
-<a href="https://www.python.org/">Python</a> ·
-<a href="https://www.gnu.org/software/bash/">Bash</a>
-
+  <a href="https://github.com/RifatNSU701/Money-Management">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=RifatNSU701&repo=Money-Management&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=f43f5e" alt="Money-Management" />
+  </a>
+  <a href="https://github.com/RifatNSU701/nersF">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=RifatNSU701&repo=nersF&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=f43f5e" alt="nersF" />
+  </a>
 </div>
 
-<br>
+<br/>
 
-<h2 align="center">Language Analytics</h2>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">💳 Money-Management Suite</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+        <img src="https://img.shields.io/badge/State-Provider-8b5cf6?style=flat-square" />
+      </p>
+      <details>
+        <summary><b>🔄 Flip Flashcard: View System Architecture & Specs</b></summary>
+        <br/>
+        <ul>
+          <li><b>Modular Profile & Settings Engine:</b> Dynamic profile switcher with Business Mode support, customizable categories, and multi-wallet tracking.</li>
+          <li><b>Reactive State Persistence:</b> Built around <code>TransactionProvider</code> for zero-latency UI updates and scheduled transaction automation.</li>
+          <li><b>Security & UX:</b> Organized settings hierarchy with biometric/security toggles and clean visual analytics.</li>
+        </ul>
+        <p align="center">
+          <a href="https://github.com/RifatNSU701/Money-Management">
+            <img src="https://img.shields.io/badge/Explore_Repository-%E2%86%92-38bdf8?style=for-the-badge&logo=github&logoColor=0f172a" />
+          </a>
+        </p>
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🛡️ NERSF & Systems Projects</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/C_Systems-00599C?style=flat-square&logo=c&logoColor=white" />
+        <img src="https://img.shields.io/badge/Architecture-Modular-10b981?style=flat-square" />
+      </p>
+      <details>
+        <summary><b>🔄 Flip Flashcard: View System Architecture & Specs</b></summary>
+        <br/>
+        <ul>
+          <li><b>nersF Core:</b> Custom framework and workflow implementations designed for high reliability and rapid deployment.</li>
+          <li><b>E-Commerce Seller & Wallet Engine (Java):</b> Full-featured Seller Dashboard with real-time wallet balance reconciliation and profile management.</li>
+          <li><b>Hardware Product Management (C):</b> Low-level indexed record storage with fast search and retrieval algorithms.</li>
+        </ul>
+        <p align="center">
+          <a href="https://github.com/RifatNSU701/nersF">
+            <img src="https://img.shields.io/badge/Explore_Repository-%E2%86%92-38bdf8?style=for-the-badge&logo=github&logoColor=0f172a" />
+          </a>
+        </p>
+      </details>
+    </td>
+  </tr>
+</table>
 
-<!-- LANGUAGE_ANALYTICS_START -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
+
+<!-- ===================================================================== -->
+<!--              CERTIFICATES & CREDENTIALS FLASHCARDS DECK               -->
+<!-- ===================================================================== -->
+<h2 align="center">🎓 Certifications, Credentials & Lab Flashcards</h2>
+<p align="center"><i>Click on any flashcard below to flip and inspect credential details, competencies, and verification links</i></p>
+
+<table>
+  <tr>
+    <!-- Certificate Card 1 -->
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://img.shields.io/badge/CREDENTIAL_01-AI_%26_CLOUD_MODELS-38bdf8?style=for-the-badge&logo=googlecloud&logoColor=white" />
+        <h4>🤖 Google Gemma Models & Cloud Ecosystem</h4>
+        <p><sub><b>Issued / Authorized:</b> Google / Hugging Face & Cloud Ecosystem</sub></p>
+      </div>
+      <details>
+        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <br/>
+        <blockquote>
+          <b>Key Focus:</b> Authorized access and exploration across 330+ repositories in Google's Gemma open-weights LLM family and cloud deployment pipelines.
+        </blockquote>
+        <ul>
+          <li>Model evaluation, prompt engineering, and lightweight local/cloud inference workflows.</li>
+          <li>Integration of modern AI capabilities into cross-platform applications.</li>
+        </ul>
+        <p align="center">
+          <a href="https://huggingface.co/google">
+            <img src="https://img.shields.io/badge/Verify_Ecosystem-0ea5e9?style=flat-square&logo=google&logoColor=white" />
+          </a>
+        </p>
+      </details>
+    </td>
+    <!-- Certificate Card 2 -->
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://img.shields.io/badge/CREDENTIAL_02-CYBERSECURITY-f43f5e?style=for-the-badge&logo=linux&logoColor=white" />
+        <h4>🔐 Cybersecurity Analyst & Defense Labs</h4>
+        <p><sub><b>Focus Area:</b> Network Defense, Threat Analysis & Secure Systems</sub></p>
+      </div>
+      <details>
+        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <br/>
+        <blockquote>
+          <b>Key Focus:</b> Structured hands-on security labs, system hardening, and secure application architecture.
+        </blockquote>
+        <ul>
+          <li>Vulnerability assessment, Linux privilege auditing, and network traffic inspection.</li>
+          <li>Implementing secure authentication and data persistence in mobile & web apps.</li>
+        </ul>
+        <p align="center">
+          <a href="https://github.com/RifatNSU701">
+            <img src="https://img.shields.io/badge/View_Security_Labs-f43f5e?style=flat-square&logo=github&logoColor=white" />
+          </a>
+        </p>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <!-- Certificate Card 3 -->
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://img.shields.io/badge/CREDENTIAL_03-MOBILE_ARCHITECTURE-8b5cf6?style=for-the-badge&logo=flutter&logoColor=white" />
+        <h4>📱 Cross-Platform Flutter & State Engineering</h4>
+        <p><sub><b>Focus Area:</b> Production UI/UX, Provider State & Clean Architecture</sub></p>
+      </div>
+      <details>
+        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <br/>
+        <blockquote>
+          <b>Key Focus:</b> End-to-end engineering of responsive financial and utility applications using Dart and Flutter.
+        </blockquote>
+        <ul>
+          <li>Custom reusable widget trees, dynamic theme switching, and modular screen routing.</li>
+          <li>Persistent local storage, transaction scheduling, and multi-wallet reconciliation.</li>
+        </ul>
+        <p align="center">
+          <a href="https://github.com/RifatNSU701/Money-Management">
+            <img src="https://img.shields.io/badge/Inspect_Codebase-8b5cf6?style=flat-square&logo=flutter&logoColor=white" />
+          </a>
+        </p>
+      </details>
+    </td>
+    <!-- Certificate Card 4 -->
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://img.shields.io/badge/CREDENTIAL_04-SYSTEMS_ENGINEERING-10b981?style=for-the-badge&logo=openjdk&logoColor=white" />
+        <h4>⚙️ Object-Oriented & Low-Level Systems Labs</h4>
+        <p><sub><b>Focus Area:</b> Java Enterprise Patterns & C Memory/File Systems</sub></p>
+      </div>
+      <details>
+        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <br/>
+        <blockquote>
+          <b>Key Focus:</b> Core computer science foundations across object-oriented design and procedural systems programming.
+        </blockquote>
+        <ul>
+          <li><b>Java:</b> Multi-role E-Commerce platforms, Seller Dashboards, and encapsulated business logic.</li>
+          <li><b>C Language:</b> Custom binary/text file indexing, CRUD data pipelines, and hardware inventory engines.</li>
+        </ul>
+        <p align="center">
+          <a href="https://github.com/RifatNSU701?tab=repositories">
+            <img src="https://img.shields.io/badge/Browse_Lab_Repos-10b981?style=flat-square&logo=github&logoColor=white" />
+          </a>
+        </p>
+      </details>
+    </td>
+  </tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
+
+<!-- ===================================================================== -->
+<!--                 DYNAMIC CHARTS, GRAPHS & ANALYTICS                    -->
+<!-- ===================================================================== -->
+<h2 align="center">📈 Live Developer Telemetry & Dynamic Graphs</h2>
+
+<!-- 1. GitHub Trophies Bar -->
 <div align="center">
-<img src="assets/language-analytics.svg" alt="Language Analytics — Repository Language Breakdown" width="100%">
+  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=RifatNSU701&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" alt="GitHub Trophies" />
 </div>
-<!-- LANGUAGE_ANALYTICS_END -->
 
-<h2 align="center">Certifications</h2>
+<br/>
 
-<!-- CERTIFICATIONS_START -->
+<!-- 2. Core Stats & Streak Cards -->
 <div align="center">
-<img src="assets/certifications.svg" alt="Certifications — Cybersecurity and Networking Credentials" width="100%">
+  <img height="185" src="https://github-readme-stats.vercel.app/api?username=RifatNSU701&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=f43f5e&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="185" src="https://streak-stats.demolab.com?user=RifatNSU701&theme=tokyonight&hide_border=true&background=0F172A&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" alt="GitHub Streak" />
 </div>
-<!-- CERTIFICATIONS_END -->
 
-<h2 align="center">GitHub Intelligence</h2>
+<br/>
 
-<!-- GITHUB_INTELLIGENCE_START -->
+<!-- 3. Language Distribution Charts & Commit Frequency Graphs -->
 <div align="center">
-<img src="assets/github-intelligence.svg" alt="GitHub Intelligence — Live repository metrics, activity and contribution telemetry" width="100%">
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RifatNSU701&theme=tokyonight" alt="Repos Per Language Pie Chart" />
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RifatNSU701&theme=tokyonight" alt="Most Commit Language Chart" />
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RifatNSU701&theme=tokyonight&utcOffset=6" alt="Productive Time Bar Graph" />
 </div>
-<!-- GITHUB_INTELLIGENCE_END -->
 
-<h2 align="center">Interactive Dashboard</h2>
+<br/>
 
-**[Open the full cybersecurity dashboard →](https://RifatNSU701.github.io/RifatNSU701/)**
+<!-- 4. Commit Overview Area Chart -->
+<div align="center">
+  <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RifatNSU701&theme=tokyonight" alt="Profile Details Graph" />
+</div>
 
-The dashboard contains the richer animated interface, technology matrix, Chart.js visualizations, GitHub intelligence, activity feed, and automatically synchronized repository analytics.
+<br/>
 
-<h2 align="center">Connect</h2>
+<!-- 5. Full-Width Interactive Activity Contribution Graph -->
+<div align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&bg_color=0f172a&color=38bdf8&line=f43f5e&point=e2e8f0&area=true&hide_border=true&custom_title=Real-Time%20Contribution%20%26%20Commit%20Velocity%20Graph" alt="Contribution Activity Graph" />
+</div>
 
-[GitHub](https://github.com/RifatNSU701) · [LinkedIn](https://linkedin.com/in/rifatcrs) · [Portfolio](https://rifatkhan.tech) · [X](https://x.com/MRKhan24154476)
+<!-- ===================================================================== -->
+<!--                         ANIMATED WAVE FOOTER                          -->
+<!-- ===================================================================== -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:1e1b4b,100:0f172a&height=120&section=footer" alt="Footer Banner" />
+</div>
