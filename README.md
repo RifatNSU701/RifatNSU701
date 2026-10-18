@@ -420,6 +420,9 @@
 <div align="center">
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&bg_color=0f172a&color=38bdf8&line=f43f5e&point=e2e8f0&area=true&hide_border=true&custom_title=Real-Time%20Contribution%20%26%20Commit%20Velocity%20Graph" alt="Contribution Activity Graph" />
 </div>
+
+<br/>
+
 <!-- 6. Animated Contribution Grid Snake -->
 <h3 align="center">🐍 Live Contribution Grid Eater</h3>
 <div align="center">
@@ -431,6 +434,19 @@
 </div>
 
 <br/>
+
+<!-- 7. 3D Isometric Contribution City & Radar -->
+<h3 align="center">🧊 3D Isometric Contribution City & Radar</h3>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/profile-3d-contrib/profile-season-animate.svg" />
+    <img width="98%" alt="3D Isometric Contribution Graph" src="https://raw.githubusercontent.com/RifatNSU701/RifatNSU701/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  </picture>
+</div>
+
+<br/>
+
 <!-- ===================================================================== -->
 <!--                         ANIMATED WAVE FOOTER                          -->
 <!-- ===================================================================== -->
