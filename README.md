@@ -2,19 +2,19 @@
 <!--                    ANIMATED HEADER & TYPING BANNER                    -->
 <!-- ===================================================================== -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:3b0764&height=220&section=header&text=Md%20Rifat%20Khan%20Rabbi&fontSize=46&fontColor=38bdf8&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20Flutter%20Architect%20%7C%20Systems%20%26%20Security%20Enthusiast&descAlignY=58&descSize=18&descColor=e2e8f0" alt="Header Banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:3b0764&height=220&section=header&text=Md%20Rifat%20Khan%20Rabbi&fontSize=44&fontColor=38bdf8&animation=fadeIn&fontAlignY=35&desc=CSE%20%40%20North%20South%20University%20%7C%20Software%20%26%20Systems%20Developer%20%7C%20Cybersecurity%20%26%20Data&descAlignY=58&descSize=16&descColor=e2e8f0" alt="Header Banner" />
 
-  <!-- Dynamic Typing Animation -->
+  <!-- Dynamic Typing Animation (Fixed width & single-line so it never cuts off) -->
   <a href="https://github.com/RifatNSU701">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=%F0%9F%9A%80+Architecting+Scalable+Mobile+%26+Enterprise+Applications;%F0%9F%94%90+Exploring+Cybersecurity%2C+Cloud+Infrastructure+%26+AI+Models;%F0%9F%92%BB+Turning+Complex+Problems+into+Clean%2C+Modular+Code" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&repeat=true&width=860&height=50&lines=%F0%9F%9A%80+Architecting+Scalable+Mobile+%26+Enterprise+Applications;%F0%9F%94%90+Cybersecurity+Defense%2C+Data+Analytics+%26+Cloud+Systems;%F0%9F%8E%93+Computer+Science+%26+Engineering+%40+North+South+University" alt="Typing SVG" />
   </a>
 
   <br/>
 
-  <!-- Live Telemetry & Social Badges -->
+  <!-- Live Telemetry & Social / Contact Badges -->
   <p align="center">
     <a href="https://github.com/RifatNSU701">
-      <img src="https://komarev.com/ghpvc/?username=RifatNSU701&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
+      <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FRifatNSU701&label=PROFILE%20VIEWS&labelColor=%230f172a&countColor=%230ea5e9&style=for-the-badge" alt="Profile Views" />
     </a>
     <a href="https://github.com/RifatNSU701?tab=followers">
       <img src="https://img.shields.io/github/followers/RifatNSU701?label=Followers&logo=github&style=for-the-badge&color=6366f1&logoColor=white" alt="Followers" />
@@ -22,11 +22,57 @@
     <a href="https://github.com/RifatNSU701?tab=repositories">
       <img src="https://img.shields.io/github/stars/RifatNSU701?affiliations=OWNER&label=Total%20Stars&logo=starship&style=for-the-badge&color=f59e0b&logoColor=white" alt="Stars" />
     </a>
-    <a href="mailto:rifat@example.com">
-      <img src="https://img.shields.io/badge/Contact_Me-0f172a?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email" />
+  </p>
+
+  <!-- Direct Social Profiles & Contact Links -->
+  <p align="center">
+    <a href="https://www.linkedin.com/in/rifat-khan-9a0b48270" target="_blank" rel="noreferrer">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://member.acm.org/~mkhanrabbi" target="_blank" rel="noreferrer">
+      <img src="https://img.shields.io/badge/ACM_Profile-0085CA?style=for-the-badge&logo=acm&logoColor=white" alt="ACM Profile" />
+    </a>
+    <a href="mailto:rifatkhanrabbi1324@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    </a>
+    <a href="mailto:corpsrifat@outlook.com">
+      <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Outlook" />
     </a>
   </p>
 </div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
+
+<!-- ===================================================================== -->
+<!--                ABOUT ME, BACKGROUND & CONTACT PROFILE                 -->
+<!-- ===================================================================== -->
+<h2 align="center">👨‍💻 About Me & Professional Profile</h2>
+
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>👋 Hi, I'm Md Rifat Khan Rabbi</h3>
+      <ul>
+        <li>🎓 <b>Education:</b> B.Sc. in Computer Science and Engineering (CSE) at <b>North South University (NSU)</b> (2023–2027), Dhaka, Bangladesh.</li>
+        <li>💼 <b>Experience:</b> Data Administrator & former Engineering Intern at <b>GAO Tek Inc. / GAO RFID Inc.</b></li>
+        <li>🎖️ <b>Leadership:</b> Served as <b>Cadet Corporal</b> in the Bangladesh National Cadet Corps (BNCC).</li>
+        <li>🔭 <b>Current Focus:</b> Cross-platform Flutter & Dart architecture, Java & C/C++ systems engineering, SQL/database administration, and Cybersecurity defense.</li>
+        <li>🌱 <b>Currently Exploring:</b> Network security, data analytics, AI prompt engineering, and scalable full-stack applications.</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top">
+      <h3>📬 Contact & Profiles</h3>
+      <ul>
+        <li>📍 <b>Location:</b> AftabNagar, Dhaka, Bangladesh</li>
+        <li>📧 <b>Primary Email:</b> <a href="mailto:rifatkhanrabbi1324@gmail.com">rifatkhanrabbi1324@gmail.com</a></li>
+        <li>📨 <b>Secondary Email:</b> <a href="mailto:corpsrifat@outlook.com">corpsrifat@outlook.com</a></li>
+        <li>🔗 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/rifat-khan-9a0b48270">linkedin.com/in/rifat-khan-9a0b48270</a></li>
+        <li>🌐 <b>ACM Web Portal:</b> <a href="https://member.acm.org/~mkhanrabbi">member.acm.org/~mkhanrabbi</a></li>
+        <li>🐙 <b>GitHub:</b> <a href="https://github.com/RifatNSU701">github.com/RifatNSU701</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
 
@@ -42,24 +88,6 @@
   <table>
     <tr>
       <td align="center" width="96">
-        <a href="https://flutter.dev" target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=flutter" width="48" height="48" alt="Flutter" />
-          <br /><sub><b>Flutter</b></sub>
-        </a>
-      </td>
-      <td align="center" width="96">
-        <a href="https://dart.dev" target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="Dart" />
-          <br /><sub><b>Dart</b></sub>
-        </a>
-      </td>
-      <td align="center" width="96">
-        <a href="https://www.java.com" target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
-          <br /><sub><b>Java</b></sub>
-        </a>
-      </td>
-      <td align="center" width="96">
         <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
           <br /><sub><b>C Lang</b></sub>
@@ -72,15 +100,33 @@
         </a>
       </td>
       <td align="center" width="96">
+        <a href="https://www.java.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
+          <br /><sub><b>Java</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
         <a href="https://www.python.org" target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
           <br /><sub><b>Python</b></sub>
         </a>
       </td>
       <td align="center" width="96">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-          <br /><sub><b>JavaScript</b></sub>
+        <a href="https://flutter.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=flutter" width="48" height="48" alt="Flutter" />
+          <br /><sub><b>Flutter</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://dart.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="Dart" />
+          <br /><sub><b>Dart</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=rust" width="48" height="48" alt="Rust" />
+          <br /><sub><b>Rust</b></sub>
         </a>
       </td>
       <td align="center" width="96">
@@ -98,18 +144,6 @@
   <table>
     <tr>
       <td align="center" width="96">
-        <a href="https://firebase.google.com" target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
-          <br /><sub><b>Firebase</b></sub>
-        </a>
-      </td>
-      <td align="center" width="96">
-        <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="Google Cloud" />
-          <br /><sub><b>Google Cloud</b></sub>
-        </a>
-      </td>
-      <td align="center" width="96">
         <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
           <br /><sub><b>MySQL</b></sub>
@@ -119,6 +153,18 @@
         <a href="https://www.sqlite.org" target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" alt="SQLite" />
           <br /><sub><b>SQLite</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://firebase.google.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
+          <br /><sub><b>Firebase</b></sub>
+        </a>
+      </td>
+      <td align="center" width="96">
+        <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="Google Cloud" />
+          <br /><sub><b>Google Cloud</b></sub>
         </a>
       </td>
       <td align="center" width="96">
@@ -243,19 +289,19 @@
       </details>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🛡️ NERSF & Systems Projects</h3>
+      <h3 align="center">🛡️ NERSF & Core Systems Projects</h3>
       <p align="center">
+        <img src="https://img.shields.io/badge/Rust_&_Systems-000000?style=flat-square&logo=rust&logoColor=white" />
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
         <img src="https://img.shields.io/badge/C_Systems-00599C?style=flat-square&logo=c&logoColor=white" />
-        <img src="https://img.shields.io/badge/Architecture-Modular-10b981?style=flat-square" />
       </p>
       <details>
         <summary><b>🔄 Flip Flashcard: View System Architecture & Specs</b></summary>
         <br/>
         <ul>
-          <li><b>nersF Core:</b> Custom framework and workflow implementations designed for high reliability and rapid deployment.</li>
-          <li><b>E-Commerce Seller & Wallet Engine (Java):</b> Full-featured Seller Dashboard with real-time wallet balance reconciliation and profile management.</li>
-          <li><b>Hardware Product Management (C):</b> Low-level indexed record storage with fast search and retrieval algorithms.</li>
+          <li><b>nersF Repository:</b> High-performance system utilities and modular development workflows.</li>
+          <li><b>E-Commerce Management System (Java):</b> Complete Seller Dashboard featuring profile views, wallet balance management, and order processing.</li>
+          <li><b>Hardware Product Management System (C):</b> Fast indexed file storage with search and record retrieval engines.</li>
         </ul>
         <p align="center">
           <a href="https://github.com/RifatNSU701/nersF">
@@ -272,57 +318,41 @@
 <!-- ===================================================================== -->
 <!--              CERTIFICATES & CREDENTIALS FLASHCARDS DECK               -->
 <!-- ===================================================================== -->
-<h2 align="center">🎓 Certifications, Credentials & Lab Flashcards</h2>
-<p align="center"><i>Click on any flashcard below to flip and inspect credential details, competencies, and verification links</i></p>
+<h2 align="center">🎓 Certifications, Courses & Professional Credentials</h2>
+<p align="center"><i>Click on any flashcard below to flip and inspect credential details and competencies</i></p>
 
 <table>
   <tr>
     <!-- Certificate Card 1 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/CREDENTIAL_01-AI_%26_CLOUD_MODELS-38bdf8?style=for-the-badge&logo=googlecloud&logoColor=white" />
-        <h4>🤖 Google Gemma Models & Cloud Ecosystem</h4>
-        <p><sub><b>Issued / Authorized:</b> Google / Hugging Face & Cloud Ecosystem</sub></p>
+        <img src="https://img.shields.io/badge/CYBERSECURITY_%26_DATA-IBM_%2F_COURSERA-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
+        <h4>🔐 Introduction to Cybersecurity Careers & Data Analytics</h4>
+        <p><sub><b>Issuer:</b> IBM / Coursera</sub></p>
       </div>
       <details>
-        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
-        <blockquote>
-          <b>Key Focus:</b> Authorized access and exploration across 330+ repositories in Google's Gemma open-weights LLM family and cloud deployment pipelines.
-        </blockquote>
         <ul>
-          <li>Model evaluation, prompt engineering, and lightweight local/cloud inference workflows.</li>
-          <li>Integration of modern AI capabilities into cross-platform applications.</li>
+          <li><b>Introduction to Cybersecurity Careers:</b> Security defense fundamentals, threat mitigation, and security analyst workflows.</li>
+          <li><b>Introduction to Data Analytics:</b> Data ecosystems, structured analysis pipelines, and business intelligence reporting.</li>
+          <li><b>Generative AI: Prompt Engineering Basics:</b> Structured prompt design and LLM optimization techniques.</li>
         </ul>
-        <p align="center">
-          <a href="https://huggingface.co/google">
-            <img src="https://img.shields.io/badge/Verify_Ecosystem-0ea5e9?style=flat-square&logo=google&logoColor=white" />
-          </a>
-        </p>
       </details>
     </td>
     <!-- Certificate Card 2 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/CREDENTIAL_02-CYBERSECURITY-f43f5e?style=for-the-badge&logo=linux&logoColor=white" />
-        <h4>🔐 Cybersecurity Analyst & Defense Labs</h4>
-        <p><sub><b>Focus Area:</b> Network Defense, Threat Analysis & Secure Systems</sub></p>
+        <img src="https://img.shields.io/badge/GOOGLE_CERTIFIED-DIGITAL_GARAGE-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+        <h4>🌐 The Fundamentals of Digital Marketing</h4>
+        <p><sub><b>Issuer:</b> Google Digital Garage</sub></p>
       </div>
       <details>
-        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
-        <blockquote>
-          <b>Key Focus:</b> Structured hands-on security labs, system hardening, and secure application architecture.
-        </blockquote>
         <ul>
-          <li>Vulnerability assessment, Linux privilege auditing, and network traffic inspection.</li>
-          <li>Implementing secure authentication and data persistence in mobile & web apps.</li>
+          <li>Certified by Google in digital presence optimization, web analytics, search engine indexing, and data-driven growth strategies.</li>
         </ul>
-        <p align="center">
-          <a href="https://github.com/RifatNSU701">
-            <img src="https://img.shields.io/badge/View_Security_Labs-f43f5e?style=flat-square&logo=github&logoColor=white" />
-          </a>
-        </p>
       </details>
     </td>
   </tr>
@@ -330,49 +360,33 @@
     <!-- Certificate Card 3 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/CREDENTIAL_03-MOBILE_ARCHITECTURE-8b5cf6?style=for-the-badge&logo=flutter&logoColor=white" />
-        <h4>📱 Cross-Platform Flutter & State Engineering</h4>
-        <p><sub><b>Focus Area:</b> Production UI/UX, Provider State & Clean Architecture</sub></p>
+        <img src="https://img.shields.io/badge/ENGINEERING_INTERNSHIP-GAO_TEK_%2F_RFID-10b981?style=for-the-badge&logo=Buffer&logoColor=white" />
+        <h4>⚙️ Engineering Intern & Technical Training Certificates</h4>
+        <p><sub><b>Issuer:</b> GAO Tek Inc. / GAO RFID Inc.</sub></p>
       </div>
       <details>
-        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
-        <blockquote>
-          <b>Key Focus:</b> End-to-end engineering of responsive financial and utility applications using Dart and Flutter.
-        </blockquote>
         <ul>
-          <li>Custom reusable widget trees, dynamic theme switching, and modular screen routing.</li>
-          <li>Persistent local storage, transaction scheduling, and multi-wallet reconciliation.</li>
+          <li>Completed intensive engineering internship and multi-group technical skill certifications (Feb–May 2024).</li>
+          <li>Collaborated on RFID/IoT product documentation, technical specifications, and enterprise systems support.</li>
         </ul>
-        <p align="center">
-          <a href="https://github.com/RifatNSU701/Money-Management">
-            <img src="https://img.shields.io/badge/Inspect_Codebase-8b5cf6?style=flat-square&logo=flutter&logoColor=white" />
-          </a>
-        </p>
       </details>
     </td>
     <!-- Certificate Card 4 -->
     <td width="50%" valign="top">
       <div align="center">
-        <img src="https://img.shields.io/badge/CREDENTIAL_04-SYSTEMS_ENGINEERING-10b981?style=for-the-badge&logo=openjdk&logoColor=white" />
-        <h4>⚙️ Object-Oriented & Low-Level Systems Labs</h4>
-        <p><sub><b>Focus Area:</b> Java Enterprise Patterns & C Memory/File Systems</sub></p>
+        <img src="https://img.shields.io/badge/ACADEMIC_%26_RESEARCH-HARVARD_%26_STANFORD-A51C30?style=for-the-badge&logo=harvard&logoColor=white" />
+        <h4>🏛️ Clinical Research & Health Informatics Courses</h4>
+        <p><sub><b>Issuers:</b> Harvard Medical School & Stanford University</sub></p>
       </div>
       <details>
-        <summary><b>🃏 Flip Certificate Card (View Competencies)</b></summary>
+        <summary><b>🃏 Flip Certificate Card (View Details)</b></summary>
         <br/>
-        <blockquote>
-          <b>Key Focus:</b> Core computer science foundations across object-oriented design and procedural systems programming.
-        </blockquote>
         <ul>
-          <li><b>Java:</b> Multi-role E-Commerce platforms, Seller Dashboards, and encapsulated business logic.</li>
-          <li><b>C Language:</b> Custom binary/text file indexing, CRUD data pipelines, and hardware inventory engines.</li>
+          <li><b>Harvard Medical School:</b> <i>Foundations of Clinical Research</i> program acceptance & coursework.</li>
+          <li><b>Stanford University:</b> <i>Stanford Introduction to Food and Health</i> certification coursework.</li>
         </ul>
-        <p align="center">
-          <a href="https://github.com/RifatNSU701?tab=repositories">
-            <img src="https://img.shields.io/badge/Browse_Lab_Repos-10b981?style=flat-square&logo=github&logoColor=white" />
-          </a>
-        </p>
       </details>
     </td>
   </tr>
@@ -385,9 +399,9 @@
 <!-- ===================================================================== -->
 <h2 align="center">📈 Live Developer Telemetry & Dynamic Graphs</h2>
 
-<!-- 1. GitHub Trophies Bar -->
+<!-- 1. GitHub Trophies Bar (Using active mirror since vercel.app main instance is paused) -->
 <div align="center">
-  <img width="98%" src="https://github-profile-trophy.vercel.app/?username=RifatNSU701&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" alt="GitHub Trophies" />
+  <img width="98%" src="https://github-profile-trophy-orcin-eta.vercel.app/?username=RifatNSU701&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" alt="GitHub Trophies" />
 </div>
 
 <br/>
@@ -416,9 +430,9 @@
 
 <br/>
 
-<!-- 5. Full-Width Interactive Activity Contribution Graph -->
+<!-- 5. Full-Width Interactive Activity Contribution Graph (Fixed XML '&' bug) -->
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&bg_color=0f172a&color=38bdf8&line=f43f5e&point=e2e8f0&area=true&hide_border=true&custom_title=Real-Time%20Contribution%20%26%20Commit%20Velocity%20Graph" alt="Contribution Activity Graph" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RifatNSU701&theme=tokyo-night&bg_color=0f172a&color=38bdf8&line=f43f5e&point=e2e8f0&area=true&hide_border=true&custom_title=Real-Time%20Contribution%20and%20Commit%20Velocity%20Graph" alt="Contribution Activity Graph" />
 </div>
 
 <br/>
@@ -451,5 +465,5 @@
 <!--                         ANIMATED WAVE FOOTER                          -->
 <!-- ===================================================================== -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,50:1e1b4b,100:0f172a&height=120&section=footer" alt="Footer Banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3b0764,100:0f172a&height=120&section=footer" alt="Footer Banner" />
 </div>
