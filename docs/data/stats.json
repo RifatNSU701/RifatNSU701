@@ -1,14 +1,14 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-25T15:23:58.016133+00:00",
+  "generated_at": "2026-10-25T20:16:13.768093+00:00",
   "profile": {
-    "public_repos": 7,
+    "public_repos": 8,
     "followers": 19,
     "following": 6
   },
   "totals": {
-    "repositories": 7,
-    "stars": 24,
+    "repositories": 8,
+    "stars": 25,
     "forks": 1,
     "open_issues": 2,
     "pull_requests": 8,
@@ -18,37 +18,37 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 43.49
+      "percent": 42.98
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 34.02
+      "percent": 33.62
     },
     {
       "name": "C",
       "bytes": 125612,
-      "percent": 10.74
+      "percent": 10.61
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 6.27
+      "percent": 6.2
     },
     {
       "name": "Python",
-      "bytes": 38812,
-      "percent": 3.32
+      "bytes": 52628,
+      "percent": 4.45
     },
     {
       "name": "CMake",
       "bytes": 17681,
-      "percent": 1.51
+      "percent": 1.49
     },
     {
       "name": "Tcl",
       "bytes": 2881,
-      "percent": 0.25
+      "percent": 0.24
     },
     {
       "name": "Dockerfile",
@@ -84,7 +84,16 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-25T10:31:34Z"
+      "updated_at": "2026-10-25T20:04:35Z"
+    },
+    {
+      "name": "AI_Driven_SDN",
+      "description": "AI-Powered Software-Defined Networking (SDN) Threat Protection System \u2014 Closed-loop OpenFlow telemetry, ML anomaly detection, and dynamic policy enforcement.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
+      "updated_at": "2026-10-25T19:52:24Z"
     },
     {
       "name": "Olympus",
@@ -143,6 +152,16 @@
   ],
   "recent_activity": [
     {
+      "type": "WatchEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-25T19:52:24Z"
+    },
+    {
+      "type": "CreateEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-25T19:51:17Z"
+    },
+    {
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-10-18T00:57:43Z"
@@ -181,16 +200,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-10-18T00:58:59Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-10-18T01:03:02Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-10-18T00:55:59Z"
     }
   ],
   "contributions": null,
