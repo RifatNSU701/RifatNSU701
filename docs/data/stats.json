@@ -1,9 +1,9 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-26T12:04:31.419263+00:00",
+  "generated_at": "2026-10-26T22:10:51.408275+00:00",
   "profile": {
     "public_repos": 8,
-    "followers": 19,
+    "followers": 20,
     "following": 6
   },
   "totals": {
@@ -18,32 +18,32 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 42.82
+      "percent": 42.36
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 33.5
+      "percent": 33.14
     },
     {
       "name": "C",
       "bytes": 125612,
-      "percent": 10.57
+      "percent": 10.46
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 6.18
+      "percent": 6.11
     },
     {
       "name": "Python",
-      "bytes": 57166,
-      "percent": 4.81
+      "bytes": 69959,
+      "percent": 5.83
     },
     {
       "name": "CMake",
       "bytes": 17681,
-      "percent": 1.49
+      "percent": 1.47
     },
     {
       "name": "Tcl",
@@ -53,7 +53,7 @@
     {
       "name": "Dockerfile",
       "bytes": 1496,
-      "percent": 0.13
+      "percent": 0.12
     },
     {
       "name": "JavaScript",
@@ -78,22 +78,22 @@
   ],
   "repositories": [
     {
-      "name": "AI_Driven_SDN",
-      "description": "AI-Powered Software-Defined Networking (SDN) Threat Protection System \u2014 Closed-loop OpenFlow telemetry, ML anomaly detection, and dynamic policy enforcement.",
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
-      "updated_at": "2026-10-26T10:05:23Z"
-    },
-    {
       "name": "RifatNSU701",
       "description": null,
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-26T02:43:20Z"
+      "updated_at": "2026-10-26T21:59:16Z"
+    },
+    {
+      "name": "AI_Driven_SDN",
+      "description": "AI-Powered Software-Defined Networking (SDN) Threat Protection System \u2014 Closed-loop OpenFlow telemetry, ML anomaly detection, and dynamic policy enforcement.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
+      "updated_at": "2026-10-26T16:25:54Z"
     },
     {
       "name": "Olympus",
@@ -152,6 +152,11 @@
   ],
   "recent_activity": [
     {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-26T16:20:32Z"
+    },
+    {
       "type": "WatchEvent",
       "repo": "RifatNSU701/AI_Driven_SDN",
       "created_at": "2026-10-25T19:52:24Z"
@@ -195,11 +200,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-10-18T01:00:24Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-10-18T00:58:59Z"
     }
   ],
   "contributions": null,
