@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-26T22:10:51.408275+00:00",
+  "generated_at": "2026-10-27T03:17:51.808877+00:00",
   "profile": {
     "public_repos": 8,
     "followers": 20,
@@ -18,32 +18,32 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 42.36
+      "percent": 42.07
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 33.14
+      "percent": 32.92
     },
     {
       "name": "C",
       "bytes": 125612,
-      "percent": 10.46
+      "percent": 10.39
+    },
+    {
+      "name": "Python",
+      "bytes": 78122,
+      "percent": 6.46
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 6.11
-    },
-    {
-      "name": "Python",
-      "bytes": 69959,
-      "percent": 5.83
+      "percent": 6.07
     },
     {
       "name": "CMake",
       "bytes": 17681,
-      "percent": 1.47
+      "percent": 1.46
     },
     {
       "name": "Tcl",
@@ -68,7 +68,7 @@
     {
       "name": "CSS",
       "bytes": 664,
-      "percent": 0.06
+      "percent": 0.05
     },
     {
       "name": "Makefile",
@@ -84,7 +84,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-26T21:59:16Z"
+      "updated_at": "2026-10-27T03:01:38Z"
     },
     {
       "name": "AI_Driven_SDN",
@@ -93,7 +93,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
-      "updated_at": "2026-10-26T16:25:54Z"
+      "updated_at": "2026-10-27T02:19:45Z"
     },
     {
       "name": "Olympus",
