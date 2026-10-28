@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-28T03:33:12.836157+00:00",
+  "generated_at": "2026-10-28T11:57:28.324707+00:00",
   "profile": {
     "public_repos": 8,
     "followers": 20,
@@ -18,37 +18,37 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 41.79
+      "percent": 41.13
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 32.69
+      "percent": 32.17
     },
     {
       "name": "C",
       "bytes": 125612,
-      "percent": 10.32
+      "percent": 10.16
     },
     {
       "name": "Python",
-      "bytes": 86133,
-      "percent": 7.08
+      "bytes": 105760,
+      "percent": 8.55
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 6.03
+      "percent": 5.93
     },
     {
       "name": "CMake",
       "bytes": 17681,
-      "percent": 1.45
+      "percent": 1.43
     },
     {
       "name": "Tcl",
       "bytes": 2881,
-      "percent": 0.24
+      "percent": 0.23
     },
     {
       "name": "Dockerfile",
@@ -78,22 +78,22 @@
   ],
   "repositories": [
     {
-      "name": "RifatNSU701",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-28T03:12:38Z"
-    },
-    {
       "name": "AI_Driven_SDN",
       "description": "AI-Powered Software-Defined Networking (SDN) Threat Protection System \u2014 Closed-loop OpenFlow telemetry, ML anomaly detection, and dynamic policy enforcement.",
       "stars": 1,
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
-      "updated_at": "2026-10-27T12:08:17Z"
+      "updated_at": "2026-10-28T11:13:55Z"
+    },
+    {
+      "name": "RifatNSU701",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/RifatNSU701/RifatNSU701",
+      "updated_at": "2026-10-28T03:33:17Z"
     },
     {
       "name": "Olympus",
