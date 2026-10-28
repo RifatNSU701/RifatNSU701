@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-28T17:56:28.472982+00:00",
+  "generated_at": "2026-10-28T22:09:58.054513+00:00",
   "profile": {
     "public_repos": 8,
     "followers": 20,
@@ -18,47 +18,57 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 39.35
+      "percent": 37.47
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 30.79
+      "percent": 29.32
     },
     {
       "name": "C",
-      "bytes": 125612,
-      "percent": 9.72
+      "bytes": 127100,
+      "percent": 9.36
     },
     {
       "name": "Python",
-      "bytes": 111000,
-      "percent": 8.59
+      "bytes": 124345,
+      "percent": 9.16
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 5.68
-    },
-    {
-      "name": "HTML",
-      "bytes": 33903,
-      "percent": 2.62
+      "percent": 5.41
     },
     {
       "name": "CMake",
-      "bytes": 17681,
-      "percent": 1.37
+      "bytes": 37433,
+      "percent": 2.76
+    },
+    {
+      "name": "HTML",
+      "bytes": 35442,
+      "percent": 2.61
+    },
+    {
+      "name": "C++",
+      "bytes": 25194,
+      "percent": 1.86
     },
     {
       "name": "Dart",
-      "bytes": 17283,
-      "percent": 1.34
+      "bytes": 18626,
+      "percent": 1.37
     },
     {
       "name": "Tcl",
       "bytes": 2881,
-      "percent": 0.22
+      "percent": 0.21
+    },
+    {
+      "name": "Swift",
+      "bytes": 2036,
+      "percent": 0.15
     },
     {
       "name": "Dockerfile",
@@ -79,6 +89,16 @@
       "name": "Makefile",
       "bytes": 448,
       "percent": 0.03
+    },
+    {
+      "name": "Kotlin",
+      "bytes": 131,
+      "percent": 0.01
+    },
+    {
+      "name": "Objective-C",
+      "bytes": 38,
+      "percent": 0.0
     }
   ],
   "repositories": [
@@ -89,7 +109,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-28T17:41:50Z"
+      "updated_at": "2026-10-28T21:57:23Z"
     },
     {
       "name": "AI_Driven_SDN",
@@ -98,7 +118,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
-      "updated_at": "2026-10-28T13:49:39Z"
+      "updated_at": "2026-10-28T18:27:59Z"
     },
     {
       "name": "Olympus",
