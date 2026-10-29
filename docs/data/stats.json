@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-28T22:09:58.054513+00:00",
+  "generated_at": "2026-10-29T03:54:46.927329+00:00",
   "profile": {
     "public_repos": 8,
     "followers": 20,
@@ -18,47 +18,47 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 37.47
+      "percent": 37.26
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 29.32
+      "percent": 29.15
+    },
+    {
+      "name": "Python",
+      "bytes": 129079,
+      "percent": 9.46
     },
     {
       "name": "C",
       "bytes": 127100,
-      "percent": 9.36
-    },
-    {
-      "name": "Python",
-      "bytes": 124345,
-      "percent": 9.16
+      "percent": 9.31
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 5.41
+      "percent": 5.38
+    },
+    {
+      "name": "HTML",
+      "bytes": 38460,
+      "percent": 2.82
     },
     {
       "name": "CMake",
       "bytes": 37433,
-      "percent": 2.76
-    },
-    {
-      "name": "HTML",
-      "bytes": 35442,
-      "percent": 2.61
+      "percent": 2.74
     },
     {
       "name": "C++",
       "bytes": 25194,
-      "percent": 1.86
+      "percent": 1.85
     },
     {
       "name": "Dart",
       "bytes": 18626,
-      "percent": 1.37
+      "percent": 1.36
     },
     {
       "name": "Tcl",
@@ -109,7 +109,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-28T21:57:23Z"
+      "updated_at": "2026-10-29T03:38:20Z"
     },
     {
       "name": "AI_Driven_SDN",
@@ -118,7 +118,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
-      "updated_at": "2026-10-28T18:27:59Z"
+      "updated_at": "2026-10-29T03:36:47Z"
     },
     {
       "name": "Olympus",
@@ -179,6 +179,11 @@
     {
       "type": "PushEvent",
       "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-28T10:04:50Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
       "created_at": "2026-10-27T12:08:13Z"
     },
     {
@@ -220,11 +225,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-10-18T00:57:43Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-10-18T02:09:22Z"
     }
   ],
   "contributions": null,
