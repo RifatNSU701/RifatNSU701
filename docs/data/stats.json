@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-29T03:54:46.927329+00:00",
+  "generated_at": "2026-10-29T12:06:44.394220+00:00",
   "profile": {
     "public_repos": 8,
     "followers": 20,
@@ -18,62 +18,62 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 37.26
+      "percent": 36.05
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 29.15
+      "percent": 28.2
     },
     {
       "name": "Python",
-      "bytes": 129079,
-      "percent": 9.46
+      "bytes": 145045,
+      "percent": 10.28
     },
     {
       "name": "C",
       "bytes": 127100,
-      "percent": 9.31
+      "percent": 9.01
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 5.38
+      "percent": 5.2
     },
     {
       "name": "HTML",
-      "bytes": 38460,
-      "percent": 2.82
+      "bytes": 53622,
+      "percent": 3.8
     },
     {
       "name": "CMake",
       "bytes": 37433,
-      "percent": 2.74
+      "percent": 2.65
+    },
+    {
+      "name": "Dart",
+      "bytes": 33381,
+      "percent": 2.37
     },
     {
       "name": "C++",
       "bytes": 25194,
-      "percent": 1.85
-    },
-    {
-      "name": "Dart",
-      "bytes": 18626,
-      "percent": 1.36
+      "percent": 1.79
     },
     {
       "name": "Tcl",
       "bytes": 2881,
-      "percent": 0.21
+      "percent": 0.2
     },
     {
       "name": "Swift",
       "bytes": 2036,
-      "percent": 0.15
+      "percent": 0.14
     },
     {
       "name": "Dockerfile",
       "bytes": 1709,
-      "percent": 0.13
+      "percent": 0.12
     },
     {
       "name": "JavaScript",
@@ -103,22 +103,22 @@
   ],
   "repositories": [
     {
-      "name": "RifatNSU701",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-29T03:38:20Z"
-    },
-    {
       "name": "AI_Driven_SDN",
       "description": "AI-Powered Software-Defined Networking (SDN) Threat Protection System \u2014 Closed-loop OpenFlow telemetry, ML anomaly detection, and dynamic policy enforcement.",
       "stars": 1,
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
-      "updated_at": "2026-10-29T03:36:47Z"
+      "updated_at": "2026-10-29T10:39:30Z"
+    },
+    {
+      "name": "RifatNSU701",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/RifatNSU701/RifatNSU701",
+      "updated_at": "2026-10-29T03:54:51Z"
     },
     {
       "name": "Olympus",
@@ -179,6 +179,26 @@
     {
       "type": "PushEvent",
       "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-28T11:13:52Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-28T13:49:34Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-28T10:07:58Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
+      "created_at": "2026-10-28T11:58:11Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/AI_Driven_SDN",
       "created_at": "2026-10-28T10:04:50Z"
     },
     {
@@ -205,26 +225,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/AI_Driven_SDN",
       "created_at": "2026-10-26T10:05:20Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/AI_Driven_SDN",
-      "created_at": "2026-10-26T16:20:32Z"
-    },
-    {
-      "type": "WatchEvent",
-      "repo": "RifatNSU701/AI_Driven_SDN",
-      "created_at": "2026-10-25T19:52:24Z"
-    },
-    {
-      "type": "CreateEvent",
-      "repo": "RifatNSU701/AI_Driven_SDN",
-      "created_at": "2026-10-25T19:51:17Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-10-18T00:57:43Z"
     }
   ],
   "contributions": null,
