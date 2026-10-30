@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-10-29T22:18:51.838722+00:00",
+  "generated_at": "2026-10-30T03:56:18.572109+00:00",
   "profile": {
     "public_repos": 8,
     "followers": 20,
@@ -27,8 +27,8 @@
     },
     {
       "name": "Python",
-      "bytes": 145045,
-      "percent": 10.28
+      "bytes": 144907,
+      "percent": 10.27
     },
     {
       "name": "C",
@@ -103,22 +103,22 @@
   ],
   "repositories": [
     {
-      "name": "RifatNSU701",
-      "description": null,
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-10-29T22:06:33Z"
-    },
-    {
       "name": "AI_Driven_SDN",
       "description": "AI-Powered Software-Defined Networking (SDN) Threat Protection System \u2014 Closed-loop OpenFlow telemetry, ML anomaly detection, and dynamic policy enforcement.",
       "stars": 1,
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/AI_Driven_SDN",
-      "updated_at": "2026-10-29T10:39:30Z"
+      "updated_at": "2026-10-30T03:53:26Z"
+    },
+    {
+      "name": "RifatNSU701",
+      "description": null,
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/RifatNSU701/RifatNSU701",
+      "updated_at": "2026-10-30T03:41:25Z"
     },
     {
       "name": "Olympus",
