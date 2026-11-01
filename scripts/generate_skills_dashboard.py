@@ -1,1 +1,286 @@
+import json
+from datetime import datetime, timezone
+from pathlib import Path
 
+ROOT_DIR = Path(__file__).resolve().parent.parent
+STATS_FILE = ROOT_DIR / "docs" / "data" / "stats.json"
+OUTPUT_SVG = ROOT_DIR / "assets" / "skills-dashboard.svg"
+
+
+def load_stats() -> dict:
+    if STATS_FILE.exists():
+        try:
+            with open(STATS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
+def generate_svg(stats: dict) -> str:
+    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    total_repos = stats.get("public_repos", stats.get("total_repos", "ACTIVE"))
+    total_commits = stats.get("total_commits", stats.get("commits", "SYNCED"))
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="620">
+  <defs>
+    <linearGradient id="bgMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="50%" stop-color="#0D1322" />
+      <stop offset="100%" stop-color="#090D16" />
+    </linearGradient>
+
+    <linearGradient id="cardSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0.92" />
+    </linearGradient>
+
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="indigoNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+
+    <linearGradient id="emeraldNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <linearGradient id="roseNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#FB7185" />
+    </linearGradient>
+
+    <pattern id="cyberGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.55" />
+    </pattern>
+
+    <filter id="neonGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .hud-title {{ font: 800 21px 'Segoe UI', 'Inter', Ubuntu, Sans-Serif; fill: #F8FAFC; letter-spacing: 0.8px; }}
+    .hud-sub {{ font: 600 11px 'JetBrains Mono', 'Fira Code', monospace; fill: #38BDF8; letter-spacing: 2.5px; }}
+    .badge-txt {{ font: 700 10px 'JetBrains Mono', monospace; fill: #10B981; letter-spacing: 1.2px; }}
+    .ring-val {{ font: 800 17px 'JetBrains Mono', monospace; fill: #F8FAFC; }}
+    .ring-lbl {{ font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #94A3B8; }}
+    .card-hdr {{ font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #F1F5F9; letter-spacing: 0.5px; }}
+    .skill-name {{ font: 600 12.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #CBD5E1; }}
+    .skill-pct {{ font: 700 12px 'JetBrains Mono', monospace; fill: #38BDF8; }}
+    .skill-pct-indigo {{ font: 700 12px 'JetBrains Mono', monospace; fill: #A855F7; }}
+    .skill-pct-emerald {{ font: 700 12px 'JetBrains Mono', monospace; fill: #34D399; }}
+    .skill-pct-rose {{ font: 700 12px 'JetBrains Mono', monospace; fill: #FB7185; }}
+    .footer-txt {{ font: 600 11px 'JetBrains Mono', monospace; fill: #64748B; letter-spacing: 1px; }}
+  </style>
+
+  <rect x="2" y="2" width="996" height="616" rx="18" fill="url(#bgMain)" stroke="url(#borderGlow)" stroke-width="2" />
+  <rect x="4" y="4" width="992" height="612" rx="16" fill="url(#cyberGrid)" />
+
+  <!-- Top Telemetry Header -->
+  <rect x="24" y="20" width="952" height="64" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+  <path d="M 36 30 L 52 30 M 36 30 L 36 46" stroke="#38BDF8" stroke-width="2" fill="none" />
+  <text x="64" y="48" class="hud-title">⚡ MULTI-DOMAIN ENGINEERING &amp; SECURITY TELEMETRY</text>
+  <text x="64" y="68" class="hud-sub">LIVE ARCHITECTURAL PROFICIENCY &amp; OPERATIONAL READINESS</text>
+
+  <rect x="810" y="36" width="146" height="30" rx="15" fill="#064E3B" fill-opacity="0.35" stroke="#10B981" stroke-width="1.2" />
+  <circle cx="830" cy="51" r="4.5" fill="#10B981">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite" />
+  </circle>
+  <text x="844" y="55" class="badge-txt">SYSTEMS ONLINE</text>
+
+  <!-- Row 1: 4 Radial Domain Gauges -->
+  <g transform="translate(24, 98)">
+    <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#cyanNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="8" transform="rotate(-90 52 55)">
+      <animate attributeName="stroke-dashoffset" from="201" to="8" dur="1.4s" fill="freeze" />
+    </circle>
+    <text x="52" y="60" text-anchor="middle" class="ring-val">96%</text>
+    <text x="100" y="46" class="card-hdr">SOC &amp; SIEM</text>
+    <text x="100" y="66" class="ring-lbl">Threat Hunting</text>
+    <text x="100" y="83" class="ring-lbl">&amp; Incident Resp.</text>
+  </g>
+
+  <g transform="translate(266, 98)">
+    <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#indigoNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="14" transform="rotate(-90 52 55)">
+      <animate attributeName="stroke-dashoffset" from="201" to="14" dur="1.4s" fill="freeze" />
+    </circle>
+    <text x="52" y="60" text-anchor="middle" class="ring-val">93%</text>
+    <text x="100" y="46" class="card-hdr">NetSec &amp; Cloud</text>
+    <text x="100" y="66" class="ring-lbl">Zero-Trust Arch</text>
+    <text x="100" y="83" class="ring-lbl">&amp; Firewalls</text>
+  </g>
+
+  <g transform="translate(508, 98)">
+    <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#emeraldNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="10" transform="rotate(-90 52 55)">
+      <animate attributeName="stroke-dashoffset" from="201" to="10" dur="1.4s" fill="freeze" />
+    </circle>
+    <text x="52" y="60" text-anchor="middle" class="ring-val">95%</text>
+    <text x="100" y="46" class="card-hdr">Core Systems</text>
+    <text x="100" y="66" class="ring-lbl">Linux Kernel, C++</text>
+    <text x="100" y="83" class="ring-lbl">Python &amp; Rust</text>
+  </g>
+
+  <g transform="translate(750, 98)">
+    <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#roseNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="16" transform="rotate(-90 52 55)">
+      <animate attributeName="stroke-dashoffset" from="201" to="16" dur="1.4s" fill="freeze" />
+    </circle>
+    <text x="52" y="60" text-anchor="middle" class="ring-val">92%</text>
+    <text x="100" y="46" class="card-hdr">Full-Stack App</text>
+    <text x="100" y="66" class="ring-lbl">Flutter, React,</text>
+    <text x="100" y="83" class="ring-lbl">SQL &amp; Next.js</text>
+  </g>
+
+  <!-- Quadrant 1 -->
+  <g transform="translate(24, 224)">
+    <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <text x="22" y="28" class="card-hdr">🛡️ Security Operations, SIEM &amp; Penetration Testing</text>
+    <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
+
+    <text x="22" y="60" class="skill-name">SIEM Engineering (Splunk, Wazuh, Elastic Stack)</text>
+    <text x="446" y="60" text-anchor="end" class="skill-pct">96%</text>
+    <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="67" width="407" height="8" rx="4" fill="url(#cyanNeon)" filter="url(#neonGlow)">
+      <animate attributeName="width" from="0" to="407" dur="1.2s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="98" class="skill-name">Vulnerability Assessment (Burp Suite, Metasploit, Nmap)</text>
+    <text x="446" y="98" text-anchor="end" class="skill-pct">94%</text>
+    <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="105" width="398" height="8" rx="4" fill="url(#cyanNeon)">
+      <animate attributeName="width" from="0" to="398" dur="1.3s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="136" class="skill-name">Digital Forensics, Threat Hunting &amp; Packet Analysis</text>
+    <text x="446" y="136" text-anchor="end" class="skill-pct">92%</text>
+    <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="143" width="390" height="8" rx="4" fill="url(#cyanNeon)">
+      <animate attributeName="width" from="0" to="390" dur="1.4s" fill="freeze" />
+    </rect>
+  </g>
+
+  <!-- Quadrant 2 -->
+  <g transform="translate(508, 224)">
+    <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <text x="22" y="28" class="card-hdr">🌐 Network Defense, Firewalls &amp; Linux Administration</text>
+    <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
+
+    <text x="22" y="60" class="skill-name">Firewall &amp; Routing Architecture (pfSense, Cisco, IDS/IPS)</text>
+    <text x="446" y="60" text-anchor="end" class="skill-pct-indigo">94%</text>
+    <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="67" width="398" height="8" rx="4" fill="url(#indigoNeon)" filter="url(#neonGlow)">
+      <animate attributeName="width" from="0" to="398" dur="1.2s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="98" class="skill-name">Linux Hardening (Kali, Ubuntu Server, OpenSSH, Bash)</text>
+    <text x="446" y="98" text-anchor="end" class="skill-pct-indigo">95%</text>
+    <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="105" width="403" height="8" rx="4" fill="url(#indigoNeon)">
+      <animate attributeName="width" from="0" to="403" dur="1.3s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="136" class="skill-name">Custom Firmware, AOSP / LineageOS &amp; System Recovery</text>
+    <text x="446" y="136" text-anchor="end" class="skill-pct-indigo">91%</text>
+    <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="143" width="386" height="8" rx="4" fill="url(#indigoNeon)">
+      <animate attributeName="width" from="0" to="386" dur="1.4s" fill="freeze" />
+    </rect>
+  </g>
+
+  <!-- Quadrant 3 -->
+  <g transform="translate(24, 404)">
+    <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <text x="22" y="28" class="card-hdr">💻 Core Languages, Systems &amp; Algorithmic Engineering</text>
+    <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
+
+    <text x="22" y="60" class="skill-name">Python, Security Automation &amp; Data Telemetry Scripts</text>
+    <text x="446" y="60" text-anchor="end" class="skill-pct-emerald">96%</text>
+    <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="67" width="407" height="8" rx="4" fill="url(#emeraldNeon)" filter="url(#neonGlow)">
+      <animate attributeName="width" from="0" to="407" dur="1.2s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="98" class="skill-name">C, C++, Rust &amp; Memory-Safe Systems Programming</text>
+    <text x="446" y="98" text-anchor="end" class="skill-pct-emerald">93%</text>
+    <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="105" width="394" height="8" rx="4" fill="url(#emeraldNeon)">
+      <animate attributeName="width" from="0" to="394" dur="1.3s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="136" class="skill-name">Data Structures, Algorithms (DSA) &amp; Digital Logic Design</text>
+    <text x="446" y="136" text-anchor="end" class="skill-pct-emerald">95%</text>
+    <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="143" width="403" height="8" rx="4" fill="url(#emeraldNeon)">
+      <animate attributeName="width" from="0" to="403" dur="1.4s" fill="freeze" />
+    </rect>
+  </g>
+
+  <!-- Quadrant 4 -->
+  <g transform="translate(508, 404)">
+    <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
+    <text x="22" y="28" class="card-hdr">🚀 Full-Stack Web, Cross-Platform Mobile &amp; Cloud CI/CD</text>
+    <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
+
+    <text x="22" y="60" class="skill-name">Flutter, Dart &amp; Cross-Platform Mobile/Web Architecture</text>
+    <text x="446" y="60" text-anchor="end" class="skill-pct-rose">93%</text>
+    <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="67" width="394" height="8" rx="4" fill="url(#roseNeon)" filter="url(#neonGlow)">
+      <animate attributeName="width" from="0" to="394" dur="1.2s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="98" class="skill-name">TypeScript, React, Next.js &amp; Modern Web Ecosystems</text>
+    <text x="446" y="98" text-anchor="end" class="skill-pct-rose">90%</text>
+    <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="105" width="382" height="8" rx="4" fill="url(#roseNeon)">
+      <animate attributeName="width" from="0" to="382" dur="1.3s" fill="freeze" />
+    </rect>
+
+    <text x="22" y="136" class="skill-name">Relational DBMS (SQL, PostgreSQL, MySQL), Docker &amp; CI/CD</text>
+    <text x="446" y="136" text-anchor="end" class="skill-pct-rose">94%</text>
+    <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
+    <rect x="22" y="143" width="398" height="8" rx="4" fill="url(#roseNeon)">
+      <animate attributeName="width" from="0" to="398" dur="1.4s" fill="freeze" />
+    </rect>
+  </g>
+
+  <!-- Bottom Telemetry Status Bar -->
+  <text x="500" y="596" text-anchor="middle" class="footer-txt">
+    [ SYNCED: {now_str} ] • [ REPOS: {total_repos} | COMMITS: {total_commits} ] • [ WWW.RIFATKHAN.TECH ]
+  </text>
+</svg>
+"""
+
+
+def main() -> None:
+    stats = load_stats()
+    OUTPUT_SVG.parent.mkdir(parents=True, exist_ok=True)
+    svg_content = generate_svg(stats)
+    OUTPUT_SVG.write_text(svg_content, encoding="utf-8")
+    print(f"Successfully generated {OUTPUT_SVG}")
+
+
+if __name__ == "__main__":
+    main()
