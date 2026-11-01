@@ -1,4 +1,7 @@
-name: Generate Animated Contribution Snake
+concurrency:
+  group: profile-sync
+  cancel-in-progress: false
+  name: Generate Animated Contribution Snake
 
 on:
   # Runs automatically every 12 hours
