@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="620">
   <defs>
-    <!-- Main Background & Bento Card Gradients -->
     <linearGradient id="bgMain" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070B14" />
       <stop offset="50%" stop-color="#0D1322" />
@@ -18,7 +17,6 @@
       <stop offset="100%" stop-color="#34D399" stop-opacity="0.6" />
     </linearGradient>
 
-    <!-- Accent Gradients -->
     <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0284C7" />
       <stop offset="100%" stop-color="#38BDF8" />
@@ -39,12 +37,10 @@
       <stop offset="100%" stop-color="#FB7185" />
     </linearGradient>
 
-    <!-- Subtle Cyber Grid Pattern -->
     <pattern id="cyberGrid" width="28" height="28" patternUnits="userSpaceOnUse">
       <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.55" />
     </pattern>
 
-    <!-- Soft Neon Glow Filter -->
     <filter id="neonGlow" x="-15%" y="-15%" width="130%" height="130%">
       <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
@@ -66,94 +62,80 @@
     .footer-txt { font: 600 11px 'JetBrains Mono', monospace; fill: #64748B; letter-spacing: 1px; }
   </style>
 
-  <!-- Outer Canvas & Cyber Grid -->
   <rect x="2" y="2" width="996" height="616" rx="18" fill="url(#bgMain)" stroke="url(#borderGlow)" stroke-width="2" />
   <rect x="4" y="4" width="992" height="612" rx="16" fill="url(#cyberGrid)" />
 
-  <!-- ===================================================================== -->
-  <!-- TOP TELEMETRY HEADER BAR                                              -->
-  <!-- ===================================================================== -->
+  <!-- Top Telemetry Header -->
   <rect x="24" y="20" width="952" height="64" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
-
-  <!-- Left Corner Tech Accent -->
   <path d="M 36 30 L 52 30 M 36 30 L 36 46" stroke="#38BDF8" stroke-width="2" fill="none" />
+  <text x="64" y="48" class="hud-title">⚡ MULTI-DOMAIN ENGINEERING &amp; SECURITY TELEMETRY</text>
+  <text x="64" y="68" class="hud-sub">LIVE ARCHITECTURAL PROFICIENCY &amp; OPERATIONAL READINESS</text>
 
-  <text x="64" y="48" class="hud-title">⚡ MULTI-DOMAIN ENGINEERING & SECURITY TELEMETRY</text>
-  <text x="64" y="68" class="hud-sub">LIVE ARCHITECTURAL PROFICIENCY & OPERATIONAL READINESS</text>
-
-  <!-- Live Sync Pill (Top Right) -->
   <rect x="810" y="36" width="146" height="30" rx="15" fill="#064E3B" fill-opacity="0.35" stroke="#10B981" stroke-width="1.2" />
   <circle cx="830" cy="51" r="4.5" fill="#10B981">
     <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite" />
   </circle>
   <text x="844" y="55" class="badge-txt">SYSTEMS ONLINE</text>
 
-  <!-- ===================================================================== -->
-  <!-- ROW 1: 4 RADIAL DOMAIN GAUGES                                         -->
-  <!-- ===================================================================== -->
-  <!-- Gauge 1: Cyber Defense & SIEM -->
+  <!-- Row 1: 4 Radial Domain Gauges -->
   <g transform="translate(24, 98)">
     <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
     <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
-    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#cyanNeon)" stroke-width="6" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="8" transform="rotate(-90 52 55)">
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#cyanNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="8" transform="rotate(-90 52 55)">
       <animate attributeName="stroke-dashoffset" from="201" to="8" dur="1.4s" fill="freeze" />
     </circle>
     <text x="52" y="60" text-anchor="middle" class="ring-val">96%</text>
-    <text x="100" y="46" class="card-hdr">SOC & SIEM</text>
+    <text x="100" y="46" class="card-hdr">SOC &amp; SIEM</text>
     <text x="100" y="66" class="ring-lbl">Threat Hunting</text>
-    <text x="100" y="83" class="ring-lbl">& Incident Resp.</text>
+    <text x="100" y="83" class="ring-lbl">&amp; Incident Resp.</text>
   </g>
 
-  <!-- Gauge 2: Network & Cloud Infrastructure -->
   <g transform="translate(266, 98)">
     <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
     <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
-    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#indigoNeon)" stroke-width="6" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="14" transform="rotate(-90 52 55)">
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#indigoNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="14" transform="rotate(-90 52 55)">
       <animate attributeName="stroke-dashoffset" from="201" to="14" dur="1.4s" fill="freeze" />
     </circle>
     <text x="52" y="60" text-anchor="middle" class="ring-val">93%</text>
-    <text x="100" y="46" class="card-hdr">NetSec & Cloud</text>
+    <text x="100" y="46" class="card-hdr">NetSec &amp; Cloud</text>
     <text x="100" y="66" class="ring-lbl">Zero-Trust Arch</text>
-    <text x="100" y="83" class="ring-lbl">& Firewalls</text>
+    <text x="100" y="83" class="ring-lbl">&amp; Firewalls</text>
   </g>
 
-  <!-- Gauge 3: Systems & Algorithms -->
   <g transform="translate(508, 98)">
     <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
     <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
-    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#emeraldNeon)" stroke-width="6" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="10" transform="rotate(-90 52 55)">
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#emeraldNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="10" transform="rotate(-90 52 55)">
       <animate attributeName="stroke-dashoffset" from="201" to="10" dur="1.4s" fill="freeze" />
     </circle>
     <text x="52" y="60" text-anchor="middle" class="ring-val">95%</text>
     <text x="100" y="46" class="card-hdr">Core Systems</text>
     <text x="100" y="66" class="ring-lbl">Linux Kernel, C++</text>
-    <text x="100" y="83" class="ring-lbl">Python & Rust</text>
+    <text x="100" y="83" class="ring-lbl">Python &amp; Rust</text>
   </g>
 
-  <!-- Gauge 4: Full-Stack & Mobile -->
   <g transform="translate(750, 98)">
     <rect x="0" y="0" width="226" height="110" rx="12" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
     <circle cx="52" cy="55" r="32" fill="none" stroke="#1E293B" stroke-width="6" />
-    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#roseNeon)" stroke-width="6" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="16" transform="rotate(-90 52 55)">
+    <circle cx="52" cy="55" r="32" fill="none" stroke="url(#roseNeon)" stroke-width="6" stroke-linecap="round"
+            stroke-dasharray="201" stroke-dashoffset="16" transform="rotate(-90 52 55)">
       <animate attributeName="stroke-dashoffset" from="201" to="16" dur="1.4s" fill="freeze" />
     </circle>
     <text x="52" y="60" text-anchor="middle" class="ring-val">92%</text>
     <text x="100" y="46" class="card-hdr">Full-Stack App</text>
     <text x="100" y="66" class="ring-lbl">Flutter, React,</text>
-    <text x="100" y="83" class="ring-lbl">SQL & Next.js</text>
+    <text x="100" y="83" class="ring-lbl">SQL &amp; Next.js</text>
   </g>
 
-  <!-- ===================================================================== -->
-  <!-- ROW 2: 2x2 DETAILED BENTO SKILL QUADRANTS                             -->
-  <!-- ===================================================================== -->
-
-  <!-- QUADRANT 1: CYBERSECURITY & SIEM OPERATIONS (TOP-LEFT) -->
+  <!-- Quadrant 1 -->
   <g transform="translate(24, 224)">
     <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
-    <text x="22" y="28" class="card-hdr">🛡️ Security Operations, SIEM & Penetration Testing</text>
+    <text x="22" y="28" class="card-hdr">🛡️ Security Operations, SIEM &amp; Penetration Testing</text>
     <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
 
-    <!-- Bar 1 -->
     <text x="22" y="60" class="skill-name">SIEM Engineering (Splunk, Wazuh, Elastic Stack)</text>
     <text x="446" y="60" text-anchor="end" class="skill-pct">96%</text>
     <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
@@ -161,7 +143,6 @@
       <animate attributeName="width" from="0" to="407" dur="1.2s" fill="freeze" />
     </rect>
 
-    <!-- Bar 2 -->
     <text x="22" y="98" class="skill-name">Vulnerability Assessment (Burp Suite, Metasploit, Nmap)</text>
     <text x="446" y="98" text-anchor="end" class="skill-pct">94%</text>
     <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
@@ -169,8 +150,7 @@
       <animate attributeName="width" from="0" to="398" dur="1.3s" fill="freeze" />
     </rect>
 
-    <!-- Bar 3 -->
-    <text x="22" y="136" class="skill-name">Digital Forensics, Threat Hunting & Packet Analysis</text>
+    <text x="22" y="136" class="skill-name">Digital Forensics, Threat Hunting &amp; Packet Analysis</text>
     <text x="446" y="136" text-anchor="end" class="skill-pct">92%</text>
     <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="143" width="390" height="8" rx="4" fill="url(#cyanNeon)">
@@ -178,21 +158,19 @@
     </rect>
   </g>
 
-  <!-- QUADRANT 2: NETWORK ARCHITECTURE & LINUX SYSTEMS (TOP-RIGHT) -->
+  <!-- Quadrant 2 -->
   <g transform="translate(508, 224)">
     <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
-    <text x="22" y="28" class="card-hdr">🌐 Network Defense, Firewalls & Linux Administration</text>
+    <text x="22" y="28" class="card-hdr">🌐 Network Defense, Firewalls &amp; Linux Administration</text>
     <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
 
-    <!-- Bar 1 -->
-    <text x="22" y="60" class="skill-name">Firewall & Routing Architecture (pfSense, Cisco, IDS/IPS)</text>
+    <text x="22" y="60" class="skill-name">Firewall &amp; Routing Architecture (pfSense, Cisco, IDS/IPS)</text>
     <text x="446" y="60" text-anchor="end" class="skill-pct-indigo">94%</text>
     <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="67" width="398" height="8" rx="4" fill="url(#indigoNeon)" filter="url(#neonGlow)">
       <animate attributeName="width" from="0" to="398" dur="1.2s" fill="freeze" />
     </rect>
 
-    <!-- Bar 2 -->
     <text x="22" y="98" class="skill-name">Linux Hardening (Kali, Ubuntu Server, OpenSSH, Bash)</text>
     <text x="446" y="98" text-anchor="end" class="skill-pct-indigo">95%</text>
     <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
@@ -200,8 +178,7 @@
       <animate attributeName="width" from="0" to="403" dur="1.3s" fill="freeze" />
     </rect>
 
-    <!-- Bar 3 -->
-    <text x="22" y="136" class="skill-name">Custom Firmware, AOSP / LineageOS & System Recovery</text>
+    <text x="22" y="136" class="skill-name">Custom Firmware, AOSP / LineageOS &amp; System Recovery</text>
     <text x="446" y="136" text-anchor="end" class="skill-pct-indigo">91%</text>
     <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="143" width="386" height="8" rx="4" fill="url(#indigoNeon)">
@@ -209,30 +186,27 @@
     </rect>
   </g>
 
-  <!-- QUADRANT 3: CORE PROGRAMMING & ALGORITHMIC SYSTEMS (BOTTOM-LEFT) -->
+  <!-- Quadrant 3 -->
   <g transform="translate(24, 404)">
     <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
-    <text x="22" y="28" class="card-hdr">💻 Core Languages, Systems & Algorithmic Engineering</text>
+    <text x="22" y="28" class="card-hdr">💻 Core Languages, Systems &amp; Algorithmic Engineering</text>
     <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
 
-    <!-- Bar 1 -->
-    <text x="22" y="60" class="skill-name">Python, Security Automation & Data Telemetry Scripts</text>
+    <text x="22" y="60" class="skill-name">Python, Security Automation &amp; Data Telemetry Scripts</text>
     <text x="446" y="60" text-anchor="end" class="skill-pct-emerald">96%</text>
     <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="67" width="407" height="8" rx="4" fill="url(#emeraldNeon)" filter="url(#neonGlow)">
       <animate attributeName="width" from="0" to="407" dur="1.2s" fill="freeze" />
     </rect>
 
-    <!-- Bar 2 -->
-    <text x="22" y="98" class="skill-name">C, C++, Rust & Memory-Safe Systems Programming</text>
+    <text x="22" y="98" class="skill-name">C, C++, Rust &amp; Memory-Safe Systems Programming</text>
     <text x="446" y="98" text-anchor="end" class="skill-pct-emerald">93%</text>
     <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="105" width="394" height="8" rx="4" fill="url(#emeraldNeon)">
       <animate attributeName="width" from="0" to="394" dur="1.3s" fill="freeze" />
     </rect>
 
-    <!-- Bar 3 -->
-    <text x="22" y="136" class="skill-name">Data Structures, Algorithms (DSA) & Digital Logic Design</text>
+    <text x="22" y="136" class="skill-name">Data Structures, Algorithms (DSA) &amp; Digital Logic Design</text>
     <text x="446" y="136" text-anchor="end" class="skill-pct-emerald">95%</text>
     <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="143" width="403" height="8" rx="4" fill="url(#emeraldNeon)">
@@ -240,30 +214,27 @@
     </rect>
   </g>
 
-  <!-- QUADRANT 4: FULL-STACK, MOBILE, CLOUD & DATABASES (BOTTOM-RIGHT) -->
+  <!-- Quadrant 4 -->
   <g transform="translate(508, 404)">
     <rect x="0" y="0" width="468" height="164" rx="14" fill="url(#cardSurface)" stroke="#1E293B" stroke-width="1.5" />
-    <text x="22" y="28" class="card-hdr">🚀 Full-Stack Web, Cross-Platform Mobile & Cloud CI/CD</text>
+    <text x="22" y="28" class="card-hdr">🚀 Full-Stack Web, Cross-Platform Mobile &amp; Cloud CI/CD</text>
     <line x1="22" y1="38" x2="446" y2="38" stroke="#1E293B" stroke-width="1" />
 
-    <!-- Bar 1 -->
-    <text x="22" y="60" class="skill-name">Flutter, Dart & Cross-Platform Mobile/Web Architecture</text>
+    <text x="22" y="60" class="skill-name">Flutter, Dart &amp; Cross-Platform Mobile/Web Architecture</text>
     <text x="446" y="60" text-anchor="end" class="skill-pct-rose">93%</text>
     <rect x="22" y="67" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="67" width="394" height="8" rx="4" fill="url(#roseNeon)" filter="url(#neonGlow)">
       <animate attributeName="width" from="0" to="394" dur="1.2s" fill="freeze" />
     </rect>
 
-    <!-- Bar 2 -->
-    <text x="22" y="98" class="skill-name">TypeScript, React, Next.js & Modern Web Ecosystems</text>
+    <text x="22" y="98" class="skill-name">TypeScript, React, Next.js &amp; Modern Web Ecosystems</text>
     <text x="446" y="98" text-anchor="end" class="skill-pct-rose">90%</text>
     <rect x="22" y="105" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="105" width="382" height="8" rx="4" fill="url(#roseNeon)">
       <animate attributeName="width" from="0" to="382" dur="1.3s" fill="freeze" />
     </rect>
 
-    <!-- Bar 3 -->
-    <text x="22" y="136" class="skill-name">Relational DBMS (SQL, PostgreSQL, MySQL), Docker & CI/CD</text>
+    <text x="22" y="136" class="skill-name">Relational DBMS (SQL, PostgreSQL, MySQL), Docker &amp; CI/CD</text>
     <text x="446" y="136" text-anchor="end" class="skill-pct-rose">94%</text>
     <rect x="22" y="143" width="424" height="8" rx="4" fill="#1E293B" />
     <rect x="22" y="143" width="398" height="8" rx="4" fill="url(#roseNeon)">
@@ -271,10 +242,8 @@
     </rect>
   </g>
 
-  <!-- ===================================================================== -->
-  <!-- BOTTOM TELEMETRY STATUS BAR                                           -->
-  <!-- ===================================================================== -->
+  <!-- Bottom Telemetry Status Bar -->
   <text x="500" y="596" text-anchor="middle" class="footer-txt">
-    [ TELEMETRY ENGINE: VERIFIED ] • [ DOMAIN COVERAGE: 4 PILLARS / 12 SUBSYSTEMS ] • [ PORTFOLIO: WWW.RIFATKHAN.TECH ]
+    [ SYNCED: 2026-11-01 14:15 UTC ] • [ REPOS: ACTIVE | COMMITS: SYNCED ] • [ WWW.RIFATKHAN.TECH ]
   </text>
 </svg>
