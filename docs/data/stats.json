@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-11-01T14:13:04.141817+00:00",
+  "generated_at": "2026-11-01T14:13:54.029995+00:00",
   "profile": {
     "public_repos": 8,
     "followers": 20,
@@ -18,47 +18,47 @@
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 36.05
+      "percent": 35.66
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 28.2
+      "percent": 27.9
     },
     {
       "name": "Python",
-      "bytes": 144908,
-      "percent": 10.27
+      "bytes": 160519,
+      "percent": 11.25
     },
     {
       "name": "C",
       "bytes": 127100,
-      "percent": 9.01
+      "percent": 8.91
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 5.2
+      "percent": 5.15
     },
     {
       "name": "HTML",
       "bytes": 53622,
-      "percent": 3.8
+      "percent": 3.76
     },
     {
       "name": "CMake",
       "bytes": 37433,
-      "percent": 2.65
+      "percent": 2.62
     },
     {
       "name": "Dart",
       "bytes": 33381,
-      "percent": 2.37
+      "percent": 2.34
     },
     {
       "name": "C++",
       "bytes": 25194,
-      "percent": 1.79
+      "percent": 1.77
     },
     {
       "name": "Tcl",
@@ -78,7 +78,7 @@
     {
       "name": "JavaScript",
       "bytes": 1343,
-      "percent": 0.1
+      "percent": 0.09
     },
     {
       "name": "CSS",
@@ -109,7 +109,7 @@
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/RifatNSU701/RifatNSU701",
-      "updated_at": "2026-11-01T14:12:52Z"
+      "updated_at": "2026-11-01T14:13:46Z"
     },
     {
       "name": "AI_Driven_SDN",
