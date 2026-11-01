@@ -89,10 +89,10 @@
 <table>
   <thead>
     <tr>
-      <th align="center">Offensive Security & Recon</th>
-      <th align="center">SIEM, SOC & Threat Intelligence</th>
-      <th align="center">Network Architecture & Firewalls</th>
-      <th align="center">Systems & Hardened Environments</th>
+      <th align="center">Offensive Security &amp; Recon</th>
+      <th align="center">SIEM, SOC &amp; Threat Intelligence</th>
+      <th align="center">Network Architecture &amp; Firewalls</th>
+      <th align="center">Systems &amp; Hardened Environments</th>
     </tr>
   </thead>
   <tbody>
@@ -167,7 +167,7 @@
 </div>
 
 <details>
-  <summary><b>🪪 Flip Certificate Card (View Details & Verification)</b></summary>
+  <summary><b>🪪 Flip Certificate Card (View Details &amp; Verification)</b></summary>
   <br/>
   <div align="center">
     <img src="./assets/certifications.svg" alt="Detailed Certifications" width="95%" />
