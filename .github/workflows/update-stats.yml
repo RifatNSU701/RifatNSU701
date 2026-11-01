@@ -2,7 +2,7 @@ name: Sync GitHub Intelligence & SVGs
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours cleanly
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -37,7 +37,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests PyYAML
 
-      - name: Run Intelligence & SVG Generators
+      - name: Run All Intelligence & SVG Generators
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           GITHUB_ACTOR: ${{ github.repository_owner }}
@@ -47,6 +47,7 @@ jobs:
           python scripts/generate_github_intelligence.py
           python scripts/generate_language_analytics.py
           python scripts/generate_certifications.py
+          python scripts/generate_skills_dashboard.py
 
       - name: Commit and Push Updated Assets
         run: |
