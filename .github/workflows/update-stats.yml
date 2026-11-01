@@ -1,51 +1,62 @@
-name: Sync GitHub Intelligence Data
+name: Sync GitHub Intelligence & SVGs
 
 on:
   schedule:
-    # Every 6 hours
-    - cron: "0 */6 * * *"
-  workflow_dispatch: {}
+    - cron: "0 */6 * * *" # Runs every 6 hours cleanly
+  workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-stats.yml"
+
+concurrency:
+  group: profile-sync
+  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  update-stats:
+  sync-telemetry:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
 
-      - name: Fetch and compute GitHub statistics
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests PyYAML
+
+      - name: Run Intelligence & SVG Generators
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_PAT: ${{ secrets.GH_PAT }}
-          PROFILE_USERNAME: RifatNSU701
-        run: python scripts/fetch_stats.py
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+        run: |
+          python scripts/fetch_stats.py
+          python scripts/generate_hero_svg.py
+          python scripts/generate_github_intelligence.py
+          python scripts/generate_language_analytics.py
+          python scripts/generate_certifications.py
 
-      - name: Generate dynamic language analytics SVG
-        run: python scripts/generate_language_analytics.py
-
-      - name: Generate dynamic GitHub intelligence SVG
-        run: python scripts/generate_github_intelligence.py
-
-      - name: Generate premium animated certifications SVG
-        run: python scripts/generate_certifications.py
-
-      - name: Regenerate animated hero banner
-        run: python scripts/generate_hero_svg.py
-
-      - name: Commit updated data if changed
+      - name: Commit and Push Updated Assets
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md docs/data/stats.json assets/hero.svg assets/language-analytics.svg assets/github-intelligence.svg assets/certifications.svg
-          git diff --staged --quiet || git commit -m "chore: sync GitHub intelligence data [skip ci]"
-          git push
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/ docs/data/stats.json
+          if git diff --staged --quiet; then
+            echo "No telemetry changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: sync GitHub intelligence data [skip ci]"
+          git pull --rebase origin main
+          git push origin main
