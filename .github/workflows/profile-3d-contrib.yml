@@ -1,4 +1,7 @@
-name: Generate 3D Isometric Contribution Graph
+concurrency:
+  group: profile-sync
+  cancel-in-progress: false
+  name: Generate 3D Isometric Contribution Graph
 
 on:
   # Runs automatically every day at 18:00 UTC (Midnight BDT)
