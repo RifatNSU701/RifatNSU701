@@ -1,14 +1,14 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-11-14T21:53:17.730978+00:00",
+  "generated_at": "2026-11-15T04:19:55.170983+00:00",
   "profile": {
-    "public_repos": 8,
+    "public_repos": 9,
     "followers": 21,
     "following": 7
   },
   "totals": {
-    "repositories": 8,
-    "stars": 25,
+    "repositories": 9,
+    "stars": 26,
     "forks": 1,
     "open_issues": 2,
     "pull_requests": 8,
@@ -16,92 +16,101 @@
   },
   "languages": [
     {
+      "name": "Dart",
+      "bytes": 630392,
+      "percent": 29.04
+    },
+    {
       "name": "Java",
       "bytes": 508610,
-      "percent": 35.4
+      "percent": 23.43
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 27.7
+      "percent": 18.33
+    },
+    {
+      "name": "HTML",
+      "bytes": 192332,
+      "percent": 8.86
     },
     {
       "name": "Python",
       "bytes": 168326,
-      "percent": 11.72
+      "percent": 7.75
     },
     {
       "name": "C",
       "bytes": 127100,
-      "percent": 8.85
+      "percent": 5.85
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 5.11
-    },
-    {
-      "name": "HTML",
-      "bytes": 55964,
-      "percent": 3.9
+      "percent": 3.38
     },
     {
       "name": "CMake",
       "bytes": 37433,
-      "percent": 2.61
-    },
-    {
-      "name": "Dart",
-      "bytes": 33381,
-      "percent": 2.32
+      "percent": 1.72
     },
     {
       "name": "C++",
       "bytes": 25194,
-      "percent": 1.75
+      "percent": 1.16
+    },
+    {
+      "name": "Swift",
+      "bytes": 2936,
+      "percent": 0.14
     },
     {
       "name": "Tcl",
       "bytes": 2881,
-      "percent": 0.2
-    },
-    {
-      "name": "Swift",
-      "bytes": 2036,
-      "percent": 0.14
+      "percent": 0.13
     },
     {
       "name": "Dockerfile",
       "bytes": 1709,
-      "percent": 0.12
+      "percent": 0.08
     },
     {
       "name": "JavaScript",
       "bytes": 1343,
-      "percent": 0.09
+      "percent": 0.06
     },
     {
       "name": "CSS",
       "bytes": 664,
-      "percent": 0.05
+      "percent": 0.03
     },
     {
       "name": "Makefile",
       "bytes": 448,
-      "percent": 0.03
+      "percent": 0.02
     },
     {
       "name": "Kotlin",
-      "bytes": 131,
+      "bytes": 261,
       "percent": 0.01
     },
     {
       "name": "Objective-C",
-      "bytes": 38,
+      "bytes": 76,
       "percent": 0.0
     }
   ],
   "repositories": [
+    {
+      "name": "Money-Management",
+      "description": null,
+      "stars": 1,
+      "forks": 0,
+      "language": "Dart",
+      "url": "https://github.com/RifatNSU701/Money-Management",
+      "updated_at": "2026-11-15T00:40:57Z"
+    },
     {
       "name": "RifatNSU701",
       "description": null,
@@ -177,6 +186,16 @@
   ],
   "recent_activity": [
     {
+      "type": "ReleaseEvent",
+      "repo": "RifatNSU701/Money-Management",
+      "created_at": "2026-11-15T01:11:37Z"
+    },
+    {
+      "type": "PublicEvent",
+      "repo": "RifatNSU701/Money-Management",
+      "created_at": "2026-10-01T07:57:07Z"
+    },
+    {
       "type": "PushEvent",
       "repo": "RifatNSU701/AI_Driven_SDN",
       "created_at": "2026-11-10T18:07:04Z"
@@ -215,16 +234,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-11-01T13:52:57Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-11-01T14:12:49Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-11-01T14:14:52Z"
     }
   ],
   "contributions": null,
