@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-11-17T01:26:07.362344+00:00",
+  "generated_at": "2026-11-17T15:21:23.836973+00:00",
   "profile": {
     "public_repos": 9,
     "followers": 21,
@@ -188,6 +188,11 @@
     {
       "type": "PushEvent",
       "repo": "RifatNSU701/Money-Management",
+      "created_at": "2026-11-15T01:38:18Z"
+    },
+    {
+      "type": "PushEvent",
+      "repo": "RifatNSU701/Money-Management",
       "created_at": "2026-11-15T01:11:22Z"
     },
     {
@@ -229,11 +234,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/RifatNSU701",
       "created_at": "2026-11-01T14:05:09Z"
-    },
-    {
-      "type": "PushEvent",
-      "repo": "RifatNSU701/RifatNSU701",
-      "created_at": "2026-11-01T14:00:58Z"
     }
   ],
   "contributions": null,
