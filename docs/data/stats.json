@@ -1,6 +1,6 @@
 {
   "username": "RifatNSU701",
-  "generated_at": "2026-11-24T03:42:44.692637+00:00",
+  "generated_at": "2026-11-24T16:50:49.168861+00:00",
   "profile": {
     "public_repos": 9,
     "followers": 21,
@@ -17,68 +17,68 @@
   "languages": [
     {
       "name": "Dart",
-      "bytes": 637801,
-      "percent": 29.21
+      "bytes": 997667,
+      "percent": 39.23
     },
     {
       "name": "Java",
       "bytes": 508610,
-      "percent": 23.29
+      "percent": 20.0
     },
     {
       "name": "TypeScript",
       "bytes": 397902,
-      "percent": 18.22
+      "percent": 15.64
     },
     {
       "name": "HTML",
       "bytes": 192332,
-      "percent": 8.81
+      "percent": 7.56
     },
     {
       "name": "Python",
       "bytes": 173433,
-      "percent": 7.94
+      "percent": 6.82
     },
     {
       "name": "C",
       "bytes": 127100,
-      "percent": 5.82
+      "percent": 5.0
     },
     {
       "name": "Rust",
       "bytes": 73389,
-      "percent": 3.36
+      "percent": 2.89
     },
     {
       "name": "CMake",
       "bytes": 37433,
-      "percent": 1.71
+      "percent": 1.47
     },
     {
       "name": "C++",
       "bytes": 25194,
-      "percent": 1.15
+      "percent": 0.99
     },
     {
       "name": "Swift",
       "bytes": 2936,
-      "percent": 0.13
+      "percent": 0.12
     },
     {
       "name": "Tcl",
       "bytes": 2881,
-      "percent": 0.13
+      "percent": 0.11
     },
     {
       "name": "Dockerfile",
       "bytes": 1709,
-      "percent": 0.08
+      "percent": 0.07
     },
     {
       "name": "JavaScript",
       "bytes": 1343,
-      "percent": 0.06
+      "percent": 0.05
     },
     {
       "name": "CSS",
@@ -186,6 +186,11 @@
   ],
   "recent_activity": [
     {
+      "type": "ReleaseEvent",
+      "repo": "RifatNSU701/Money-Management",
+      "created_at": "2026-11-24T09:42:23Z"
+    },
+    {
       "type": "PushEvent",
       "repo": "RifatNSU701/Money-Management",
       "created_at": "2026-11-21T13:16:08Z"
@@ -229,11 +234,6 @@
       "type": "PushEvent",
       "repo": "RifatNSU701/Money-Management",
       "created_at": "2026-11-15T01:30:14Z"
-    },
-    {
-      "type": "ReleaseEvent",
-      "repo": "RifatNSU701/Money-Management",
-      "created_at": "2026-11-15T01:11:37Z"
     }
   ],
   "contributions": null,
