@@ -47,7 +47,7 @@
   <a href="https://www.rifatkhan.tech/">
     <img src="https://img.shields.io/badge/🌐%20PORTFOLIO-RIFATKHAN.TECH-0EA5E9?style=for-the-badge&labelColor=0F172A" alt="Portfolio" />
   </a>
-  <a href="https://linkedin.com/in/rifatnsu701">
+  <a href="[https://linkedin.com/in/rifatnsu701](https://www.linkedin.com/in/rifatcrs/)">
     <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://profile.acm.org">
